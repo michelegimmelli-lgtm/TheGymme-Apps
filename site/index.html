@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111217">
+  <title>TheGymme Apps</title>
+  <meta name="description" content="Scarica le versioni Android aggiornate delle app TheGymme.">
+  <style>
+    :root{color-scheme:dark;--bg:#0d0e12;--panel:#191a21;--line:#353844;--text:#f7f7fa;--muted:#a9adba;--red:#ef233c;--red2:#be1629}
+    *{box-sizing:border-box}body{margin:0;min-height:100vh;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;background:radial-gradient(circle at 50% -10%,rgba(239,35,60,.18),transparent 35rem),var(--bg);color:var(--text)}
+    main{width:min(960px,calc(100% - 32px));margin:auto;padding:64px 0 48px}header{text-align:center;margin-bottom:42px}
+    h1{margin:0;font-size:clamp(2.5rem,8vw,4.5rem);line-height:.95;letter-spacing:-.055em;font-weight:900}h1 span{color:var(--red)}
+    .lead{max-width:620px;margin:18px auto 0;color:var(--muted);font-size:clamp(1rem,3vw,1.2rem);line-height:1.55}
+    .apps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.app{display:flex;min-height:270px;padding:24px;flex-direction:column;background:linear-gradient(145deg,#23252f,#17181f);border:1px solid var(--line);border-radius:24px;box-shadow:0 18px 48px rgba(0,0,0,.24)}
+    .icon{width:58px;height:58px;display:grid;place-items:center;border-radius:17px;background:linear-gradient(145deg,#111218 52%,var(--red) 53%);border:1px solid #373a46;font-size:28px}h2{margin:22px 0 8px;font-size:1.5rem}.desc{margin:0 0 22px;color:var(--muted);line-height:1.5}
+    .download{display:flex;width:100%;min-height:50px;margin-top:auto;align-items:center;justify-content:center;padding:12px 16px;color:#fff;background:linear-gradient(var(--red),var(--red2));border-radius:14px;font-weight:800;text-decoration:none;box-shadow:0 10px 24px rgba(239,35,60,.2)}
+    .download[aria-disabled="true"]{color:#c4c6ce;background:#30323c;box-shadow:none;pointer-events:none}.version{min-height:21px;margin:12px 0 0;color:var(--muted);text-align:center;font-size:.86rem}
+    footer{margin-top:34px;color:var(--muted);text-align:center;font-size:.9rem;line-height:1.55}footer a{color:#d9dbe3}
+    @media(max-width:760px){main{padding-top:42px}.apps{grid-template-columns:1fr}.app{min-height:230px}}
+  </style>
+</head>
+<body>
+  <main>
+    <header><h1>The<span>Gym</span>me</h1><p class="lead">Scarica le versioni Android aggiornate delle app TheGymme.</p></header>
+    <section class="apps" aria-label="Applicazioni disponibili">
+      <article class="app" data-app="calculator"><div class="icon" aria-hidden="true">⌁</div><h2>Calculator</h2><p class="desc">Calorie, composizione corporea e andamento nel tempo.</p><a class="download" aria-disabled="true">Cerco l’APK…</a><p class="version" aria-live="polite"></p></article>
+      <article class="app" data-app="ramping"><div class="icon" aria-hidden="true">↗</div><h2>Ramping</h2><p class="desc">Serie di avvicinamento e carichi progressivi per i tuoi esercizi.</p><a class="download" aria-disabled="true">Cerco l’APK…</a><p class="version" aria-live="polite"></p></article>
+      <article class="app" data-app="interval"><div class="icon" aria-hidden="true">◷</div><h2>Interval</h2><p class="desc">Routine e allenamenti a intervalli, sempre a portata di mano.</p><a class="download" aria-disabled="true">Cerco l’APK…</a><p class="version" aria-live="polite"></p></article>
+    </section>
+    <footer><p>Download diretto degli APK Android dalle Release ufficiali.</p><p><a href="https://github.com/michelegimmelli-lgtm/TheGymme-Apps/releases">Vedi tutte le versioni pubblicate</a></p></footer>
+  </main>
+  <script>
+    const repository="michelegimmelli-lgtm/TheGymme-Apps";
+    const apps={calculator:{prefix:"calculator-",file:/calculator.*\.apk$/i},ramping:{prefix:"ramping-",file:/ramping.*\.apk$/i},interval:{prefix:"interval-",file:/interval.*\.apk$/i}};
+    const unavailable=(card,message)=>{const button=card.querySelector(".download");button.textContent="Non ancora disponibile";button.setAttribute("aria-disabled","true");card.querySelector(".version").textContent=message};
+    fetch("https://api.github.com/repos/"+repository+"/releases?per_page=100",{headers:{Accept:"application/vnd.github+json"}})
+      .then(response=>{if(!response.ok)throw new Error();return response.json()})
+      .then(releases=>document.querySelectorAll("[data-app]").forEach(card=>{const config=apps[card.dataset.app];const release=releases.find(item=>!item.draft&&!item.prerelease&&item.tag_name.toLowerCase().startsWith(config.prefix));if(!release){unavailable(card,"Nessuna versione pubblicata");return}const asset=release.assets.find(item=>config.file.test(item.name));if(!asset){unavailable(card,"APK non presente nella Release");return}const button=card.querySelector(".download");button.href=asset.browser_download_url;button.removeAttribute("aria-disabled");button.textContent="Scarica APK";card.querySelector(".version").textContent=release.name||release.tag_name}))
+      .catch(()=>document.querySelectorAll("[data-app]").forEach(card=>unavailable(card,"Riprova tra poco")));
+  </script>
+</body>
+</html>
