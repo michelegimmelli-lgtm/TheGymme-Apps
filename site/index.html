@@ -3,58 +3,60 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#0b0c10">
-  <title>TheGymme Apps — Download ufficiali</title>
-  <meta name="description" content="Scarica le versioni Android aggiornate e ufficiali di Calculator, Ramping e Interval.">
+  <meta name="theme-color" content="#ffffff">
+  <title>TheGymme — App e percorsi ufficiali</title>
+  <meta name="description" content="Scopri e scarica app, strumenti e percorsi digitali ufficiali TheGymme.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <style>
-    :root{color-scheme:dark;--bg:#0b0c10;--surface:#15161c;--surface-2:#1c1e26;--line:#30333e;--text:#f8f8fa;--muted:#a9acb7;--red:#ef233c;--red-dark:#b50f25}
+    :root{color-scheme:light;--bg:#fff;--soft:#f5f5f7;--surface:#fff;--line:#e2e3e8;--text:#17181d;--muted:#696d78;--red:#e51d36;--red-dark:#b50f25;--dark:#111217}
     *{box-sizing:border-box}
     html{scroll-behavior:smooth}
-    body{margin:0;min-height:100vh;font-family:"Manrope","Segoe UI",system-ui,sans-serif;color:var(--text);background:radial-gradient(circle at 50% -12rem,rgba(239,35,60,.24),transparent 36rem),linear-gradient(180deg,#101116 0,var(--bg) 38rem);-webkit-font-smoothing:antialiased}
-    body::before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.22;background-image:linear-gradient(rgba(255,255,255,.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.025) 1px,transparent 1px);background-size:44px 44px;mask-image:linear-gradient(to bottom,#000,transparent 65%)}
-    .wrap{position:relative;width:min(1100px,calc(100% - 32px));margin:auto;padding:52px 0 42px}
-    .hero{text-align:center;padding:24px 0 54px}
-    .brand-panel{width:min(430px,92%);margin:0 auto 30px;padding:22px 30px 18px;background:#fff;border:1px solid rgba(255,255,255,.8);border-radius:26px;box-shadow:0 28px 80px rgba(0,0,0,.34),0 0 0 1px rgba(239,35,60,.08)}
+    body{margin:0;min-height:100vh;font-family:"Manrope","Segoe UI",system-ui,sans-serif;color:var(--text);background:var(--bg);-webkit-font-smoothing:antialiased}
+    body::before{content:"";position:absolute;z-index:-1;width:560px;height:560px;top:-330px;right:-180px;border-radius:50%;background:radial-gradient(circle,rgba(229,29,54,.12),rgba(229,29,54,0) 68%);pointer-events:none}
+    .wrap{width:min(1120px,calc(100% - 32px));margin:auto;padding:36px 0 34px}
+    .hero{text-align:center;padding:8px 0 54px}
+    .brand-panel{width:min(350px,82%);margin:0 auto 24px}
     .brand-panel img{display:block;width:100%;height:auto}
-    .eyebrow{display:inline-flex;align-items:center;gap:8px;margin:0 0 14px;padding:7px 12px;border:1px solid rgba(239,35,60,.32);border-radius:999px;color:#ff7889;background:rgba(239,35,60,.08);font-size:.76rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
-    .eyebrow::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--red);box-shadow:0 0 0 5px rgba(239,35,60,.14)}
-    h1{max-width:800px;margin:0 auto;font-size:clamp(2.25rem,7vw,4.9rem);line-height:1.02;letter-spacing:-.055em;font-weight:800}
+    .eyebrow{display:inline-flex;align-items:center;gap:8px;margin:0 0 15px;padding:7px 12px;border:1px solid #f0c7ce;border-radius:999px;color:#bd1830;background:#fff5f6;font-size:.74rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
+    .eyebrow::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--red);box-shadow:0 0 0 5px rgba(229,29,54,.1)}
+    h1{max-width:830px;margin:0 auto;font-size:clamp(2.3rem,7vw,4.8rem);line-height:1.03;letter-spacing:-.055em;font-weight:800}
     h1 span{color:var(--red)}
-    .lead{max-width:680px;margin:20px auto 0;color:var(--muted);font-size:clamp(1rem,2.4vw,1.18rem);line-height:1.65}
-    .trust{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin:25px 0 0;padding:0;list-style:none}
-    .trust li{padding:8px 12px;border:1px solid #292c35;border-radius:999px;background:rgba(20,21,27,.72);color:#d3d5dc;font-size:.82rem;font-weight:600}
-    .section-head{display:flex;align-items:end;justify-content:space-between;gap:24px;margin:0 4px 20px}
-    .section-head h2{margin:0;font-size:clamp(1.45rem,3vw,2rem);letter-spacing:-.03em}
-    .section-head p{margin:0;color:var(--muted);font-size:.9rem}
-    .apps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
-    .app{position:relative;display:flex;min-height:330px;padding:26px;overflow:hidden;flex-direction:column;background:linear-gradient(145deg,rgba(32,34,43,.98),rgba(19,20,26,.98));border:1px solid var(--line);border-radius:26px;box-shadow:0 18px 50px rgba(0,0,0,.25);transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease}
-    .app::after{content:"";position:absolute;width:150px;height:150px;right:-66px;top:-70px;border-radius:50%;background:var(--glow);filter:blur(3px);opacity:.7}
-    .app:hover{transform:translateY(-4px);border-color:#484c5a;box-shadow:0 26px 60px rgba(0,0,0,.34)}
-    .app[data-app="calculator"]{--glow:rgba(100,82,255,.2);--accent:#8c7cff}
-    .app[data-app="ramping"]{--glow:rgba(0,181,255,.18);--accent:#43c5f7}
-    .app[data-app="interval"]{--glow:rgba(239,35,60,.2);--accent:#ff5268}
+    .lead{max-width:700px;margin:20px auto 0;color:var(--muted);font-size:clamp(1rem,2.4vw,1.17rem);line-height:1.65}
+    .trust{display:flex;flex-wrap:wrap;justify-content:center;gap:9px;margin:25px 0 0;padding:0;list-style:none}
+    .trust li{padding:8px 12px;border:1px solid #e5e6ea;border-radius:999px;background:var(--soft);color:#4f535d;font-size:.8rem;font-weight:700}
+    .catalog{padding:34px;border:1px solid #ebecf0;border-radius:34px;background:var(--soft)}
+    .section-head{display:flex;align-items:end;justify-content:space-between;gap:24px;margin:0 3px 20px}
+    .section-head h2{margin:0;font-size:clamp(1.45rem,3vw,2rem);letter-spacing:-.035em}
+    .section-head p{margin:0;color:var(--muted);font-size:.88rem;font-weight:600}
+    .apps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:17px}
+    .app{position:relative;display:flex;min-height:324px;padding:25px;overflow:hidden;flex-direction:column;background:var(--surface);border:1px solid var(--line);border-radius:24px;box-shadow:0 12px 34px rgba(24,27,35,.07);transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease}
+    .app::after{content:"";position:absolute;width:140px;height:140px;right:-72px;top:-74px;border-radius:50%;background:var(--glow)}
+    .app:hover{transform:translateY(-4px);border-color:#ced0d7;box-shadow:0 20px 44px rgba(24,27,35,.11)}
+    .app[data-app="calculator"]{--glow:rgba(100,82,255,.09)}
+    .app[data-app="ramping"]{--glow:rgba(0,161,224,.09)}
+    .app[data-app="interval"]{--glow:rgba(229,29,54,.09)}
     .app-top{display:flex;align-items:center;justify-content:space-between;gap:12px}
-    .icon{position:relative;width:58px;height:58px;display:grid;place-items:center;overflow:hidden;border:1px solid #3a3d49;border-radius:17px;background:#0e0f13;color:#fff;font-size:1.25rem;font-weight:800;box-shadow:inset -18px -18px 0 var(--red)}
-    .icon span{position:relative;z-index:1;text-shadow:0 1px 8px rgba(0,0,0,.45)}
-    .platform{padding:6px 9px;border:1px solid #353844;border-radius:999px;color:#bfc2cc;font-size:.68rem;font-weight:800;letter-spacing:.1em}
-    .app h3{margin:23px 0 8px;font-size:1.55rem;letter-spacing:-.025em}
-    .desc{margin:0 0 24px;color:var(--muted);line-height:1.58;font-size:.94rem}
-    .download{display:flex;width:100%;min-height:52px;margin-top:auto;align-items:center;justify-content:center;gap:10px;padding:13px 16px;color:#fff;background:linear-gradient(135deg,var(--red),var(--red-dark));border:1px solid rgba(255,255,255,.08);border-radius:15px;font-weight:800;text-decoration:none;box-shadow:0 12px 28px rgba(239,35,60,.2);transition:filter .2s ease,transform .2s ease}
+    .icon{position:relative;width:58px;height:58px;display:grid;place-items:center;overflow:hidden;border:1px solid #2b2d34;border-radius:17px;background:#111217;color:#fff;font-size:1.24rem;font-weight:800;box-shadow:inset -18px -18px 0 var(--red)}
+    .icon span{position:relative;z-index:1;text-shadow:0 1px 7px rgba(0,0,0,.4)}
+    .platform{padding:6px 9px;border:1px solid #e1e2e7;border-radius:999px;color:#777b85;background:#fafafa;font-size:.66rem;font-weight:800;letter-spacing:.09em}
+    .app h3{margin:22px 0 8px;font-size:1.52rem;letter-spacing:-.028em}
+    .desc{margin:0 0 24px;color:var(--muted);line-height:1.58;font-size:.93rem}
+    .download{display:flex;width:100%;min-height:52px;margin-top:auto;align-items:center;justify-content:center;gap:10px;padding:13px 16px;color:#fff;background:linear-gradient(135deg,var(--red),var(--red-dark));border:0;border-radius:14px;font-weight:800;text-decoration:none;box-shadow:0 10px 24px rgba(229,29,54,.2);transition:filter .2s ease,transform .2s ease}
     .download::after{content:"↓";font-size:1.08em}
-    .download:hover{filter:brightness(1.12);transform:translateY(-1px)}
-    .download[aria-disabled="true"]{color:#a9acb7;background:#2a2c35;border-color:#353843;box-shadow:none;pointer-events:none}
+    .download:hover{filter:brightness(1.06);transform:translateY(-1px)}
+    .download[aria-disabled="true"]{color:#7b7e87;background:#e8e9ed;box-shadow:none;pointer-events:none}
     .download[aria-disabled="true"]::after{display:none}
-    .version{min-height:20px;margin:12px 0 0;color:#8f939f;text-align:center;font-size:.78rem;font-weight:600}
-    .note{display:flex;align-items:center;justify-content:center;gap:10px;margin:24px 0 0;color:#8f939f;font-size:.82rem;text-align:center}
-    .note::before{content:"";width:6px;height:6px;border-radius:50%;background:#46c47a}
-    footer{margin-top:52px;padding-top:26px;border-top:1px solid #252730;color:#8f939f;text-align:center;font-size:.84rem;line-height:1.7}
-    footer a{color:#e5e6eb;text-decoration:none;border-bottom:1px solid #555967}
-    footer a:hover{color:#fff;border-color:var(--red)}
-    @media(max-width:800px){.wrap{padding-top:30px}.hero{padding-bottom:42px}.brand-panel{width:min(350px,90%);padding:18px 24px 15px}.apps{grid-template-columns:1fr}.app{min-height:270px}.section-head{align-items:start;flex-direction:column;gap:5px}}
-    @media(max-width:420px){.wrap{width:min(100% - 22px,1100px)}.hero{padding-top:14px}.app{padding:22px;border-radius:22px}h1{font-size:2.4rem}.trust{gap:7px}.trust li{font-size:.74rem}}
+    .version{min-height:20px;margin:12px 0 0;color:#8a8e98;text-align:center;font-size:.78rem;font-weight:600}
+    .note{display:flex;align-items:center;justify-content:center;gap:9px;margin:22px 0 0;color:#747883;font-size:.8rem;text-align:center}
+    .note::before{content:"";width:6px;height:6px;border-radius:50%;background:#32a866}
+    footer{margin-top:28px;padding:29px 24px;border-radius:25px;color:#9da0aa;background:var(--dark);text-align:center;font-size:.83rem;line-height:1.7;box-shadow:0 14px 38px rgba(17,18,23,.13)}
+    footer p{margin:3px 0}
+    footer a{color:#fff;text-decoration:none;border-bottom:1px solid #626571}
+    footer a:hover{border-color:var(--red)}
+    @media(max-width:800px){.wrap{padding-top:22px}.hero{padding-bottom:40px}.brand-panel{width:min(310px,78%)}.catalog{padding:24px}.apps{grid-template-columns:1fr}.app{min-height:265px}.section-head{align-items:start;flex-direction:column;gap:5px}}
+    @media(max-width:440px){.wrap{width:min(100% - 20px,1120px)}.hero{padding-top:4px}.catalog{padding:14px;border-radius:25px}.app{padding:21px;border-radius:20px}h1{font-size:2.4rem}.trust{gap:7px}.trust li{font-size:.72rem}footer{border-radius:21px}}
     @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
   </style>
 </head>
@@ -63,30 +65,32 @@
     <header class="hero">
       <div class="brand-panel"><img src="assets/thegymme-logo.jpg" alt="TheGymme — One of You, For You" width="800" height="347"></div>
       <p class="eyebrow">Download ufficiali</p>
-      <h1>Le tue app TheGymme,<br><span>sempre aggiornate.</span></h1>
-      <p class="lead">Scarica direttamente l’ultima versione Android di Calculator, Ramping e Interval. Nessun passaggio inutile: la pagina trova automaticamente la release più recente.</p>
+      <h1>Il tuo ecosistema TheGymme,<br><span>sempre con te.</span></h1>
+      <p class="lead">App, strumenti e percorsi digitali TheGymme in un unico spazio ufficiale. Scarica sempre la versione più recente, senza passaggi inutili.</p>
       <ul class="trust" aria-label="Caratteristiche"><li>APK ufficiali</li><li>Download diretto</li><li>Ultima versione automatica</li></ul>
     </header>
 
-    <div class="section-head"><h2>Scegli la tua app</h2><p>Compatibile con Android</p></div>
-    <section class="apps" aria-label="Applicazioni disponibili">
-      <article class="app" data-app="calculator">
-        <div class="app-top"><div class="icon" aria-hidden="true"><span>C</span></div><span class="platform">ANDROID APK</span></div>
-        <h3>Calculator</h3><p class="desc">Calorie, composizione corporea e andamento nel tempo, in un unico posto.</p>
-        <a class="download" aria-disabled="true">Cerco l’ultima versione…</a><p class="version" aria-live="polite"></p>
-      </article>
-      <article class="app" data-app="ramping">
-        <div class="app-top"><div class="icon" aria-hidden="true"><span>R</span></div><span class="platform">ANDROID APK</span></div>
-        <h3>Ramping</h3><p class="desc">Serie di avvicinamento e carichi progressivi pronti per ogni esercizio.</p>
-        <a class="download" aria-disabled="true">Cerco l’ultima versione…</a><p class="version" aria-live="polite"></p>
-      </article>
-      <article class="app" data-app="interval">
-        <div class="app-top"><div class="icon" aria-hidden="true"><span>I</span></div><span class="platform">ANDROID APK</span></div>
-        <h3>Interval</h3><p class="desc">Routine e allenamenti a intervalli, sempre pronti quando servono.</p>
-        <a class="download" aria-disabled="true">Cerco l’ultima versione…</a><p class="version" aria-live="polite"></p>
-      </article>
+    <section class="catalog" aria-labelledby="apps-title">
+      <div class="section-head"><h2 id="apps-title">Scegli la tua app</h2><p>Compatibile con Android</p></div>
+      <div class="apps" aria-label="Applicazioni disponibili">
+        <article class="app" data-app="calculator">
+          <div class="app-top"><div class="icon" aria-hidden="true"><span>C</span></div><span class="platform">ANDROID APK</span></div>
+          <h3>Calculator</h3><p class="desc">Calorie, composizione corporea e andamento nel tempo, in un unico posto.</p>
+          <a class="download" aria-disabled="true">Cerco l’ultima versione…</a><p class="version" aria-live="polite"></p>
+        </article>
+        <article class="app" data-app="ramping">
+          <div class="app-top"><div class="icon" aria-hidden="true"><span>R</span></div><span class="platform">ANDROID APK</span></div>
+          <h3>Ramping</h3><p class="desc">Serie di avvicinamento e carichi progressivi pronti per ogni esercizio.</p>
+          <a class="download" aria-disabled="true">Cerco l’ultima versione…</a><p class="version" aria-live="polite"></p>
+        </article>
+        <article class="app" data-app="interval">
+          <div class="app-top"><div class="icon" aria-hidden="true"><span>I</span></div><span class="platform">ANDROID APK</span></div>
+          <h3>Interval</h3><p class="desc">Routine e allenamenti a intervalli, sempre pronti quando servono.</p>
+          <a class="download" aria-disabled="true">Cerco l’ultima versione…</a><p class="version" aria-live="polite"></p>
+        </article>
+      </div>
+      <p class="note">I pulsanti si aggiornano automaticamente dalle Release pubbliche.</p>
     </section>
-    <p class="note">I pulsanti si aggiornano automaticamente dalle Release pubbliche.</p>
     <footer><p>TheGymme Apps · Distribuzione ufficiale Android</p><p><a href="https://github.com/michelegimmelli-lgtm/TheGymme-Apps/releases">Consulta tutte le release pubblicate</a></p></footer>
   </main>
   <script>
