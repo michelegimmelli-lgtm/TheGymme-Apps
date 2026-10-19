@@ -17,8 +17,11 @@
     body::before{content:"";position:absolute;z-index:-1;width:560px;height:560px;top:-330px;right:-180px;border-radius:50%;background:radial-gradient(circle,rgba(229,29,54,.12),rgba(229,29,54,0) 68%);pointer-events:none}
     .wrap{width:min(1120px,calc(100% - 32px));margin:auto;padding:36px 0 34px}
     .hero{text-align:center;padding:8px 0 54px}
-    .brand-panel{width:min(350px,82%);margin:0 auto 24px}
-    .brand-panel img{display:block;width:100%;height:auto}
+    .brand-panel{display:flex;align-items:center;justify-content:center;flex-direction:column;margin:0 auto 27px}
+    .brand-mark{display:block;width:min(220px,56vw);height:auto}
+    .brand-name{margin-top:2px;font-size:clamp(1.75rem,4vw,2.25rem);line-height:1;font-weight:800;letter-spacing:.035em}
+    .brand-name .red{color:var(--red)}
+    .brand-tagline{margin:8px 0 0;color:#1b1c21;font-size:clamp(.86rem,2vw,1rem);font-style:italic;font-weight:700;letter-spacing:.01em}
     .eyebrow{display:inline-flex;align-items:center;gap:8px;margin:0 0 15px;padding:7px 12px;border:1px solid #f0c7ce;border-radius:999px;color:#bd1830;background:#fff5f6;font-size:.74rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
     .eyebrow::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--red);box-shadow:0 0 0 5px rgba(229,29,54,.1)}
     h1{max-width:830px;margin:0 auto;font-size:clamp(2.3rem,7vw,4.8rem);line-height:1.03;letter-spacing:-.055em;font-weight:800}
@@ -55,7 +58,7 @@
     footer p{margin:3px 0}
     footer a{color:#fff;text-decoration:none;border-bottom:1px solid #626571}
     footer a:hover{border-color:var(--red)}
-    @media(max-width:800px){.wrap{padding-top:22px}.hero{padding-bottom:40px}.brand-panel{width:min(310px,78%)}.catalog{padding:24px}.apps{grid-template-columns:1fr}.app{min-height:265px}.section-head{align-items:start;flex-direction:column;gap:5px}}
+    @media(max-width:800px){.wrap{padding-top:22px}.hero{padding-bottom:40px}.brand-mark{width:min(190px,52vw)}.catalog{padding:24px}.apps{grid-template-columns:1fr}.app{min-height:265px}.section-head{align-items:start;flex-direction:column;gap:5px}}
     @media(max-width:440px){.wrap{width:min(100% - 20px,1120px)}.hero{padding-top:4px}.catalog{padding:14px;border-radius:25px}.app{padding:21px;border-radius:20px}h1{font-size:2.4rem}.trust{gap:7px}.trust li{font-size:.72rem}footer{border-radius:21px}}
     @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
   </style>
@@ -63,7 +66,7 @@
 <body>
   <main class="wrap">
     <header class="hero">
-      <div class="brand-panel"><img src="assets/thegymme-logo.jpg" alt="TheGymme — One of You, For You" width="800" height="347"></div>
+      <div class="brand-panel" aria-label="TheGymme — One of You, For You"><img class="brand-mark" src="assets/brand-mark.png" alt="" width="1469" height="1071"><div class="brand-name"><span>THE</span><span class="red">GYM</span><span>ME</span></div><p class="brand-tagline">One of You, For You</p></div>
       <p class="eyebrow">Download ufficiali</p>
       <h1>Il tuo ecosistema TheGymme,<br><span>sempre con te.</span></h1>
       <p class="lead">App, strumenti e percorsi digitali TheGymme in un unico spazio ufficiale. Scarica sempre la versione più recente, senza passaggi inutili.</p>
