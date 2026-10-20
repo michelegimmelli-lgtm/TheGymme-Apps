@@ -20,7 +20,7 @@ Il flusso è diviso in due repository:
 1. **`TheGymmeSoftware` privata**: sviluppo, tag, build, firma, controlli e prima Release dell'APK.
 2. **`TheGymme-Apps` pubblica**: pubblicazione degli APK destinati agli utenti e pagina di download.
 
-Il trasferimento dell'APK verificata dalla repository privata a quella pubblica è attualmente **manuale**. L'aggiornamento dei pulsanti della homepage è invece **automatico**.
+Il trasferimento della Release verificata usa il workflow privato **Promote verified APK to public**, avviato con un clic indicando il tag esatto. L'aggiornamento dei pulsanti della homepage resta **automatico**.
 
 > Creare soltanto un tag in `TheGymme-Apps` non compila alcuna APK: la build deve essere generata prima dalla pipeline privata.
 
@@ -48,20 +48,24 @@ Il pulsante viene collegato direttamente al `browser_download_url` dell'asset. S
 
 Poiché il prefisso è volutamente ampio, nella repository pubblica deve essere pubblicata soltanto la variante scelta per la distribuzione generale. In caso contrario, la homepage potrebbe agganciare la variante pubblicata più di recente anche se non è quella desiderata.
 
-## Procedura manuale per pubblicare un APK
+## Procedura con promozione controllata
+
+Prerequisito una tantum: nella repository privata deve essere configurato il secret `THEGYMME_APPS_RELEASE_TOKEN`, contenente un fine-grained personal access token limitato a `TheGymme-Apps` con permesso **Contents: Read and write**.
+
+Per pubblicare una Release:
 
 1. Nella repository privata creare il tag corretto sul commit da distribuire.
 2. Attendere il completamento del workflow di build, firma e verifica.
-3. Aprire la Release privata prodotta dal workflow.
-4. Scaricare l'APK firmata e, se utili, checksum e metadati tecnici.
-5. Nella repository pubblica aprire **Releases → Draft a new release**.
-6. Creare il tag pubblico. È possibile riutilizzare lo stesso tag perché appartiene a una repository differente.
-7. Usare un titolo leggibile, per esempio `TheGymme Interval 4.1.2 – build 1009 – Standalone-LK`.
-8. Allegare l'APK senza rinominarla in modo ambiguo.
-9. Pubblicare come Release normale: non bozza e non prerelease.
-10. Aprire la homepage pubblica e verificare versione e download.
+3. Verificare che la Release tecnica privata sia stata creata correttamente.
+4. Aprire **Actions → Promote verified APK to public** nella repository privata.
+5. Selezionare **Run workflow** e inserire il tag privato esatto.
+6. Confermare l'avvio.
+7. Il workflow rifiuta bozze, prerelease, tag non riconosciuti, Release senza i rapporti richiesti o con più di una APK.
+8. Il workflow verifica `SHA256SUMS.txt` e crea o aggiorna la Release omonima in questa repository pubblica.
+9. Il workflow verifica che la Release pubblica sia normale e contenga una sola APK.
+10. Aprire la homepage pubblica e controllare versione e download.
 
-La pubblicazione della Release pubblica è il passaggio che rende disponibile l'APK agli utenti. Il solo tag pubblico non basta.
+La promozione della Release pubblica rende disponibile l'APK agli utenti. La semplice build privata o il solo tag pubblico non bastano. La scelta della variante resta intenzionale: nessuna build viene resa pubblica senza l'avvio del workflow di promozione.
 
 ## Convenzioni dei tag
 
@@ -131,10 +135,13 @@ Operativo:
 - rilevamento dinamico delle Release pubbliche;
 - pipeline privata per Controlled legacy, Standalone-LK, No-LK temporanea e No-LK lifetime.
 
-Da completare o mantenere manualmente:
+Operativo con intervento esplicito:
 
-- trasferimento delle APK verificate dalla repository privata alle Release pubbliche;
-- scelta esplicita della variante pubblica predefinita per ogni app;
-- verifica della pagina-ponte Interval con la variante pubblicata;
-- eventuale automazione futura del trasferimento cross-repository;
-- eventuale manifest pubblico per notificare gli aggiornamenti dalle app installate.
+- scelta della variante pubblica predefinita per ogni app;
+- avvio con un clic del workflow di promozione dalla repository privata;
+- trasferimento verificato di APK, checksum e rapporti tecnici;
+- verifica della pagina-ponte Interval con la variante pubblicata.
+
+Possibile sviluppo futuro:
+
+- manifest pubblico per notificare gli aggiornamenti dalle app installate.
