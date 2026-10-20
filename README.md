@@ -23,12 +23,12 @@ Non serve modificare o ridistribuire la homepage per ogni nuova APK. La Release 
 
 Formati principali:
 
-- `<app>-apk-v<VERSIONE>-<versionCode>`: Free;
-- `<app>-standalone-apk-v<VERSIONE>-<versionCode>`: Standalone con license key;
+- `<app>-apk-v<VERSIONE>-<versionCode>`: controlled/legacy;
+- `<app>-standalone-lk-apk-v<VERSIONE>-<versionCode>`: Standalone-LK con license key;
 - `<app>-standalone-no-lk-apk-v<VERSIONE>-<versionCode>-<giorni>d`: No-LK temporanea;
 - `<app>-standalone-no-lk-apk-v<VERSIONE>-<versionCode>-lt`: No-LK lifetime.
 
-Rinominare un APK non ne modifica l'edizione: modalità di accesso e scadenza vengono determinate dal tag durante la build.
+Il vecchio formato `<app>-standalone-apk-...` resta valido soltanto per le Release storiche già prodotte. Le nuove build con chiave richiedono `standalone-lk`. Rinominare un APK non ne modifica l'edizione: modalità di accesso e scadenza vengono determinate dal tag nella repository privata durante la build.
 
 ## Deploy del sito
 
