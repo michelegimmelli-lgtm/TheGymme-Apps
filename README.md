@@ -15,11 +15,12 @@ La pagina principale rileva automaticamente gli APK più recenti pubblicati nell
 ## Flusso rapido di pubblicazione
 
 1. Il tag viene creato nella repository privata `TheGymmeSoftware`.
-2. La pipeline privata compila, firma e verifica l'APK.
-3. L'APK risultante viene trasferita manualmente in una Release di questa repository pubblica.
-4. La homepage rileva la nuova Release e aggiorna automaticamente il link di download.
+2. La pipeline privata compila, firma e verifica l'APK e crea la Release tecnica.
+3. Dalla repository privata si avvia **Actions → Promote verified APK to public**, indicando il tag esatto.
+4. Il workflow verifica APK, checksum e rapporti, quindi crea o aggiorna la Release pubblica.
+5. La homepage rileva la nuova Release e aggiorna automaticamente il link di download.
 
-Non serve modificare o ridistribuire la homepage per ogni nuova APK. La Release pubblica deve essere normale, non bozza o prerelease, e rispettare le convenzioni documentate.
+Non serve modificare o ridistribuire la homepage per ogni nuova APK. La Release pubblica deve essere normale, non bozza o prerelease, e rispettare le convenzioni documentate. La scelta della variante da promuovere resta esplicita: una build privata non viene resa pubblica automaticamente.
 
 Formati principali:
 
