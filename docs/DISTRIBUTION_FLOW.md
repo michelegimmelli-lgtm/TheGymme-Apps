@@ -35,6 +35,21 @@ URL operativi:
 
 Le modifiche a HTML, CSS o JavaScript richiedono un nuovo deploy Pages. La pubblicazione di una nuova Release APK compatibile non richiede modifiche né un nuovo deploy della homepage.
 
+### Struttura della homepage pubblica
+
+Dal redesign del 21 ottobre 2026 la homepage non è soltanto un elenco di download, ma presenta l'ecosistema TheGymme attraverso:
+
+- hero con schermate reali delle app;
+- sezioni dedicate a Calculator, Ramping e Interval;
+- spiegazione del flusso in tre passaggi;
+- anticipazione del percorso REBUILD 8;
+- richiamo discreto al coaching su Instagram;
+- pulsanti APK ancora collegati dinamicamente alle Release pubbliche.
+
+Gli screenshot usati dalla homepage sono conservati in `site/assets/`. Devono essere sostituiti quando l'interfaccia di un'app cambia in modo sostanziale, privilegiando sempre schermate reali della versione corrente. La modifica delle immagini non altera il meccanismo di selezione automatica delle APK.
+
+La pagina pubblica presenta esplicitamente le build promosse come trial di 30 giorni e rimanda al contatto Instagram per il seguito. Le schede prodotto devono mantenere allineate le funzionalità mostrate: Calculator evidenzia le indicazioni per perdere grasso, Ramping mostra progressi, progressioni, massimali/Test 1RM e calcolo dischi, mentre Interval indica la condivisione delle routine.
+
 ## Come la homepage seleziona gli APK
 
 `site/index.html` interroga le Release pubbliche tramite l'API GitHub. Per ciascuna app seleziona la Release più recente che:
