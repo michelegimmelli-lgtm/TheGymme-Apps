@@ -7,14 +7,17 @@
   <title>Apri routine · TG Interval</title>
   <style>
     :root{color-scheme:dark;font-family:Inter,system-ui,-apple-system,sans-serif}
-    *{box-sizing:border-box}body{margin:0;min-height:100vh;display:grid;place-items:center;background:#111318;color:#f7f7f8;padding:24px}
+    *{box-sizing:border-box}
+    body{margin:0;min-height:100vh;display:grid;place-items:center;background:#111318;color:#f7f7f8;padding:24px}
     main{width:min(100%,520px);background:#1b1e25;border:1px solid #343844;border-radius:24px;padding:28px;box-shadow:0 20px 60px #0008}
     .mark{width:72px;height:72px;border-radius:20px;display:grid;place-items:center;background:#fff;color:#111;font-weight:900;font-size:25px;margin-bottom:22px}
-    h1{font-size:28px;margin:0 0 10px}p{color:#c8cbd3;line-height:1.5;margin:0 0 22px}
+    h1{font-size:28px;margin:0 0 10px}
+    p{color:#c8cbd3;line-height:1.5;margin:0 0 22px}
     a{width:100%;border:0;border-radius:14px;padding:16px 18px;font:inherit;font-weight:800;text-align:center;text-decoration:none;cursor:pointer;display:block}
     #open{background:linear-gradient(135deg,#ef233c,#b00020);color:#fff;margin-bottom:12px}
     #download{background:#2a2e38;color:#fff;border:1px solid #454a58}
-    #status{font-size:14px;margin-top:18px;color:#aeb2bc}.error{color:#ff9aa7!important}
+    #status{font-size:14px;margin-top:18px;color:#aeb2bc;line-height:1.45}
+    #status.error{padding:12px 14px;color:#ffd5da;background:#451923;border:1px solid #9f2940;border-radius:12px}
     small{display:block;color:#858a96;margin-top:20px;line-height:1.45}
   </style>
 </head>
@@ -24,8 +27,8 @@
   <h1>Routine TG Interval</h1>
   <p>Apri TG Interval per importare questa routine direttamente sul telefono.</p>
   <a id="open" href="#">Apri in TG Interval</a>
-  <a id="download" href="https://github.com/michelegimmelli-lgtm/TheGymme-Apps/releases">Scarica TG Interval</a>
-  <div id="status" role="status">Sto verificando il collegamento…</div>
+  <a id="download" href="https://github.com/michelegimmelli-lgtm/TheGymme-Apps/releases/download/interval-standalone-no-lk-apk-v4.1.2-1004-30d/TheGymme-Interval-Standalone-No-LK-4.1.2-1004-30d-release.apk">Scarica l’ultima APK di Interval</a>
+  <div id="status" role="status" aria-live="polite">Sto verificando il collegamento…</div>
   <small>La routine è contenuta nel link e non viene caricata sui nostri server.</small>
 </main>
 <script>
@@ -35,26 +38,67 @@
   const open = document.getElementById("open");
   const download = document.getElementById("download");
   const status = document.getElementById("status");
+  let launchTimer = 0;
+
+  const setStatus = (message, isError = false) => {
+    status.textContent = message;
+    status.className = isError ? "error" : "";
+  };
+
   if (!token || !/^[jz]\.[A-Za-z0-9_-]+$/.test(token)) {
     open.hidden = true;
-    status.textContent = "Il link della routine non è valido o è incompleto.";
-    status.className = "error";
+    setStatus("Il link della routine non è valido o è incompleto.", true);
     return;
   }
+
   const appUrl = "com.thegymme.interval://load#share=" + token;
   open.href = appUrl;
-  open.addEventListener("click", () => { status.textContent = "Apertura di TG Interval…"; });
-  fetch("https://api.github.com/repos/michelegimmelli-lgtm/TheGymme-Apps/releases?per_page=30", {headers:{Accept:"application/vnd.github+json"}})
+
+  const cancelMissingAppCheck = () => {
+    if (launchTimer) window.clearTimeout(launchTimer);
+    launchTimer = 0;
+  };
+
+  const markAppOpened = () => {
+    if (!document.hidden) return;
+    cancelMissingAppCheck();
+    setStatus("TG Interval si sta aprendo…");
+  };
+
+  document.addEventListener("visibilitychange", markAppOpened);
+  window.addEventListener("pagehide", cancelMissingAppCheck);
+
+  const attemptOpen = event => {
+    if (event) event.preventDefault();
+    cancelMissingAppCheck();
+    setStatus("Apertura di TG Interval…");
+    window.location.href = appUrl;
+    launchTimer = window.setTimeout(() => {
+      if (document.hidden) return;
+      setStatus("App non installata. Scarica TG Interval, installala e poi riapri questo link per importare la routine.", true);
+    }, 2400);
+  };
+
+  open.addEventListener("click", attemptOpen);
+
+  fetch("https://api.github.com/repos/michelegimmelli-lgtm/TheGymme-Apps/releases?per_page=100", {
+    headers: { Accept: "application/vnd.github+json" }
+  })
     .then(response => response.ok ? response.json() : Promise.reject())
     .then(releases => {
-      const release = releases.find(item => !item.draft && String(item.tag_name || "").startsWith("interval-apk-v"));
-      const apk = release?.assets?.find(asset => /TheGymme-Interval-.*-release\.apk$/.test(asset.name));
+      const release = releases.find(item =>
+        !item.draft &&
+        !item.prerelease &&
+        String(item.tag_name || "").toLowerCase().startsWith("interval-")
+      );
+      const apk = release?.assets?.find(asset => /interval.*\.apk$/i.test(asset.name));
       if (apk?.browser_download_url) download.href = apk.browser_download_url;
-    }).catch(() => {});
-  window.setTimeout(() => {
-    status.textContent = "Se l’app non si apre automaticamente, tocca Apri in TG Interval.";
-    location.href = appUrl;
-  }, 250);
+    })
+    .catch(() => {
+      setStatus("Il collegamento all’app è pronto. Se devi installarla, il download disponibile è l’ultima APK verificata.", false);
+    });
+
+  window.setTimeout(() => attemptOpen(), 350);
 })();
 </script>
 </body>
