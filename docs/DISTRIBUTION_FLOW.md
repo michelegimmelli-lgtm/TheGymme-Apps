@@ -1,6 +1,6 @@
 # Flusso di distribuzione
 
-**Aggiornamento:** 20 ottobre 2026
+**Aggiornamento:** 22 ottobre 2026
 
 ## Ruolo della repository
 
@@ -48,7 +48,10 @@ Dal redesign del 21 ottobre 2026 la homepage non è soltanto un elenco di downlo
 
 Gli screenshot usati dalla homepage sono conservati in `site/assets/`. Devono essere sostituiti quando l'interfaccia di un'app cambia in modo sostanziale, privilegiando sempre schermate reali della versione corrente. La modifica delle immagini non altera il meccanismo di selezione automatica delle APK.
 
+
 La pagina pubblica presenta esplicitamente le build promosse come trial di 30 giorni e rimanda al contatto Instagram per il seguito. Le schede prodotto devono mantenere allineate le funzionalità mostrate: Calculator evidenzia le indicazioni per perdere grasso, Ramping mostra progressi, progressioni, massimali/Test 1RM e calcolo dischi, mentre Interval indica la condivisione delle routine.
+
+La hero esprime il posizionamento del progetto con la frase **“Strumenti creati da chi si allena, per chi si allena.”**, traduzione operativa del payoff TheGymme “One of You, For You”.
 
 ## Come la homepage seleziona gli APK
 
