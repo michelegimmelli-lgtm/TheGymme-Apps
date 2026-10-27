@@ -4,6 +4,10 @@ on:
   push:
     branches:
       - main
+  release:
+    types:
+      - published
+      - edited
   workflow_dispatch:
 
 permissions:
@@ -24,6 +28,63 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Prepare direct APK downloads
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          mkdir -p site/downloads
+          gh api "repos/${GITHUB_REPOSITORY}/releases?per_page=100" > "$RUNNER_TEMP/releases.json"
+          printf '{}\n' > site/downloads/releases.json
+
+          for app in calculator ramping interval; do
+            release="$(jq -c --arg prefix "${app}-" '
+              [.[] | select(
+                .draft == false and
+                .prerelease == false and
+                (.tag_name | ascii_downcase | startswith($prefix))
+              )] | first
+            ' "$RUNNER_TEMP/releases.json")"
+
+            if [ "$release" = "null" ]; then
+              echo "::warning::Nessuna Release pubblica trovata per $app."
+              continue
+            fi
+
+            tag="$(jq -r '.tag_name' <<< "$release")"
+            name="$(jq -r '.name // .tag_name' <<< "$release")"
+            asset="$(jq -c --arg app "$app" '
+              [.assets[] | select(
+                (.name | ascii_downcase | contains($app)) and
+                (.name | ascii_downcase | endswith(".apk"))
+              )] | first
+            ' <<< "$release")"
+
+            if [ "$asset" = "null" ]; then
+              echo "::error::APK non presente nella Release $tag."
+              exit 1
+            fi
+
+            asset_url="$(jq -r '.browser_download_url' <<< "$asset")"
+            filename="$(jq -r '.name' <<< "$asset")"
+            output="downloads/${app}-latest.apk"
+            curl --fail --location --retry 3 --retry-all-errors \
+              --output "site/$output" "$asset_url"
+
+            manifest_tmp="$(mktemp)"
+            jq \
+              --arg app "$app" \
+              --arg tag "$tag" \
+              --arg name "$name" \
+              --arg file "$output" \
+              --arg filename "$filename" \
+              '. + {($app): {tag: $tag, name: $name, file: $file, filename: $filename}}' \
+              site/downloads/releases.json > "$manifest_tmp"
+            mv "$manifest_tmp" site/downloads/releases.json
+          done
+
+          jq -e 'has("calculator") and has("ramping") and has("interval")' \
+            site/downloads/releases.json >/dev/null
       - name: Configure Pages
         uses: actions/configure-pages@v5
         with:
@@ -35,3 +96,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
