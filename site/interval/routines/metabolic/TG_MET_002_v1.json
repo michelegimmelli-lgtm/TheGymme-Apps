@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "id": "TG_MET_002",
+    "version": "1.0",
+    "fileKey": "TG_MET_002_v1",
+    "name": "EMOM Challenge",
+    "author": "TheGymme",
+    "series": "metabolic",
+    "category": "metabolic",
+    "level": "intermediate",
+    "equipment": "Corpo libero",
+    "duration": 20,
+    "created": "2026-07-18",
+    "description": "Sfida in stile EMOM: lavora nel tempo indicato e usa il recupero residuo.",
+    "notes": "Adatta intensità e movimenti al tuo livello. Interrompi in caso di dolore."
+  },
+  "items": [
+    {
+      "name": "Squat to Reach",
+      "duration": 45,
+      "rest": false
+    },
+    {
+      "name": "Rest",
+      "duration": 15,
+      "rest": true
+    },
+    {
+      "name": "Push Up",
+      "duration": 45,
+      "rest": false
+    },
+    {
+      "name": "Rest",
+      "duration": 15,
+      "rest": true
+    },
+    {
+      "name": "Mountain Climber",
+      "duration": 45,
+      "rest": false
+    },
+    {
+      "name": "Rest",
+      "duration": 15,
+      "rest": true
+    },
+    {
+      "name": "Burpee",
+      "duration": 45,
+      "rest": false
+    },
+    {
+      "name": "Rest",
+      "duration": 15,
+      "rest": true
+    }
+  ],
+  "rounds": 5,
+  "countdown": 10
+}

@@ -1,0 +1,55 @@
+{
+  "metadata": {
+    "id": "TG_JUMP_002",
+    "version": "2.0",
+    "fileKey": "TG_JUMP_002_v2",
+    "name": "Jump Burner",
+    "author": "TheGymme",
+    "series": "jump_rope",
+    "category": "jump_rope",
+    "level": "intermediate",
+    "equipment": "Corda",
+    "duration": 18,
+    "created": "2026-07-18",
+    "description": "Circuito cardio con cambi di ritmo alla corda.",
+    "notes": "Adatta intensità e movimenti al tuo livello. Interrompi in caso di dolore."
+  },
+  "items": [
+    {
+      "name": "Basic Bounce",
+      "duration": 40,
+      "rest": false,
+      "imageKey": "basic-bounce"
+    },
+    {
+      "name": "Fast Bounce",
+      "duration": 25,
+      "rest": false,
+      "imageKey": "fast-bounce"
+    },
+    {
+      "name": "Rest",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Boxer Step",
+      "duration": 40,
+      "rest": false,
+      "imageKey": "boxer-step"
+    },
+    {
+      "name": "High Knees Jump",
+      "duration": 25,
+      "rest": false,
+      "imageKey": "high-knees-jump"
+    },
+    {
+      "name": "Rest",
+      "duration": 30,
+      "rest": true
+    }
+  ],
+  "rounds": 6,
+  "countdown": 8
+}

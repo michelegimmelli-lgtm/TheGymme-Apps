@@ -1,0 +1,151 @@
+{
+  "metadata": {
+    "id": "TG_HOME_008",
+    "version": "1.0",
+    "fileKey": "TG_HOME_008_v1",
+    "name": "Bike Easy Cardio & Tone",
+    "author": "TheGymme",
+    "series": "home",
+    "category": "home",
+    "level": "beginner",
+    "equipment": "Cyclette, due manubri leggeri, sedia stabile e tappetino",
+    "duration": 30,
+    "created": "2026-10-09",
+    "description": "Blocchi brevi di cyclette alternati a esercizi semplici per gambe, glutei, petto, spalle, braccia e core.",
+    "notes": "La parte cardio deve restare gestibile e gli esercizi con manubri devono essere lenti e controllati. Riduci resistenza o carico prima che la tecnica peggiori.",
+    "defaultCoachProfile": "minimal"
+  },
+  "items": [
+    {
+      "name": "Cyclette facile",
+      "duration": 240,
+      "rest": false,
+      "imageKey": "stationary-bike",
+      "roundStart": true,
+      "roundNumber": 1,
+      "coachCue": "Riscaldati senza fretta con resistenza leggera."
+    },
+    {
+      "name": "Scendi e prepara sedia, tappetino e manubri",
+      "duration": 30,
+      "rest": true
+    },
+    {
+      "name": "Squat a sedia",
+      "duration": 45,
+      "rest": false,
+      "imageKey": "chair-squat"
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Piegamenti con appoggio sulle ginocchia",
+      "duration": 40,
+      "rest": false,
+      "imageKey": "knee-push-up"
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Glute bridge",
+      "duration": 45,
+      "rest": false,
+      "imageKey": "glute-bridge",
+      "description": "Sdraiati con le ginocchia piegate e i piedi ben appoggiati. Spingi dai talloni, solleva il bacino e contrai i glutei senza inarcare la zona lombare."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Curl per bicipiti con manubri",
+      "duration": 40,
+      "rest": false,
+      "imageKey": "dumbbell-biceps-curl"
+    },
+    {
+      "name": "Torna sulla cyclette",
+      "duration": 30,
+      "rest": true
+    },
+    {
+      "name": "Cyclette progressiva",
+      "duration": 300,
+      "rest": false,
+      "imageKey": "stationary-bike",
+      "coachCue": "Aumenta poco alla volta la cadenza, restando sempre in grado di parlare."
+    },
+    {
+      "name": "Scendi e torna agli esercizi",
+      "duration": 30,
+      "rest": true
+    },
+    {
+      "name": "Squat a sedia",
+      "duration": 45,
+      "rest": false,
+      "imageKey": "chair-squat"
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Spinte sopra la testa da seduto — lento avanti",
+      "duration": 40,
+      "rest": false,
+      "imageKey": "seated-dumbbell-press"
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Alzate laterali con manubri",
+      "duration": 40,
+      "rest": false,
+      "imageKey": "dumbbell-lateral-raise"
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Dead bug alternato",
+      "duration": 50,
+      "rest": false,
+      "imageKey": "dead-bug"
+    },
+    {
+      "name": "Torna sulla cyclette",
+      "duration": 30,
+      "rest": true
+    },
+    {
+      "name": "Cyclette a intervalli facili",
+      "duration": 360,
+      "rest": false,
+      "imageKey": "stationary-bike",
+      "coachCue": "Alterna un minuto moderato e un minuto facile senza arrivare all’affanno."
+    },
+    {
+      "name": "Cyclette lenta e respira",
+      "duration": 300,
+      "rest": false,
+      "imageKey": "stationary-bike",
+      "coachCue": "Rallenta gradualmente fino a una pedalata molto comoda."
+    }
+  ],
+  "rounds": 1,
+  "countdown": 5
+}

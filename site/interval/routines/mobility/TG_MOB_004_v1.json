@@ -1,0 +1,105 @@
+{
+  "metadata": {
+    "id": "TG_MOB_004",
+    "version": "1.0",
+    "fileKey": "TG_MOB_004_v1",
+    "name": "Recovery Day",
+    "author": "TheGymme",
+    "series": "mobility",
+    "category": "mobility",
+    "level": "beginner",
+    "equipment": "Tappetino",
+    "duration": 12,
+    "created": "2026-07-18",
+    "description": "Seduta leggera di mobilità e respirazione per il recupero.",
+    "notes": "Adatta intensità e movimenti al tuo livello. Interrompi in caso di dolore."
+  },
+  "items": [
+    {
+      "name": "Respirazione diaframmatica",
+      "duration": 40,
+      "rest": false,
+      "imageKey": "diaphragmatic-breathing",
+      "description": "Sdraiati o siediti comodo, inspira dal naso espandendo l’addome ed espira lentamente senza sollevare le spalle."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Cat Cow",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "cat-camel",
+      "description": "In quadrupedia, inspira estendendo dolcemente la colonna ed espira arrotondandola. Muoviti lentamente senza forzare collo o zona lombare."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Child Pose",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "child-pose",
+      "description": "Porta il bacino verso i talloni, allunga le braccia in avanti e lascia rilassare schiena e spalle respirando con calma."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Hamstring Stretch SX",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "hamstring-stretch",
+      "description": "Estendi la gamba sinistra e inclina il busto in avanti mantenendo la schiena lunga, fino a percepire una tensione controllata."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Hamstring Stretch DX",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "hamstring-stretch",
+      "description": "Estendi la gamba destra e inclina il busto in avanti mantenendo la schiena lunga, fino a percepire una tensione controllata."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Supine Twist SX",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "supine-twist",
+      "description": "Sdraiato sulla schiena, porta le ginocchia verso sinistra mantenendo le spalle appoggiate e respira senza forzare."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Supine Twist DX",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "supine-twist",
+      "description": "Sdraiato sulla schiena, porta le ginocchia verso destra mantenendo le spalle appoggiate e respira senza forzare."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    }
+  ],
+  "rounds": 2,
+  "countdown": 3
+}

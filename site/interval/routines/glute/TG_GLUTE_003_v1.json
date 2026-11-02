@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "id": "TG_GLUTE_003",
+    "version": "1.0",
+    "fileKey": "TG_GLUTE_003_v1",
+    "name": "Booty Strength",
+    "author": "TheGymme",
+    "series": "glute",
+    "category": "glute",
+    "level": "advanced",
+    "equipment": "Manubri, kettlebell o bilanciere",
+    "duration": 21,
+    "created": "2026-07-18",
+    "description": "Lavoro controllato per forza e tensione meccanica dei glutei.",
+    "notes": "Adatta intensità e movimenti al tuo livello. Interrompi in caso di dolore."
+  },
+  "items": [
+    {
+      "name": "Romanian Deadlift",
+      "duration": 45,
+      "rest": false,
+      "imageKey": "romanian-deadlift"
+    },
+    {
+      "name": "Rest",
+      "duration": 25,
+      "rest": true
+    },
+    {
+      "name": "Hip Thrust",
+      "duration": 45,
+      "rest": false,
+      "imageKey": "hip-thrust"
+    },
+    {
+      "name": "Rest",
+      "duration": 25,
+      "rest": true
+    },
+    {
+      "name": "Reverse Lunge SX",
+      "duration": 40,
+      "rest": false,
+      "imageKey": "reverse-lunge"
+    },
+    {
+      "name": "Reverse Lunge DX",
+      "duration": 40,
+      "rest": false,
+      "imageKey": "reverse-lunge"
+    },
+    {
+      "name": "Rest",
+      "duration": 30,
+      "rest": true
+    }
+  ],
+  "rounds": 5,
+  "countdown": 8
+}

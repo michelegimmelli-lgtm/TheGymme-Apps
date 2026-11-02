@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "id": "TG_STR_005",
+    "version": "1.0",
+    "fileKey": "TG_STR_005_v1",
+    "name": "Full Body Strength",
+    "author": "TheGymme",
+    "series": "strength",
+    "category": "strength",
+    "level": "advanced",
+    "equipment": "Manubri o kettlebell",
+    "duration": 23,
+    "created": "2026-07-18",
+    "description": "Circuito di forza total body sui principali schemi motori.",
+    "notes": "Adatta intensità e movimenti al tuo livello. Interrompi in caso di dolore."
+  },
+  "items": [
+    {
+      "name": "Goblet Squat",
+      "duration": 45,
+      "rest": false,
+      "imageKey": "goblet-squat"
+    },
+    {
+      "name": "Floor Press",
+      "duration": 45,
+      "rest": false,
+      "imageKey": "dumbbell-floor-press"
+    },
+    {
+      "name": "Rest",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Romanian Deadlift",
+      "duration": 45,
+      "rest": false,
+      "imageKey": "romanian-deadlift"
+    },
+    {
+      "name": "Bent Over Row",
+      "duration": 45,
+      "rest": false,
+      "imageKey": "bent-over-row"
+    },
+    {
+      "name": "Rest",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Reverse Lunge",
+      "duration": 45,
+      "rest": false,
+      "imageKey": "reverse-lunge"
+    },
+    {
+      "name": "Shoulder Press",
+      "duration": 40,
+      "rest": false,
+      "imageKey": "seated-dumbbell-press"
+    },
+    {
+      "name": "Rest",
+      "duration": 40,
+      "rest": true
+    }
+  ],
+  "rounds": 4,
+  "countdown": 10
+}

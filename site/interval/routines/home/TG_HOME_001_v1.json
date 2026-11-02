@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "id": "TG_HOME_001",
+    "version": "1.0",
+    "fileKey": "TG_HOME_001_v1",
+    "name": "No Equipment",
+    "author": "TheGymme",
+    "series": "home",
+    "category": "home",
+    "level": "beginner",
+    "equipment": "Nessuna",
+    "duration": 34,
+    "created": "2026-07-18",
+    "description": "Allenamento completo a corpo libero, con pause regolari e volume esteso.",
+    "notes": "Adatta intensità e movimenti al tuo livello. Interrompi in caso di dolore."
+  },
+  "items": [
+    {
+      "name": "Squat a corpo libero",
+      "duration": 40,
+      "rest": false,
+      "imageKey": "bodyweight-squat"
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Push-up inclinato",
+      "duration": 35,
+      "rest": false,
+      "imageKey": "push-up"
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Ponte glutei",
+      "duration": 40,
+      "rest": false,
+      "imageKey": "glute-bridge",
+      "description": "Sdraiati con le ginocchia piegate e i piedi ben appoggiati. Spingi dai talloni, solleva il bacino e contrai i glutei senza inarcare la zona lombare."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Affondo indietro alternato",
+      "duration": 40,
+      "rest": false,
+      "imageKey": "reverse-lunge"
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Dead bug alternato",
+      "duration": 40,
+      "rest": false,
+      "imageKey": "dead-bug"
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    }
+  ],
+  "rounds": 7,
+  "countdown": 5
+}

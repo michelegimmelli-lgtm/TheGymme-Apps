@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "id": "TG_MOBILITY_001",
+    "version": "1.0",
+    "fileKey": "TG_MOBILITY_001_v1",
+    "name": "Unlock Posterior Chain 2.0",
+    "author": "TheGymme",
+    "series": "mobility",
+    "category": "mobility",
+    "level": "intermediate",
+    "duration": 9,
+    "created": "2026-10-17",
+    "description": "Mobilità controllata per femorali, schiena e anche, con respirazione e lavoro segmentale.",
+    "defaultCoachProfile": "minimal"
+  },
+  "items": [
+    {
+      "name": "Cat-Camel + respirazione",
+      "duration": 15,
+      "rest": false,
+      "imageKey": "cat-camel",
+      "description": "In quadrupedia, alterna lentamente l’arrotondamento e l’estensione della colonna. Coordina ogni fase con il respiro e muoviti senza forzare."
+    },
+    {
+      "name": "Pausa breve",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Child Pose Reach",
+      "duration": 15,
+      "rest": false,
+      "imageKey": "child-pose-reach",
+      "description": "Porta il bacino verso i talloni e allunga le braccia in diagonale. Mantieni le anche centrate e respira nella parte laterale della schiena."
+    },
+    {
+      "name": "Pausa breve",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Cat-Camel + respirazione",
+      "duration": 15,
+      "rest": false,
+      "imageKey": "cat-camel",
+      "description": "In quadrupedia, alterna lentamente l’arrotondamento e l’estensione della colonna. Coordina ogni fase con il respiro e muoviti senza forzare."
+    },
+    {
+      "name": "Pausa breve",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Child Pose Reach",
+      "duration": 15,
+      "rest": false,
+      "imageKey": "child-pose-reach",
+      "description": "Porta il bacino verso i talloni e allunga le braccia in diagonale. Mantieni le anche centrate e respira nella parte laterale della schiena."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "90/90 Hip Rotation",
+      "duration": 15,
+      "rest": false,
+      "imageKey": "90-90-switch",
+      "description": "Siediti con entrambe le ginocchia piegate e falle ruotare insieme da un lato all’altro. Mantieni il busto controllato e lascia partire il movimento dalle anche."
+    },
+    {
+      "name": "Pausa breve",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "90/90 Hip Rotation",
+      "duration": 15,
+      "rest": false,
+      "imageKey": "90-90-switch",
+      "description": "Siediti con entrambe le ginocchia piegate e falle ruotare insieme da un lato all’altro. Mantieni il busto controllato e lascia partire il movimento dalle anche."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Pigeon Stretch",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "pigeon-stretch",
+      "description": "Porta una gamba piegata davanti e distendi l’altra dietro. Mantieni il bacino il più possibile livellato e inclina il busto solo finché la tensione resta confortevole."
+    },
+    {
+      "name": "Recupero",
+      "duration": 30,
+      "rest": true
+    },
+    {
+      "name": "Pigeon Stretch",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "pigeon-stretch",
+      "description": "Porta una gamba piegata davanti e distendi l’altra dietro. Mantieni il bacino il più possibile livellato e inclina il busto solo finché la tensione resta confortevole."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Deep Squat Hold",
+      "duration": 60,
+      "rest": false,
+      "imageKey": "assisted-squat-hold",
+      "description": "Scendi in uno squat profondo con i piedi ben appoggiati. Usa un supporto se serve, tieni il petto aperto e respira rilassando gradualmente anche e caviglie."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Deep Squat Hold",
+      "duration": 60,
+      "rest": false,
+      "imageKey": "assisted-squat-hold",
+      "description": "Scendi in uno squat profondo con i piedi ben appoggiati. Usa un supporto se serve, tieni il petto aperto e respira rilassando gradualmente anche e caviglie."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Leg Work al muro",
+      "duration": 60,
+      "rest": false,
+      "imageKey": "leg-work-al-muro",
+      "description": "Sdraiati con il bacino vicino al muro e le gambe distese in verticale. Mantieni schiena e spalle rilassate e respira lasciando allungare la catena posteriore."
+    }
+  ],
+  "rounds": 1,
+  "countdown": 3
+}

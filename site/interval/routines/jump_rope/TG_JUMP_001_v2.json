@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "id": "TG_JUMP_001",
+    "version": "2.0",
+    "fileKey": "TG_JUMP_001_v2",
+    "name": "Jump Flow",
+    "author": "TheGymme",
+    "series": "jump_rope",
+    "category": "jump_rope",
+    "level": "beginner",
+    "equipment": "Corda",
+    "duration": 19,
+    "created": "2026-07-18",
+    "description": "Tecnica e continuità per costruire un salto fluido.",
+    "notes": "Adatta intensità e movimenti al tuo livello. Interrompi in caso di dolore."
+  },
+  "items": [
+    {
+      "name": "Basic Bounce",
+      "duration": 45,
+      "rest": false,
+      "imageKey": "basic-bounce"
+    },
+    {
+      "name": "Rest",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Side Swing",
+      "duration": 40,
+      "rest": false,
+      "imageKey": "side-swing"
+    },
+    {
+      "name": "Rest",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Boxer Step",
+      "duration": 45,
+      "rest": false,
+      "imageKey": "boxer-step"
+    },
+    {
+      "name": "Rest",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Basic Bounce rilassato",
+      "duration": 60,
+      "rest": false,
+      "imageKey": "basic-bounce"
+    },
+    {
+      "name": "Rest",
+      "duration": 30,
+      "rest": true
+    }
+  ],
+  "rounds": 4,
+  "countdown": 8
+}

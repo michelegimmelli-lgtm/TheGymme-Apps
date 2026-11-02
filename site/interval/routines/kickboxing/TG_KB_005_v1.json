@@ -1,0 +1,276 @@
+{
+  "metadata": {
+    "id": "TG_KB_005",
+    "version": "1.0",
+    "fileKey": "TG_KB_005_v1",
+    "name": "Heavy Bag HIIT 2",
+    "author": "TheGymme",
+    "series": "kickboxing",
+    "category": "kickboxing",
+    "level": "intermediate",
+    "equipment": "Sacco e guantoni",
+    "duration": 28,
+    "created": "2026-07-23",
+    "description": "Allenamento HIIT al sacco pesante con combinazioni esplosive e tecniche diversificate, pensato per migliorare resistenza, coordinazione e potenza dei colpi.",
+    "notes": "Mantieni la guardia, cura la tecnica e adatta l'intensità al tuo livello. Interrompi in caso di dolore."
+  },
+  "items": [
+    {
+      "name": "Jab, Cross",
+      "duration": 20,
+      "rest": false,
+      "imageKey": "kickboxing-heavy-bag-punch",
+      "roundStart": true,
+      "roundNumber": 1,
+      "coachCue": "Tieni i gomiti chiusi. Lavora sulla precisione."
+    },
+    {
+      "name": "Rest",
+      "duration": 10,
+      "rest": true
+    },
+    {
+      "name": "Jab, Cross",
+      "duration": 20,
+      "rest": false,
+      "imageKey": "kickboxing-heavy-bag-punch"
+    },
+    {
+      "name": "Rest",
+      "duration": 10,
+      "rest": true
+    },
+    {
+      "name": "Jab, Cross",
+      "duration": 20,
+      "rest": false,
+      "imageKey": "kickboxing-heavy-bag-punch"
+    },
+    {
+      "name": "Rest",
+      "duration": 10,
+      "rest": true
+    },
+    {
+      "name": "Jab, Cross",
+      "duration": 20,
+      "rest": false,
+      "imageKey": "kickboxing-heavy-bag-punch"
+    },
+    {
+      "name": "Rest",
+      "duration": 10,
+      "rest": true
+    },
+    {
+      "name": "Recupero round",
+      "duration": 60,
+      "rest": true
+    },
+    {
+      "name": "Cross, Montante anteriore, Cross",
+      "duration": 20,
+      "rest": false,
+      "imageKey": "kickboxing-heavy-bag-punch",
+      "roundStart": true,
+      "roundNumber": 2,
+      "coachCue": "Chiudi sempre la guardia."
+    },
+    {
+      "name": "Rest",
+      "duration": 10,
+      "rest": true
+    },
+    {
+      "name": "Cross, Montante anteriore, Cross",
+      "duration": 20,
+      "rest": false,
+      "imageKey": "kickboxing-heavy-bag-punch"
+    },
+    {
+      "name": "Rest",
+      "duration": 10,
+      "rest": true
+    },
+    {
+      "name": "Cross, Montante anteriore, Cross",
+      "duration": 20,
+      "rest": false,
+      "imageKey": "kickboxing-heavy-bag-punch"
+    },
+    {
+      "name": "Rest",
+      "duration": 10,
+      "rest": true
+    },
+    {
+      "name": "Cross, Montante anteriore, Cross",
+      "duration": 20,
+      "rest": false,
+      "imageKey": "kickboxing-heavy-bag-punch"
+    },
+    {
+      "name": "Rest",
+      "duration": 10,
+      "rest": true
+    },
+    {
+      "name": "Recupero round",
+      "duration": 60,
+      "rest": true
+    },
+    {
+      "name": "Jab, Schivata, Montante",
+      "duration": 20,
+      "rest": false,
+      "imageKey": "kickboxing-heavy-bag-punch",
+      "roundStart": true,
+      "roundNumber": 3,
+      "coachCue": "Schiva e rientra subito."
+    },
+    {
+      "name": "Rest",
+      "duration": 10,
+      "rest": true
+    },
+    {
+      "name": "Jab, Schivata, Montante",
+      "duration": 20,
+      "rest": false,
+      "imageKey": "kickboxing-heavy-bag-punch"
+    },
+    {
+      "name": "Rest",
+      "duration": 10,
+      "rest": true
+    },
+    {
+      "name": "Jab, Schivata, Montante",
+      "duration": 20,
+      "rest": false,
+      "imageKey": "kickboxing-heavy-bag-punch"
+    },
+    {
+      "name": "Rest",
+      "duration": 10,
+      "rest": true
+    },
+    {
+      "name": "Jab, Schivata, Montante",
+      "duration": 20,
+      "rest": false,
+      "imageKey": "kickboxing-heavy-bag-punch"
+    },
+    {
+      "name": "Rest",
+      "duration": 10,
+      "rest": true
+    },
+    {
+      "name": "Recupero round",
+      "duration": 60,
+      "rest": true
+    },
+    {
+      "name": "Jab, Cross al corpo, Gancio anteriore",
+      "duration": 20,
+      "rest": false,
+      "imageKey": "kickboxing-heavy-bag-punch",
+      "roundStart": true,
+      "roundNumber": 4,
+      "coachCue": "Cambia livello, poi torna alla testa."
+    },
+    {
+      "name": "Rest",
+      "duration": 10,
+      "rest": true
+    },
+    {
+      "name": "Jab, Cross al corpo, Gancio anteriore",
+      "duration": 20,
+      "rest": false,
+      "imageKey": "kickboxing-heavy-bag-punch"
+    },
+    {
+      "name": "Rest",
+      "duration": 10,
+      "rest": true
+    },
+    {
+      "name": "Jab, Cross al corpo, Gancio anteriore",
+      "duration": 20,
+      "rest": false,
+      "imageKey": "kickboxing-heavy-bag-punch"
+    },
+    {
+      "name": "Rest",
+      "duration": 10,
+      "rest": true
+    },
+    {
+      "name": "Jab, Cross al corpo, Gancio anteriore",
+      "duration": 20,
+      "rest": false,
+      "imageKey": "kickboxing-heavy-bag-punch"
+    },
+    {
+      "name": "Rest",
+      "duration": 10,
+      "rest": true
+    },
+    {
+      "name": "Recupero round",
+      "duration": 60,
+      "rest": true
+    },
+    {
+      "name": "Jab, Cross, Cross al corpo, Gancio anteriore",
+      "duration": 20,
+      "rest": false,
+      "imageKey": "kickboxing-heavy-bag-punch",
+      "roundStart": true,
+      "roundNumber": 5,
+      "coachCue": "Fluidità e ritmo."
+    },
+    {
+      "name": "Rest",
+      "duration": 10,
+      "rest": true
+    },
+    {
+      "name": "Jab, Cross, Cross al corpo, Gancio anteriore",
+      "duration": 20,
+      "rest": false,
+      "imageKey": "kickboxing-heavy-bag-punch"
+    },
+    {
+      "name": "Rest",
+      "duration": 10,
+      "rest": true
+    },
+    {
+      "name": "Jab, Cross, Cross al corpo, Gancio anteriore",
+      "duration": 20,
+      "rest": false,
+      "imageKey": "kickboxing-heavy-bag-punch"
+    },
+    {
+      "name": "Rest",
+      "duration": 10,
+      "rest": true
+    },
+    {
+      "name": "Jab, Cross, Cross al corpo, Gancio anteriore",
+      "duration": 20,
+      "rest": false,
+      "imageKey": "kickboxing-heavy-bag-punch"
+    },
+    {
+      "name": "Rest",
+      "duration": 10,
+      "rest": true
+    }
+  ],
+  "rounds": 2,
+  "countdown": 10
+}

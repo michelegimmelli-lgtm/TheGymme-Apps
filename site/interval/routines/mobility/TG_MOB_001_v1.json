@@ -1,0 +1,138 @@
+{
+  "metadata": {
+    "id": "TG_MOB_001",
+    "version": "1.0",
+    "fileKey": "TG_MOB_001_v1",
+    "name": "Morning Mobility",
+    "author": "TheGymme",
+    "series": "mobility",
+    "category": "mobility",
+    "level": "beginner",
+    "equipment": "Tappetino",
+    "duration": 15,
+    "created": "2026-07-18",
+    "description": "Mobilità dolce per iniziare la giornata.",
+    "notes": "Adatta intensità e movimenti al tuo livello. Interrompi in caso di dolore."
+  },
+  "items": [
+    {
+      "name": "Circonduzioni delle anche",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "hip-circle",
+      "description": "In piedi con le mani sui fianchi, solleva un ginocchio e disegna cerchi controllati con l’anca. Mantieni il busto stabile e alterna il lato."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Slanci gamba avanti e indietro",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "leg-swing-front-back",
+      "description": "Appoggiati con una mano a una porta o a un supporto stabile. Mantieni il busto fermo e slancia una gamba avanti e indietro in modo controllato; alterna il lato senza forzare l’ampiezza."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Cat Cow",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "cat-camel",
+      "description": "In quadrupedia, inspira estendendo dolcemente la colonna ed espira arrotondandola. Muoviti lentamente senza forzare collo o zona lombare."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "World Greatest Stretch SX",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "world-greatest-stretch",
+      "description": "Porta il piede sinistro vicino alla mano sinistra in affondo, distendi la gamba destra e ruota il busto aprendo il braccio sinistro verso l’alto. Respira senza perdere l’appoggio."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "World Greatest Stretch DX",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "world-greatest-stretch",
+      "description": "Porta il piede destro vicino alla mano destra in affondo, distendi la gamba sinistra e ruota il busto aprendo il braccio destro verso l’alto. Respira senza perdere l’appoggio."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Squat Hold assistito",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "assisted-squat-hold",
+      "description": "Afferrati a un supporto stabile e scendi in squat profondo con i piedi ben appoggiati. Mantieni il petto aperto e le ginocchia in linea con le punte."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Shoulder Circle avanti",
+      "duration": 20,
+      "rest": false,
+      "imageKey": "shoulder-circle",
+      "description": "Esegui circonduzioni controllate di entrambe le braccia in avanti, mantenendo il busto stabile e le spalle lontane dalle orecchie."
+    },
+    {
+      "name": "Shoulder Circle indietro",
+      "duration": 20,
+      "rest": false,
+      "imageKey": "shoulder-circle",
+      "description": "Esegui circonduzioni controllate di entrambe le braccia all’indietro, senza inarcare la schiena o forzare il movimento."
+    },
+    {
+      "name": "Shoulder Circle braccio destro",
+      "duration": 10,
+      "rest": false,
+      "imageKey": "shoulder-circle",
+      "description": "Esegui circonduzioni ampie e controllate con il solo braccio destro, mantenendo fermo il busto."
+    },
+    {
+      "name": "Shoulder Circle braccio sinistro",
+      "duration": 10,
+      "rest": false,
+      "imageKey": "shoulder-circle",
+      "description": "Esegui circonduzioni ampie e controllate con il solo braccio sinistro, mantenendo fermo il busto."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Respirazione diaframmatica",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "diaphragmatic-breathing",
+      "description": "Sdraiati o siediti comodo, inspira dal naso espandendo l’addome ed espira lentamente senza sollevare le spalle."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    }
+  ],
+  "rounds": 2,
+  "countdown": 3
+}

@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "id": "TG_CARDIO_001",
+    "version": "1.0",
+    "fileKey": "TG_CARDIO_001_v1",
+    "name": "Walking Intervals",
+    "author": "TheGymme",
+    "series": "cardio",
+    "category": "cardio",
+    "level": "beginner",
+    "equipment": "Tapis roulant o spazio per camminare",
+    "duration": 32,
+    "created": "2026-07-18",
+    "description": "Alternanza tra camminata sostenuta e recupero facile.",
+    "notes": "Adatta intensità e movimenti al tuo livello. Interrompi in caso di dolore."
+  },
+  "items": [
+    {
+      "name": "Camminata sostenuta",
+      "duration": 120,
+      "rest": false
+    },
+    {
+      "name": "Camminata veloce",
+      "duration": 60,
+      "rest": false
+    },
+    {
+      "name": "Camminata facile",
+      "duration": 60,
+      "rest": false
+    }
+  ],
+  "rounds": 8,
+  "countdown": 5
+}

@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "id": "TG_MET_003",
+    "version": "1.0",
+    "fileKey": "TG_MET_003_v1",
+    "name": "AMRAP 20",
+    "author": "TheGymme",
+    "series": "metabolic",
+    "category": "metabolic",
+    "level": "intermediate",
+    "equipment": "Corpo libero",
+    "duration": 20,
+    "created": "2026-07-18",
+    "description": "Blocco continuo di 20 minuti ispirato al formato AMRAP.",
+    "notes": "Adatta intensità e movimenti al tuo livello. Interrompi in caso di dolore."
+  },
+  "items": [
+    {
+      "name": "Squat",
+      "duration": 45,
+      "rest": false
+    },
+    {
+      "name": "Push Up",
+      "duration": 35,
+      "rest": false
+    },
+    {
+      "name": "Reverse Lunge",
+      "duration": 45,
+      "rest": false
+    },
+    {
+      "name": "Mountain Climber",
+      "duration": 35,
+      "rest": false
+    },
+    {
+      "name": "Rest",
+      "duration": 40,
+      "rest": true
+    }
+  ],
+  "rounds": 6,
+  "countdown": 10
+}

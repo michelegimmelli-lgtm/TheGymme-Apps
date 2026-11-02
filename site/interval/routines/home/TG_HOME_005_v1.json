@@ -1,0 +1,149 @@
+{
+  "metadata": {
+    "id": "TG_HOME_005",
+    "version": "1.0",
+    "fileKey": "TG_HOME_005_v1",
+    "name": "Home Easy Restart",
+    "author": "TheGymme",
+    "series": "home",
+    "category": "home",
+    "level": "beginner",
+    "equipment": "Tapis roulant, sedia stabile e tappetino",
+    "duration": 34,
+    "created": "2026-10-07",
+    "description": "Ripartenza dolce con camminata sul tapis roulant, gambe, glutei e core.",
+    "notes": "Mantieni un ritmo che consenta di parlare. Nessuna corsa è obbligatoria: rallenta o fermati se compaiono dolore, capogiri o affanno insolito.",
+    "defaultCoachProfile": "minimal"
+  },
+  "items": [
+    {
+      "name": "Camminata facile sul tapis roulant",
+      "duration": 300,
+      "rest": false,
+      "imageKey": "treadmill-walk",
+      "roundStart": true,
+      "roundNumber": 1,
+      "coachCue": "Parti tranquillo. Devi riuscire a parlare senza affanno."
+    },
+    {
+      "name": "Scendi e prepara la sedia",
+      "duration": 30,
+      "rest": true
+    },
+    {
+      "name": "Squat a sedia",
+      "duration": 45,
+      "rest": false,
+      "imageKey": "chair-squat"
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Glute bridge",
+      "duration": 45,
+      "rest": false,
+      "imageKey": "glute-bridge",
+      "description": "Sdraiati con le ginocchia piegate e i piedi ben appoggiati. Spingi dai talloni, solleva il bacino e contrai i glutei senza inarcare la zona lombare."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Bird dog alternato",
+      "duration": 50,
+      "rest": false,
+      "imageKey": "bird-dog"
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Dead bug alternato",
+      "duration": 50,
+      "rest": false,
+      "imageKey": "dead-bug"
+    },
+    {
+      "name": "Torna sul tapis roulant",
+      "duration": 60,
+      "rest": true
+    },
+    {
+      "name": "Camminata a passo sostenuto",
+      "duration": 360,
+      "rest": false,
+      "imageKey": "treadmill-walk"
+    },
+    {
+      "name": "Scendi e torna agli esercizi",
+      "duration": 30,
+      "rest": true
+    },
+    {
+      "name": "Squat a sedia",
+      "duration": 45,
+      "rest": false,
+      "imageKey": "chair-squat"
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Glute bridge",
+      "duration": 45,
+      "rest": false,
+      "imageKey": "glute-bridge",
+      "description": "Sdraiati con le ginocchia piegate e i piedi ben appoggiati. Spingi dai talloni, solleva il bacino e contrai i glutei senza inarcare la zona lombare."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Bird dog alternato",
+      "duration": 50,
+      "rest": false,
+      "imageKey": "bird-dog"
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Dead bug alternato",
+      "duration": 50,
+      "rest": false,
+      "imageKey": "dead-bug"
+    },
+    {
+      "name": "Torna sul tapis roulant",
+      "duration": 60,
+      "rest": true
+    },
+    {
+      "name": "Camminata continua",
+      "duration": 420,
+      "rest": false,
+      "imageKey": "treadmill-walk"
+    },
+    {
+      "name": "Camminata lenta e respira",
+      "duration": 300,
+      "rest": false,
+      "imageKey": "treadmill-walk"
+    }
+  ],
+  "rounds": 1,
+  "countdown": 5
+}

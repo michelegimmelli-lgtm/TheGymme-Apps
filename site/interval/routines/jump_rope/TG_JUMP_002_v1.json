@@ -1,0 +1,95 @@
+{
+  "metadata": {
+    "id": "TG_JUMP_002",
+    "version": "1.0",
+    "fileKey": "TG_JUMP_002_v1",
+    "name": "Jump Rope and Functional",
+    "author": "TheGymme",
+    "category": "jump_rope",
+    "level": "beginner",
+    "duration": 38,
+    "created": "2026-06-26",
+    "description": "Routine di Jump Rope per principiante con esercizi"
+  },
+  "items": [
+    {
+      "name": "Jump normale",
+      "duration": 40,
+      "rest": false,
+      "imageKey": "basic-bounce"
+    },
+    {
+      "name": "Rest",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Piegamenti",
+      "duration": 40,
+      "rest": false,
+      "imageKey": "push-up"
+    },
+    {
+      "name": "Rest",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Squat",
+      "duration": 40,
+      "rest": false,
+      "imageKey": "bodyweight-squat"
+    },
+    {
+      "name": "Rest",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Cross Swing",
+      "duration": 40,
+      "rest": false,
+      "imageKey": "cross-swing"
+    },
+    {
+      "name": "Rest",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Affondi",
+      "duration": 40,
+      "rest": false,
+      "imageKey": "lunge"
+    },
+    {
+      "name": "Rest",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Plank",
+      "duration": 40,
+      "rest": false,
+      "imageKey": "plank"
+    },
+    {
+      "name": "Rest",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Burpees",
+      "duration": 40,
+      "rest": false,
+      "imageKey": "burpee"
+    },
+    {
+      "name": "Rest",
+      "duration": 60,
+      "rest": true
+    }
+  ],
+  "rounds": 5,
+  "countdown": 10
+}

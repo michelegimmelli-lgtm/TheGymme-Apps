@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "id": "TG_HOME_003",
+    "version": "1.0",
+    "fileKey": "TG_HOME_003_v1",
+    "name": "Resistance Band",
+    "author": "TheGymme",
+    "series": "home",
+    "category": "home",
+    "level": "beginner",
+    "equipment": "Elastico",
+    "duration": 34,
+    "created": "2026-07-18",
+    "description": "Routine total body con elastico, pause regolari e volume esteso.",
+    "notes": "Adatta intensità e movimenti al tuo livello. Interrompi in caso di dolore."
+  },
+  "items": [
+    {
+      "name": "Squat con elastico",
+      "duration": 40,
+      "rest": false,
+      "imageKey": "bodyweight-squat"
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Rematore con elastico",
+      "duration": 40,
+      "rest": false
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Chest press con elastico",
+      "duration": 40,
+      "rest": false
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Camminata laterale con elastico",
+      "duration": 40,
+      "rest": false
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Aperture con elastico",
+      "duration": 35,
+      "rest": false,
+      "imageKey": "band-pull-apart"
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    }
+  ],
+  "rounds": 7,
+  "countdown": 5
+}
+

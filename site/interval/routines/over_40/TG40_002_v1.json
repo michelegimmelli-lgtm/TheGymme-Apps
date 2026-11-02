@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "id": "TG40_002",
+    "version": "1.0",
+    "fileKey": "TG40_002_v1",
+    "name": "Healthy Back",
+    "author": "TheGymme",
+    "series": "over_40",
+    "category": "over_40",
+    "level": "beginner",
+    "equipment": "Tappetino ed elastico opzionale",
+    "duration": 15,
+    "created": "2026-07-18",
+    "description": "Mobilità e stabilità per una schiena forte; evita movimenti dolorosi.",
+    "notes": "Adatta intensità e movimenti al tuo livello. Interrompi in caso di dolore."
+  },
+  "items": [
+    {
+      "name": "Cat Cow",
+      "duration": 40,
+      "rest": false
+    },
+    {
+      "name": "Bird Dog",
+      "duration": 45,
+      "rest": false
+    },
+    {
+      "name": "Glute Bridge",
+      "duration": 45,
+      "rest": false
+    },
+    {
+      "name": "Dead Bug",
+      "duration": 45,
+      "rest": false
+    },
+    {
+      "name": "Band Row",
+      "duration": 40,
+      "rest": false
+    },
+    {
+      "name": "Child Pose",
+      "duration": 50,
+      "rest": false
+    },
+    {
+      "name": "Rest",
+      "duration": 30,
+      "rest": true
+    }
+  ],
+  "rounds": 3,
+  "countdown": 5
+}

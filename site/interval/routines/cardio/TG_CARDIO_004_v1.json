@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "id": "TG_CARDIO_004",
+    "version": "1.0",
+    "fileKey": "TG_CARDIO_004_v1",
+    "name": "Sprint Protocol",
+    "author": "TheGymme",
+    "series": "cardio",
+    "category": "cardio",
+    "level": "advanced",
+    "equipment": "Tapis roulant, bike o spazio sicuro",
+    "duration": 19,
+    "created": "2026-07-18",
+    "description": "Sprint brevi con recupero ampio; adatta l'intensità al tuo livello.",
+    "notes": "Adatta intensità e movimenti al tuo livello. Interrompi in caso di dolore."
+  },
+  "items": [
+    {
+      "name": "Accelerazione progressiva",
+      "duration": 20,
+      "rest": false
+    },
+    {
+      "name": "Sprint controllato",
+      "duration": 20,
+      "rest": false
+    },
+    {
+      "name": "Recupero camminando",
+      "duration": 100,
+      "rest": true
+    }
+  ],
+  "rounds": 8,
+  "countdown": 10
+}

@@ -1,0 +1,163 @@
+{
+  "metadata": {
+    "id": "TG_KB_006",
+    "version": "1.0",
+    "fileKey": "TG_KB_006_v1",
+    "name": "Boxing Basics 2",
+    "author": "TheGymme",
+    "series": "kickboxing",
+    "category": "kickboxing",
+    "level": "beginner",
+    "equipment": "Spazio libero",
+    "duration": 12,
+    "created": "2026-10-13",
+    "description": "Tre giri tecnici progressivi: combinazione a tre colpi, variante con montante e consolidamento finale con spostamenti.",
+    "notes": "Adatta intensità e movimenti al tuo livello. Interrompi in caso di dolore."
+  },
+  "items": [
+    {
+      "name": "Guardia e spostamenti",
+      "duration": 60,
+      "rest": false,
+      "imageKey": "kickboxing-shadowboxing",
+      "roundStart": true,
+      "roundNumber": 1,
+      "coachCue": "Tieni i gomiti chiusi."
+    },
+    {
+      "name": "Rest",
+      "duration": 15,
+      "rest": true
+    },
+    {
+      "name": "Jab",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "kickboxing-shadowboxing"
+    },
+    {
+      "name": "Rest",
+      "duration": 15,
+      "rest": true
+    },
+    {
+      "name": "Jab, Cross, Gancio",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "kickboxing-shadowboxing"
+    },
+    {
+      "name": "Rest",
+      "duration": 15,
+      "rest": true
+    },
+    {
+      "name": "Jab, Cross, Gancio con spostamento",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "kickboxing-shadowboxing",
+      "coachCue": "Avanza con la combinazione; pressione sul piede davanti per indietreggiare e rientrare in guardia."
+    },
+    {
+      "name": "Rest",
+      "duration": 30,
+      "rest": true
+    },
+    {
+      "name": "Guardia e spostamenti",
+      "duration": 60,
+      "rest": false,
+      "imageKey": "kickboxing-shadowboxing",
+      "roundStart": true,
+      "roundNumber": 2
+    },
+    {
+      "name": "Rest",
+      "duration": 15,
+      "rest": true
+    },
+    {
+      "name": "Jab",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "kickboxing-shadowboxing"
+    },
+    {
+      "name": "Rest",
+      "duration": 15,
+      "rest": true
+    },
+    {
+      "name": "Jab, Cross, Gancio, Montante",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "kickboxing-shadowboxing"
+    },
+    {
+      "name": "Rest",
+      "duration": 15,
+      "rest": true
+    },
+    {
+      "name": "Jab, Cross, Gancio, Montante con spostamento",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "kickboxing-shadowboxing",
+      "coachCue": "Avanza con la combinazione; pressione sul piede davanti per indietreggiare e rientrare in guardia."
+    },
+    {
+      "name": "Rest",
+      "duration": 30,
+      "rest": true
+    },
+    {
+      "name": "Guardia e spostamenti",
+      "duration": 60,
+      "rest": false,
+      "imageKey": "kickboxing-shadowboxing",
+      "roundStart": true,
+      "roundNumber": 3
+    },
+    {
+      "name": "Rest",
+      "duration": 15,
+      "rest": true
+    },
+    {
+      "name": "Jab",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "kickboxing-shadowboxing"
+    },
+    {
+      "name": "Rest",
+      "duration": 15,
+      "rest": true
+    },
+    {
+      "name": "Jab, Cross, Gancio, Montante",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "kickboxing-shadowboxing"
+    },
+    {
+      "name": "Rest",
+      "duration": 15,
+      "rest": true
+    },
+    {
+      "name": "Jab, Cross, Gancio, Montante con spostamento",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "kickboxing-shadowboxing",
+      "coachCue": "Avanza con la combinazione; pressione sul piede davanti per indietreggiare e rientrare in guardia."
+    },
+    {
+      "name": "Rest",
+      "duration": 30,
+      "rest": true
+    }
+  ],
+  "rounds": 1,
+  "countdown": 8
+}

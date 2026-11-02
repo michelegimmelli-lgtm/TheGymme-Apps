@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "id": "TG40_003",
+    "version": "1.0",
+    "fileKey": "TG40_003_v1",
+    "name": "Joint Friendly HIIT",
+    "author": "TheGymme",
+    "series": "over_40",
+    "category": "over_40",
+    "level": "intermediate",
+    "equipment": "Nessuna",
+    "duration": 22,
+    "created": "2026-07-18",
+    "description": "HIIT a basso impatto senza salti.",
+    "notes": "Adatta intensità e movimenti al tuo livello. Interrompi in caso di dolore."
+  },
+  "items": [
+    {
+      "name": "Fast March",
+      "duration": 40,
+      "rest": false
+    },
+    {
+      "name": "Rest",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Chair Squat",
+      "duration": 40,
+      "rest": false
+    },
+    {
+      "name": "Rest",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Step Jack",
+      "duration": 40,
+      "rest": false
+    },
+    {
+      "name": "Rest",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Incline Mountain Climber",
+      "duration": 40,
+      "rest": false
+    },
+    {
+      "name": "Rest",
+      "duration": 40,
+      "rest": true
+    }
+  ],
+  "rounds": 5,
+  "countdown": 8
+}

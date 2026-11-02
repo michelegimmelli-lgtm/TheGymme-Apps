@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "id": "TG_GLUTE_002",
+    "version": "2.0",
+    "fileKey": "TG_GLUTE_002_v2",
+    "name": "Glute Burn",
+    "author": "TheGymme",
+    "series": "glute",
+    "category": "glute",
+    "level": "intermediate",
+    "equipment": "Corpo libero o miniband",
+    "duration": 17,
+    "created": "2026-07-18",
+    "description": "Circuito a densità metabolica per il pompaggio dei glutei.",
+    "notes": "Adatta intensità e movimenti al tuo livello. Interrompi in caso di dolore."
+  },
+  "items": [
+    {
+      "name": "Squat Pulse",
+      "duration": 35,
+      "rest": false,
+      "imageKey": "squat-pulse"
+    },
+    {
+      "name": "Glute Bridge Pulse",
+      "duration": 35,
+      "rest": false,
+      "imageKey": "glute-bridge",
+      "description": "Mantieni il bacino sollevato e vicino alla massima contrazione. Esegui piccoli impulsi controllati, spingendo dai talloni senza inarcare la zona lombare."
+    },
+    {
+      "name": "Fire Hydrant SX",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "fire-hydrant"
+    },
+    {
+      "name": "Fire Hydrant DX",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "fire-hydrant"
+    },
+    {
+      "name": "Frog Pump",
+      "duration": 40,
+      "rest": false,
+      "imageKey": "frog-pump"
+    },
+    {
+      "name": "Rest",
+      "duration": 30,
+      "rest": true
+    }
+  ],
+  "rounds": 5,
+  "countdown": 5
+}

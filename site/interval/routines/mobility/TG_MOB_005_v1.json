@@ -1,0 +1,166 @@
+{
+  "metadata": {
+    "id": "TG_MOB_005",
+    "version": "1.0",
+    "fileKey": "TG_MOB_005_v1",
+    "name": "Unlock Posterior Chain",
+    "author": "TheGymme",
+    "series": "mobility",
+    "category": "mobility",
+    "level": "intermediate",
+    "equipment": "Tappetino, parete o panca, bastone o carico massimo 5 kg",
+    "duration": 11,
+    "created": "2026-10-07",
+    "description": "Mobilità controllata per femorali, schiena e anche, con respirazione e lavoro segmentale.",
+    "notes": "Tensione controllata 6–7/10, mai dolore forte. Nel Jefferson Curl usa un carico minimo e interrompi in caso di dolore acuto, formicolio o fastidio nervoso.",
+    "defaultCoachProfile": "minimal"
+  },
+  "items": [
+    {
+      "name": "Cat-Camel + respirazione",
+      "duration": 15,
+      "rest": false,
+      "imageKey": "cat-camel",
+      "coachCue": "Muoviti vertebra per vertebra e respira lentamente.",
+      "description": "In quadrupedia, alterna lentamente l’arrotondamento e l’estensione della colonna. Coordina ogni fase con il respiro e muoviti senza forzare."
+    },
+    {
+      "name": "Pausa breve",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Cat-Camel + respirazione",
+      "duration": 15,
+      "rest": false,
+      "imageKey": "cat-camel",
+      "coachCue": "Ripeti con controllo, senza forzare il range.",
+      "description": "In quadrupedia, alterna lentamente l’arrotondamento e l’estensione della colonna. Coordina ogni fase con il respiro e muoviti senza forzare."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "90/90 Hip Rotation",
+      "duration": 15,
+      "rest": false,
+      "imageKey": "90-90-switch",
+      "coachCue": "Ruota dalle anche e limita i compensi della schiena.",
+      "description": "Siediti con entrambe le ginocchia piegate e falle ruotare insieme da un lato all’altro. Mantieni il busto controllato e lascia partire il movimento dalle anche."
+    },
+    {
+      "name": "Pausa breve",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "90/90 Hip Rotation",
+      "duration": 15,
+      "rest": false,
+      "imageKey": "90-90-switch",
+      "coachCue": "Busto controllato: cerca qualità, non velocità.",
+      "description": "Siediti con entrambe le ginocchia piegate e falle ruotare insieme da un lato all’altro. Mantieni il busto controllato e lascia partire il movimento dalle anche."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Couch Stretch SX",
+      "duration": 120,
+      "rest": false,
+      "imageKey": "couch-stretch",
+      "coachCue": "Gluteo sinistro attivo, bacino neutro e schiena lunga.",
+      "coachCues": [
+        {
+          "remaining": 60,
+          "text": "Respira e mantieni il bacino sotto controllo."
+        }
+      ],
+      "description": "Porta il ginocchio sinistro vicino a una parete o panca con il piede sollevato dietro. Mantieni il busto alto e il bacino controllato senza inarcare la schiena."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Couch Stretch DX",
+      "duration": 120,
+      "rest": false,
+      "imageKey": "couch-stretch",
+      "coachCue": "Gluteo destro attivo, bacino neutro e schiena lunga.",
+      "coachCues": [
+        {
+          "remaining": 60,
+          "text": "Respira e mantieni il bacino sotto controllo."
+        }
+      ],
+      "description": "Porta il ginocchio destro vicino a una parete o panca con il piede sollevato dietro. Mantieni il busto alto e il bacino controllato senza inarcare la schiena."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Jefferson Curl leggerissimo",
+      "duration": 15,
+      "rest": false,
+      "imageKey": "jefferson-curl-light",
+      "coachCue": "Bastone o massimo 5 chili. Scendi lentamente vertebra per vertebra.",
+      "disableDefaultRushCue": true,
+      "description": "Con ginocchia morbide e un carico molto leggero, arrotola lentamente la colonna una vertebra alla volta. Fermati prima del dolore e risali con lo stesso controllo."
+    },
+    {
+      "name": "Pausa breve",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Jefferson Curl leggerissimo",
+      "duration": 15,
+      "rest": false,
+      "imageKey": "jefferson-curl-light",
+      "coachCue": "Risali con lo stesso controllo, senza strappi.",
+      "disableDefaultRushCue": true,
+      "description": "Con ginocchia morbide e un carico molto leggero, arrotola lentamente la colonna una vertebra alla volta. Fermati prima del dolore e risali con lo stesso controllo."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Deep Squat Hold",
+      "duration": 60,
+      "rest": false,
+      "imageKey": "assisted-squat-hold",
+      "coachCue": "Piedi ben appoggiati. Usa un supporto se serve e respira.",
+      "description": "Scendi in uno squat profondo con i piedi ben appoggiati. Usa un supporto se serve, tieni il petto aperto e respira rilassando gradualmente anche e caviglie."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Deep Squat Hold",
+      "duration": 60,
+      "rest": false,
+      "imageKey": "assisted-squat-hold",
+      "coachCue": "Rilassati nella posizione senza perdere il controllo.",
+      "description": "Scendi in uno squat profondo con i piedi ben appoggiati. Usa un supporto se serve, tieni il petto aperto e respira rilassando gradualmente anche e caviglie."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    }
+  ],
+  "rounds": 1,
+  "countdown": 3
+}

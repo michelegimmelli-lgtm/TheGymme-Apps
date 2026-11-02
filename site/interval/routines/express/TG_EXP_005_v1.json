@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "id": "TG_EXP_005",
+    "version": "1.0",
+    "fileKey": "TG_EXP_005_v1",
+    "name": "5 Minute Reset",
+    "author": "TheGymme",
+    "series": "express",
+    "category": "express",
+    "level": "beginner",
+    "equipment": "Nessuna",
+    "duration": 5,
+    "created": "2026-07-18",
+    "description": "Reset rapido di mobilità e attivazione.",
+    "notes": "Adatta intensità e movimenti al tuo livello. Interrompi in caso di dolore."
+  },
+  "items": [
+    {
+      "name": "March in Place",
+      "duration": 50,
+      "rest": false
+    },
+    {
+      "name": "Squat to Reach",
+      "duration": 50,
+      "rest": false
+    },
+    {
+      "name": "Wall Push Up",
+      "duration": 50,
+      "rest": false
+    },
+    {
+      "name": "Hip Hinge",
+      "duration": 50,
+      "rest": false
+    },
+    {
+      "name": "Respirazione",
+      "duration": 60,
+      "rest": false
+    },
+    {
+      "name": "Rest",
+      "duration": 40,
+      "rest": true
+    }
+  ],
+  "rounds": 1,
+  "countdown": 3
+}

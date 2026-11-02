@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "id": "TG_MET_004",
+    "version": "1.0",
+    "fileKey": "TG_MET_004_v1",
+    "name": "Power Conditioning",
+    "author": "TheGymme",
+    "series": "metabolic",
+    "category": "metabolic",
+    "level": "advanced",
+    "equipment": "Kettlebell o manubrio",
+    "duration": 23,
+    "created": "2026-07-18",
+    "description": "Potenza e conditioning con movimenti esplosivi adattabili.",
+    "notes": "Adatta intensità e movimenti al tuo livello. Interrompi in caso di dolore."
+  },
+  "items": [
+    {
+      "name": "Kettlebell Swing",
+      "duration": 35,
+      "rest": false
+    },
+    {
+      "name": "Rest",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Push Press",
+      "duration": 35,
+      "rest": false
+    },
+    {
+      "name": "Rest",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Skater Step o Jump",
+      "duration": 35,
+      "rest": false
+    },
+    {
+      "name": "Rest",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "High Pull",
+      "duration": 35,
+      "rest": false
+    },
+    {
+      "name": "Rest",
+      "duration": 30,
+      "rest": true
+    }
+  ],
+  "rounds": 6,
+  "countdown": 10
+}

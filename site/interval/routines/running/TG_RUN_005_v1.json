@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "id": "TG_RUN_005",
+    "version": "1.0",
+    "fileKey": "TG_RUN_005_v1",
+    "name": "Tempo Run",
+    "author": "TheGymme",
+    "defaultCoachProfile": "minimal",
+    "series": "running",
+    "category": "running",
+    "level": "intermediate",
+    "equipment": "Scarpe da corsa",
+    "duration": 45,
+    "created": "2026-07-27",
+    "description": "Tempo run continua per allenare la capacità di mantenere un ritmo sostenuto e stabile.",
+    "notes": "Regola il ritmo sul tuo livello e sul terreno. Rallenta o interrompi in caso di dolore, capogiri o malessere."
+  },
+  "items": [
+    {
+      "name": "Corsa lenta - Riscaldamento",
+      "duration": 300,
+      "rest": false,
+      "coachCue": "Parti facile. Prepara il ritmo.",
+      "coachCues": [
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Tra 5 secondi aumenta il ritmo."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Corsa sostenuta costante - Tempo Run",
+      "duration": 1800,
+      "rest": false,
+      "coachCue": "Entra nel ritmo della tempo run. Costante e controllato.",
+      "coachCues": [
+        {
+          "remaining": 1200,
+          "text": "Mantieni. Respirazione regolare."
+        },
+        {
+          "remaining": 900,
+          "text": "Sei a metà. Controlla postura e appoggio."
+        },
+        {
+          "remaining": 600,
+          "text": "Ancora 10 minuti. Mantieni."
+        },
+        {
+          "remaining": 300,
+          "text": "Ultimi 5 minuti. Resta costante."
+        },
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Tra 5 secondi rallenta."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Corsa lenta - Defaticamento",
+      "duration": 600,
+      "rest": false,
+      "coachCue": "Rallenta. Recupera gradualmente.",
+      "coachCues": [
+        {
+          "remaining": 300,
+          "text": "Respira profondamente."
+        },
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi. Ottimo lavoro."
+        }
+      ],
+      "disableDefaultRushCue": true
+    }
+  ],
+  "rounds": 1,
+  "countdown": 10
+}

@@ -1,0 +1,93 @@
+{
+  "metadata": {
+    "id": "TG_MOB_002",
+    "version": "1.0",
+    "fileKey": "TG_MOB_002_v1",
+    "name": "Hip Mobility",
+    "author": "TheGymme",
+    "series": "mobility",
+    "category": "mobility",
+    "level": "beginner",
+    "equipment": "Tappetino",
+    "duration": 10,
+    "created": "2026-07-18",
+    "description": "Routine dedicata alla mobilità delle anche.",
+    "notes": "Adatta intensità e movimenti al tuo livello. Interrompi in caso di dolore."
+  },
+  "items": [
+    {
+      "name": "90/90 Switch",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "90-90-switch",
+      "description": "Siediti con entrambe le ginocchia piegate a circa 90 gradi e falle ruotare insieme da un lato all’altro. Mantieni il busto controllato e lascia partire il movimento dalle anche."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Hip Flexor Stretch SX",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "hip-flexor-stretch",
+      "description": "Porta il ginocchio sinistro a terra e il piede destro avanti. Mantieni il bacino controllato e avanzalo leggermente finché senti allungare la parte anteriore dell’anca sinistra."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Hip Flexor Stretch DX",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "hip-flexor-stretch",
+      "description": "Porta il ginocchio destro a terra e il piede sinistro avanti. Mantieni il bacino controllato e avanzalo leggermente finché senti allungare la parte anteriore dell’anca destra."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Adductor Rock Back",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "adductor-rock-back",
+      "description": "In quadrupedia, distendi una gamba lateralmente con il piede appoggiato e porta lentamente il bacino indietro. Mantieni la schiena neutra e alterna il lato."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Pigeon Stretch SX",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "pigeon-stretch",
+      "description": "Porta la gamba sinistra piegata davanti e distendi la destra dietro. Mantieni il bacino il più possibile livellato e inclina il busto solo finché la tensione resta confortevole."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Pigeon Stretch DX",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "pigeon-stretch",
+      "description": "Porta la gamba destra piegata davanti e distendi la sinistra dietro. Mantieni il bacino il più possibile livellato e inclina il busto solo finché la tensione resta confortevole."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    }
+  ],
+  "rounds": 2,
+  "countdown": 3
+}

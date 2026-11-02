@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "id": "TG_STR_004",
+    "version": "1.0",
+    "fileKey": "TG_STR_004_v1",
+    "name": "Pull Day",
+    "author": "TheGymme",
+    "series": "strength",
+    "category": "strength",
+    "level": "intermediate",
+    "equipment": "Manubri o elastico",
+    "duration": 18,
+    "created": "2026-07-18",
+    "description": "Seduta dedicata ai movimenti di tirata.",
+    "notes": "Adatta intensità e movimenti al tuo livello. Interrompi in caso di dolore."
+  },
+  "items": [
+    {
+      "name": "Bent Over Row",
+      "duration": 45,
+      "rest": false,
+      "imageKey": "bent-over-row"
+    },
+    {
+      "name": "Rest",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Single Arm Row SX",
+      "duration": 40,
+      "rest": false,
+      "imageKey": "single-arm-dumbbell-row"
+    },
+    {
+      "name": "Single Arm Row DX",
+      "duration": 40,
+      "rest": false,
+      "imageKey": "single-arm-dumbbell-row"
+    },
+    {
+      "name": "Rest",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Band Pull Apart",
+      "duration": 40,
+      "rest": false,
+      "imageKey": "band-pull-apart"
+    },
+    {
+      "name": "Biceps Curl",
+      "duration": 35,
+      "rest": false,
+      "imageKey": "dumbbell-biceps-curl"
+    },
+    {
+      "name": "Rest",
+      "duration": 30,
+      "rest": true
+    }
+  ],
+  "rounds": 4,
+  "countdown": 8
+}

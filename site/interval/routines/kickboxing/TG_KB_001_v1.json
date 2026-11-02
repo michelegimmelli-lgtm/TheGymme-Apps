@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "id": "TG_KB_001",
+    "version": "1.0",
+    "fileKey": "TG_KB_001_v1",
+    "name": "Boxing Basics",
+    "author": "TheGymme",
+    "series": "kickboxing",
+    "category": "kickboxing",
+    "level": "beginner",
+    "equipment": "Spazio libero",
+    "duration": 23,
+    "created": "2026-07-18",
+    "description": "Fondamentali di boxe: guardia, diretti e movimento.",
+    "notes": "Adatta intensità e movimenti al tuo livello. Interrompi in caso di dolore."
+  },
+  "items": [
+    {
+      "name": "Guardia e spostamenti",
+      "duration": 60,
+      "rest": false,
+      "imageKey": "kickboxing-shadowboxing",
+      "coachCue": "Tieni i gomiti chiusi."
+    },
+    {
+      "name": "Rest",
+      "duration": 15,
+      "rest": true
+    },
+    {
+      "name": "Jab",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "kickboxing-shadowboxing"
+    },
+    {
+      "name": "Rest",
+      "duration": 15,
+      "rest": true
+    },
+    {
+      "name": "Jab, Cross",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "kickboxing-shadowboxing"
+    },
+    {
+      "name": "Rest",
+      "duration": 15,
+      "rest": true
+    },
+    {
+      "name": "Jab, Cross con spostamento",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "kickboxing-shadowboxing",
+      "coachCue": "Avanza con jab e cross; pressione sul piede davanti per indietreggiare e rientrare in guardia."
+    },
+    {
+      "name": "Rest",
+      "duration": 30,
+      "rest": true
+    }
+  ],
+  "rounds": 6,
+  "countdown": 8
+}

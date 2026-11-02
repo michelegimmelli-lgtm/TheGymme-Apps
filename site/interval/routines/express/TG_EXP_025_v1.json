@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "id": "TG_EXP_025",
+    "version": "1.0",
+    "fileKey": "TG_EXP_025_v1",
+    "name": "25 Minute Complete",
+    "author": "TheGymme",
+    "series": "express",
+    "category": "express",
+    "level": "intermediate",
+    "equipment": "Manubri opzionali",
+    "duration": 25,
+    "created": "2026-07-18",
+    "description": "Forza e conditioning in circa 25 minuti.",
+    "notes": "Adatta intensità e movimenti al tuo livello. Interrompi in caso di dolore."
+  },
+  "items": [
+    {
+      "name": "Squat",
+      "duration": 45,
+      "rest": false
+    },
+    {
+      "name": "Push Up",
+      "duration": 40,
+      "rest": false
+    },
+    {
+      "name": "Romanian Deadlift",
+      "duration": 45,
+      "rest": false
+    },
+    {
+      "name": "Row",
+      "duration": 45,
+      "rest": false
+    },
+    {
+      "name": "Reverse Lunge",
+      "duration": 45,
+      "rest": false
+    },
+    {
+      "name": "Plank",
+      "duration": 40,
+      "rest": false
+    },
+    {
+      "name": "Rest",
+      "duration": 40,
+      "rest": true
+    }
+  ],
+  "rounds": 5,
+  "countdown": 8
+}

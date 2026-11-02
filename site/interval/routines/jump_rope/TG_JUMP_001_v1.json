@@ -1,0 +1,153 @@
+{
+  "metadata": {
+    "id": "TG_JUMP_001",
+    "version": "1.0",
+    "fileKey": "TG_JUMP_001_v1",
+    "name": "Side Swing Master",
+    "author": "TheGymme",
+    "category": "jump_rope",
+    "level": "beginner",
+    "duration": 27,
+    "created": "2026-06-26",
+    "description": "Routine di Jump Rope per principiante"
+  },
+  "items": [
+    {
+      "name": "Single arm side swing",
+      "duration": 120,
+      "rest": false,
+      "imageKey": "side-swing"
+    },
+    {
+      "name": "Rest",
+      "duration": 30,
+      "rest": true
+    },
+    {
+      "name": "Side swing+Jump",
+      "duration": 120,
+      "rest": false,
+      "imageKey": "side-swing-jump"
+    },
+    {
+      "name": "Rest",
+      "duration": 30,
+      "rest": true
+    },
+    {
+      "name": "Jump (doppio piede)",
+      "duration": 120,
+      "rest": false,
+      "imageKey": "basic-bounce"
+    },
+    {
+      "name": "Rest",
+      "duration": 30,
+      "rest": true
+    },
+    {
+      "name": "Jump (boxer skip)",
+      "duration": 120,
+      "rest": false,
+      "imageKey": "boxer-step"
+    },
+    {
+      "name": "Rest",
+      "duration": 30,
+      "rest": true
+    },
+    {
+      "name": "Jump + Side Swing",
+      "duration": 120,
+      "rest": false,
+      "imageKey": "side-swing-jump"
+    },
+    {
+      "name": "Rest",
+      "duration": 30,
+      "rest": true
+    },
+    {
+      "name": "Side swing nojump",
+      "duration": 120,
+      "rest": false,
+      "imageKey": "side-swing"
+    },
+    {
+      "name": "Rest",
+      "duration": 30,
+      "rest": true
+    },
+    {
+      "name": "Jump ginocchia alte",
+      "duration": 120,
+      "rest": false,
+      "imageKey": "high-knees-jump"
+    },
+    {
+      "name": "Rest",
+      "duration": 30,
+      "rest": true
+    },
+    {
+      "name": "Side Swing ginocchia alte",
+      "duration": 120,
+      "rest": false,
+      "imageKey": "side-swing-high-knees"
+    },
+    {
+      "name": "Rest",
+      "duration": 30,
+      "rest": true
+    },
+    {
+      "name": "Side Swing e boxer skip",
+      "duration": 120,
+      "rest": false,
+      "imageKey": "side-swing-boxer-step"
+    },
+    {
+      "name": "Rest",
+      "duration": 30,
+      "rest": true
+    },
+    {
+      "name": "Jump ginocchia alte",
+      "duration": 15,
+      "rest": false,
+      "imageKey": "high-knees-jump"
+    },
+    {
+      "name": "Jump (boxer skip)",
+      "duration": 15,
+      "rest": false,
+      "imageKey": "boxer-step"
+    },
+    {
+      "name": "Jump ginocchia alte",
+      "duration": 15,
+      "rest": false,
+      "imageKey": "high-knees-jump"
+    },
+    {
+      "name": "Jump (boxer skip)",
+      "duration": 15,
+      "rest": false,
+      "imageKey": "boxer-step"
+    },
+    {
+      "name": "Rest",
+      "duration": 60,
+      "rest": true
+    },
+    {
+      "name": "Free Jump Rope",
+      "duration": 120,
+      "rest": false,
+      "coachCue": "Dai, che ora sei al top... fai vedere ciò che sai fare!",
+      "imageKey": "basic-bounce"
+    }
+  ],
+  "rounds": 1,
+  "countdown": 10
+}

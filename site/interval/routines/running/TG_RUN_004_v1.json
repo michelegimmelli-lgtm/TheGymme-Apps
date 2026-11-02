@@ -1,0 +1,243 @@
+{
+  "metadata": {
+    "id": "TG_RUN_004",
+    "version": "1.0",
+    "fileKey": "TG_RUN_004_v1",
+    "name": "Piramide",
+    "author": "TheGymme",
+    "defaultCoachProfile": "drill",
+    "series": "running",
+    "category": "running",
+    "level": "intermediate",
+    "equipment": "Scarpe da corsa",
+    "duration": 30,
+    "created": "2026-07-27",
+    "description": "Piramide di sprint da 30 a 60 secondi e ritorno, con recuperi attivi inversi.",
+    "notes": "Regola il ritmo sul tuo livello e sul terreno. Rallenta o interrompi in caso di dolore, capogiri o malessere."
+  },
+  "items": [
+    {
+      "name": "Corsa lenta - Riscaldamento",
+      "duration": 300,
+      "rest": false,
+      "coachCue": "Parti facile.",
+      "coachCues": [
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Tra 5 secondi aumenta il ritmo."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Corsa sostenuta - Setting",
+      "duration": 300,
+      "rest": false,
+      "coachCue": "Aumenta il ritmo. Preparati alla piramide.",
+      "coachCues": [
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Tra 5 secondi scatta."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Sprint 30 secondi",
+      "duration": 30,
+      "rest": false,
+      "coachCue": "Sprint. Vai.",
+      "coachCues": [
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Tra 5 secondi recupera."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Corsa lenta 90 secondi",
+      "duration": 90,
+      "rest": false,
+      "coachCue": "Recupera.",
+      "coachCues": [
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Tra 5 secondi scatta."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Sprint 45 secondi",
+      "duration": 45,
+      "rest": false,
+      "coachCue": "Sprint. Aumenta.",
+      "coachCues": [
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Tra 5 secondi recupera."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Corsa lenta 75 secondi",
+      "duration": 75,
+      "rest": false,
+      "coachCue": "Recupera.",
+      "coachCues": [
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Tra 5 secondi scatta."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Sprint 60 secondi",
+      "duration": 60,
+      "rest": false,
+      "coachCue": "Sprint lungo. Gestisci il ritmo.",
+      "coachCues": [
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Tra 5 secondi recupera."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Corsa lenta 60 secondi",
+      "duration": 60,
+      "rest": false,
+      "coachCue": "Recupera.",
+      "coachCues": [
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Tra 5 secondi scatta."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Sprint 45 secondi",
+      "duration": 45,
+      "rest": false,
+      "coachCue": "Sprint. Ancora.",
+      "coachCues": [
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Tra 5 secondi recupera."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Corsa lenta 75 secondi",
+      "duration": 75,
+      "rest": false,
+      "coachCue": "Recupera.",
+      "coachCues": [
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Tra 5 secondi scatta."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Sprint 30 secondi",
+      "duration": 30,
+      "rest": false,
+      "coachCue": "Ultimo sprint. Vai.",
+      "coachCues": [
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Tra 5 secondi recupera."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Corsa lenta 90 secondi",
+      "duration": 90,
+      "rest": false,
+      "coachCue": "Recupera. Piramide completata.",
+      "coachCues": [
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Tra 5 secondi inizia il defaticamento."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Corsa lenta - Defaticamento",
+      "duration": 600,
+      "rest": false,
+      "coachCue": "Rallenta. Lascia scendere il battito.",
+      "coachCues": [
+        {
+          "remaining": 300,
+          "text": "Respira profondamente."
+        },
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi. Ottimo lavoro."
+        }
+      ],
+      "disableDefaultRushCue": true
+    }
+  ],
+  "rounds": 1,
+  "countdown": 10
+}

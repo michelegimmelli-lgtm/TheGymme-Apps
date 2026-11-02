@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "id": "TG_CARDIO_003",
+    "version": "1.0",
+    "fileKey": "TG_CARDIO_003_v1",
+    "name": "Rowing Intervals",
+    "author": "TheGymme",
+    "series": "cardio",
+    "category": "cardio",
+    "level": "intermediate",
+    "equipment": "Vogatore",
+    "duration": 22,
+    "created": "2026-07-18",
+    "description": "Blocchi al vogatore con tecnica stabile e recupero attivo.",
+    "notes": "Adatta intensità e movimenti al tuo livello. Interrompi in caso di dolore."
+  },
+  "items": [
+    {
+      "name": "Vogata moderata",
+      "duration": 75,
+      "rest": false
+    },
+    {
+      "name": "Vogata intensa",
+      "duration": 45,
+      "rest": false
+    },
+    {
+      "name": "Vogata facile",
+      "duration": 45,
+      "rest": false
+    }
+  ],
+  "rounds": 8,
+  "countdown": 8
+}

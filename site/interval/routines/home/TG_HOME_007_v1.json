@@ -1,0 +1,178 @@
+{
+  "metadata": {
+    "id": "TG_HOME_007",
+    "version": "1.0",
+    "fileKey": "TG_HOME_007_v1",
+    "name": "Bike Easy Upper Body",
+    "author": "TheGymme",
+    "series": "home",
+    "category": "home",
+    "level": "beginner",
+    "equipment": "Cyclette, due manubri leggeri, sedia stabile e tappetino",
+    "duration": 32,
+    "created": "2026-10-09",
+    "description": "Cyclette e due blocchi controllati per petto, spalle, braccia e stabilità del core.",
+    "notes": "Scegli manubri leggeri e non cercare velocità. Se le spalle perdono controllo, riduci il carico o interrompi l’intervallo.",
+    "defaultCoachProfile": "minimal"
+  },
+  "items": [
+    {
+      "name": "Cyclette facile",
+      "duration": 300,
+      "rest": false,
+      "imageKey": "stationary-bike",
+      "roundStart": true,
+      "roundNumber": 1,
+      "coachCue": "Riscaldati con resistenza leggera e respirazione regolare."
+    },
+    {
+      "name": "Scendi e prepara sedia, tappetino e manubri",
+      "duration": 30,
+      "rest": true
+    },
+    {
+      "name": "Piegamenti con appoggio sulle ginocchia",
+      "duration": 40,
+      "rest": false,
+      "imageKey": "knee-push-up",
+      "coachCue": "Corpo allineato dalle ginocchia alle spalle e gomiti inclinati, non aperti lateralmente."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Spinte sopra la testa da seduto — lento avanti",
+      "duration": 40,
+      "rest": false,
+      "imageKey": "seated-dumbbell-press",
+      "coachCue": "Spingi in verticale mantenendo costole e addome sotto controllo."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Alzate laterali con manubri",
+      "duration": 40,
+      "rest": false,
+      "imageKey": "dumbbell-lateral-raise",
+      "coachCue": "Usa un carico leggero e arresta le mani all’altezza delle spalle."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Curl per bicipiti con manubri",
+      "duration": 40,
+      "rest": false,
+      "imageKey": "dumbbell-biceps-curl",
+      "coachCue": "Non oscillare con il busto e mantieni i gomiti fermi."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Bird dog alternato",
+      "duration": 50,
+      "rest": false,
+      "imageKey": "bird-dog",
+      "coachCue": "Muoviti lentamente e non ruotare il bacino."
+    },
+    {
+      "name": "Torna sulla cyclette",
+      "duration": 30,
+      "rest": true
+    },
+    {
+      "name": "Cyclette a passo moderato",
+      "duration": 300,
+      "rest": false,
+      "imageKey": "stationary-bike",
+      "coachCue": "Pedala fluido con una resistenza moderata e sostenibile."
+    },
+    {
+      "name": "Scendi e ripeti il blocco",
+      "duration": 30,
+      "rest": true
+    },
+    {
+      "name": "Piegamenti con appoggio sulle ginocchia",
+      "duration": 40,
+      "rest": false,
+      "imageKey": "knee-push-up"
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Spinte sopra la testa da seduto — lento avanti",
+      "duration": 40,
+      "rest": false,
+      "imageKey": "seated-dumbbell-press"
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Alzate laterali con manubri",
+      "duration": 40,
+      "rest": false,
+      "imageKey": "dumbbell-lateral-raise"
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Curl per bicipiti con manubri",
+      "duration": 40,
+      "rest": false,
+      "imageKey": "dumbbell-biceps-curl"
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Dead bug alternato",
+      "duration": 50,
+      "rest": false,
+      "imageKey": "dead-bug",
+      "coachCue": "Espira mentre allontani braccio e gamba e mantieni il tronco stabile."
+    },
+    {
+      "name": "Torna sulla cyclette",
+      "duration": 30,
+      "rest": true
+    },
+    {
+      "name": "Cyclette continua",
+      "duration": 360,
+      "rest": false,
+      "imageKey": "stationary-bike",
+      "coachCue": "Mantieni un ritmo uniforme senza irrigidire la parte superiore del corpo."
+    },
+    {
+      "name": "Cyclette lenta e respira",
+      "duration": 240,
+      "rest": false,
+      "imageKey": "stationary-bike",
+      "coachCue": "Riduci progressivamente la resistenza e recupera."
+    }
+  ],
+  "rounds": 1,
+  "countdown": 5
+}

@@ -1,0 +1,54 @@
+{
+  "metadata": {
+    "id": "TG_JUMP_004",
+    "version": "1.0",
+    "fileKey": "TG_JUMP_004_v1",
+    "name": "Jump Endurance",
+    "author": "TheGymme",
+    "series": "jump_rope",
+    "category": "jump_rope",
+    "level": "intermediate",
+    "equipment": "Corda",
+    "duration": 31,
+    "created": "2026-07-18",
+    "description": "Blocchi lunghi per migliorare resistenza e regolarità.",
+    "notes": "Adatta intensità e movimenti al tuo livello. Interrompi in caso di dolore."
+  },
+  "items": [
+    {
+      "name": "Basic Bounce",
+      "duration": 120,
+      "rest": false,
+      "imageKey": "basic-bounce"
+    },
+    {
+      "name": "Rest",
+      "duration": 30,
+      "rest": true
+    },
+    {
+      "name": "Boxer Step",
+      "duration": 120,
+      "rest": false,
+      "imageKey": "boxer-step"
+    },
+    {
+      "name": "Rest",
+      "duration": 30,
+      "rest": true
+    },
+    {
+      "name": "Alternate Foot Step",
+      "duration": 120,
+      "rest": false,
+      "imageKey": "alternate-foot-step"
+    },
+    {
+      "name": "Rest",
+      "duration": 45,
+      "rest": true
+    }
+  ],
+  "rounds": 4,
+  "countdown": 10
+}

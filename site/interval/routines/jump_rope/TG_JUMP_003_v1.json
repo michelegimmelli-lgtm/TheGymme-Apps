@@ -1,0 +1,54 @@
+{
+  "metadata": {
+    "id": "TG_JUMP_003",
+    "version": "1.0",
+    "fileKey": "TG_JUMP_003_v1",
+    "name": "Jump HIIT",
+    "author": "TheGymme",
+    "series": "jump_rope",
+    "category": "jump_rope",
+    "level": "advanced",
+    "equipment": "Corda",
+    "duration": 16,
+    "created": "2026-07-18",
+    "description": "Intervalli brevi ad alta intensità con recuperi controllati.",
+    "notes": "Adatta intensità e movimenti al tuo livello. Interrompi in caso di dolore."
+  },
+  "items": [
+    {
+      "name": "Fast Bounce",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "fast-bounce"
+    },
+    {
+      "name": "Rest",
+      "duration": 15,
+      "rest": true
+    },
+    {
+      "name": "High Knees Jump",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "high-knees-jump"
+    },
+    {
+      "name": "Rest",
+      "duration": 15,
+      "rest": true
+    },
+    {
+      "name": "Double Under o Power Jump",
+      "duration": 20,
+      "rest": false,
+      "imageKey": "double-under-or-power-jump"
+    },
+    {
+      "name": "Rest",
+      "duration": 30,
+      "rest": true
+    }
+  ],
+  "rounds": 7,
+  "countdown": 8
+}

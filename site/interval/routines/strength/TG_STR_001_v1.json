@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "id": "TG_STR_001",
+    "version": "1.0",
+    "fileKey": "TG_STR_001_v1",
+    "name": "Upper Body",
+    "author": "TheGymme",
+    "series": "strength",
+    "category": "strength",
+    "level": "intermediate",
+    "equipment": "Manubri",
+    "duration": 19,
+    "created": "2026-07-18",
+    "description": "Forza resistente per la parte superiore del corpo.",
+    "notes": "Adatta intensità e movimenti al tuo livello. Interrompi in caso di dolore."
+  },
+  "items": [
+    {
+      "name": "Floor Press",
+      "duration": 45,
+      "rest": false,
+      "imageKey": "dumbbell-floor-press"
+    },
+    {
+      "name": "Rest",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Bent Over Row",
+      "duration": 45,
+      "rest": false,
+      "imageKey": "bent-over-row"
+    },
+    {
+      "name": "Rest",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Shoulder Press",
+      "duration": 40,
+      "rest": false,
+      "imageKey": "seated-dumbbell-press"
+    },
+    {
+      "name": "Rest",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Biceps Curl",
+      "duration": 35,
+      "rest": false,
+      "imageKey": "dumbbell-biceps-curl"
+    },
+    {
+      "name": "Triceps Extension",
+      "duration": 35,
+      "rest": false,
+      "imageKey": "dumbbell-triceps-extension"
+    },
+    {
+      "name": "Rest",
+      "duration": 30,
+      "rest": true
+    }
+  ],
+  "rounds": 4,
+  "countdown": 8
+}

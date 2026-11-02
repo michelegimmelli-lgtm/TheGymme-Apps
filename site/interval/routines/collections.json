@@ -1,0 +1,755 @@
+{
+  "schemaVersion": 2,
+  "title": "TheGymme Official Collections",
+  "updated": "2026-10-17",
+  "statuses": {
+    "published": "Routine completa, presente nel catalogo e pronta per l'importazione."
+  },
+  "series": [
+    {
+      "slug": "glute",
+      "codePrefix": "TG_GLUTE",
+      "icon": "🍑",
+      "name": "Glute Series",
+      "description": "Glutei: tono, forza, pompaggio e integrazione con il core.",
+      "selectionNote": {
+        "title": "Stabilità prima di tutto",
+        "body": "I glutei non servono solo a generare forza: stabilizzano bacino e anca, aiutano a controllare il femore e lavorano in equilibrio con core e flessori dell’anca per rendere più solidi squat, affondi, corsa e gesti quotidiani."
+      },
+      "featured": false,
+      "routines": [
+        {
+          "id": "TG_GLUTE_001",
+          "fileKey": "TG_GLUTE_001_v1",
+          "name": "Glute Lift Pro",
+          "focus": "Focus su tono e gluteo alto.",
+          "status": "published",
+          "level": "intermediate",
+          "equipment": "Manubrio o kettlebell",
+          "duration": 25
+        },
+        {
+          "id": "TG_GLUTE_002",
+          "fileKey": "TG_GLUTE_002_v2",
+          "name": "Glute Burn",
+          "focus": "Circuito a densità metabolica per il pompaggio dei glutei.",
+          "status": "published",
+          "level": "intermediate",
+          "equipment": "Corpo libero o miniband",
+          "duration": 17
+        },
+        {
+          "id": "TG_GLUTE_003",
+          "fileKey": "TG_GLUTE_003_v1",
+          "name": "Booty Strength",
+          "focus": "Lavoro controllato per forza e tensione meccanica dei glutei.",
+          "status": "published",
+          "level": "advanced",
+          "equipment": "Manubri, kettlebell o bilanciere",
+          "duration": 21
+        },
+        {
+          "id": "TG_GLUTE_004",
+          "fileKey": "TG_GLUTE_004_v1",
+          "name": "Glute & Core",
+          "focus": "Circuito combinato glutei e addome.",
+          "status": "published",
+          "level": "intermediate",
+          "equipment": "Corpo libero o miniband",
+          "duration": 16
+        }
+      ]
+    },
+    {
+      "slug": "jump_rope",
+      "codePrefix": "TG_JUMP",
+      "icon": "🪢",
+      "name": "Jump Rope Series",
+      "description": "Tecnica, cardio, HIIT e resistenza con la corda.",
+      "selectionNote": {
+        "title": "Cardio, coordinazione e divertimento",
+        "body": "La corda combina intervalli HIIT, resistenza cardiovascolare, ritmo e coordinazione. Cambiare passi e cadenza rende l’allenamento efficace, tecnico e divertente."
+      },
+      "featured": false,
+      "routines": [
+        {
+          "id": "TG_LEGACY_JUMP_001",
+          "fileKey": "TG_JUMP_001_v1",
+          "name": "Side Swing Master",
+          "focus": "Tecnica di side swing e combinazioni con salti.",
+          "status": "published",
+          "level": "beginner",
+          "equipment": "Corda",
+          "duration": 22
+        },
+        {
+          "id": "TG_LEGACY_JUMP_002",
+          "fileKey": "TG_JUMP_002_v1",
+          "name": "Jump Rope and Functional",
+          "focus": "Circuito combinato di corda ed esercizi funzionali.",
+          "status": "published",
+          "level": "beginner",
+          "equipment": "Corda",
+          "duration": 38
+        },
+        {
+          "id": "TG_JUMP_001",
+          "fileKey": "TG_JUMP_001_v2",
+          "name": "Jump Flow",
+          "focus": "Tecnica e continuità per costruire un salto fluido.",
+          "status": "published",
+          "level": "beginner",
+          "equipment": "Corda",
+          "duration": 19
+        },
+        {
+          "id": "TG_JUMP_002",
+          "fileKey": "TG_JUMP_002_v2",
+          "name": "Jump Burner",
+          "focus": "Circuito cardio con cambi di ritmo alla corda.",
+          "status": "published",
+          "level": "intermediate",
+          "equipment": "Corda",
+          "duration": 18
+        },
+        {
+          "id": "TG_JUMP_003",
+          "fileKey": "TG_JUMP_003_v1",
+          "name": "Jump HIIT",
+          "focus": "Intervalli brevi ad alta intensità con recuperi controllati.",
+          "status": "published",
+          "level": "advanced",
+          "equipment": "Corda",
+          "duration": 16
+        },
+        {
+          "id": "TG_JUMP_004",
+          "fileKey": "TG_JUMP_004_v1",
+          "name": "Jump Endurance",
+          "focus": "Blocchi lunghi per migliorare resistenza e regolarità.",
+          "status": "published",
+          "level": "intermediate",
+          "equipment": "Corda",
+          "duration": 31
+        }
+      ]
+    },
+    {
+      "slug": "strength",
+      "codePrefix": "TG_STR",
+      "icon": "💪",
+      "name": "Strength Series",
+      "description": "Allenamenti di forza per distretto e schema motorio.",
+      "featured": false,
+      "routines": [
+        {
+          "id": "TG_STR_001",
+          "fileKey": "TG_STR_001_v1",
+          "name": "Upper Body",
+          "focus": "Forza resistente per la parte superiore del corpo.",
+          "status": "published",
+          "level": "intermediate",
+          "equipment": "Manubri",
+          "duration": 19
+        },
+        {
+          "id": "TG_STR_002",
+          "fileKey": "TG_STR_002_v1",
+          "name": "Lower Body",
+          "focus": "Forza completa per gambe e catena posteriore.",
+          "status": "published",
+          "level": "intermediate",
+          "equipment": "Manubri o kettlebell",
+          "duration": 20
+        },
+        {
+          "id": "TG_STR_003",
+          "fileKey": "TG_STR_003_v1",
+          "name": "Push Day",
+          "focus": "Seduta dedicata ai movimenti di spinta.",
+          "status": "published",
+          "level": "intermediate",
+          "equipment": "Manubri e corpo libero",
+          "duration": 20
+        },
+        {
+          "id": "TG_STR_004",
+          "fileKey": "TG_STR_004_v1",
+          "name": "Pull Day",
+          "focus": "Seduta dedicata ai movimenti di tirata.",
+          "status": "published",
+          "level": "intermediate",
+          "equipment": "Manubri o elastico",
+          "duration": 18
+        },
+        {
+          "id": "TG_STR_005",
+          "fileKey": "TG_STR_005_v1",
+          "name": "Full Body Strength",
+          "focus": "Circuito di forza total body sui principali schemi motori.",
+          "status": "published",
+          "level": "advanced",
+          "equipment": "Manubri o kettlebell",
+          "duration": 23
+        },
+        {
+          "id": "TG_STR_006",
+          "fileKey": "TG_STR_006_v1",
+          "name": "Kettlebell Specialized",
+          "focus": "Circuito kettlebell 20/10 per potenza, forza resistente e controllo total body.",
+          "status": "published",
+          "level": "intermediate",
+          "equipment": "Un kettlebell",
+          "duration": 6
+        }
+      ]
+    },
+    {
+      "slug": "metabolic",
+      "codePrefix": "TG_MET",
+      "icon": "🔥",
+      "name": "Metabolic Series",
+      "description": "Circuiti metabolici e conditioning ad alta densità.",
+      "featured": false,
+      "routines": [
+        {
+          "id": "TG_MET_001",
+          "fileKey": "TG_MET_001_v1",
+          "name": "Full Body Burn",
+          "focus": "Circuito metabolico total body semplice e intenso.",
+          "status": "published",
+          "level": "intermediate",
+          "equipment": "Corpo libero",
+          "duration": 18
+        },
+        {
+          "id": "TG_MET_002",
+          "fileKey": "TG_MET_002_v1",
+          "name": "EMOM Challenge",
+          "focus": "Sfida in stile EMOM: lavora nel tempo indicato e usa il recupero residuo.",
+          "status": "published",
+          "level": "intermediate",
+          "equipment": "Corpo libero",
+          "duration": 20
+        },
+        {
+          "id": "TG_MET_003",
+          "fileKey": "TG_MET_003_v1",
+          "name": "AMRAP 20",
+          "focus": "Blocco continuo di 20 minuti ispirato al formato AMRAP.",
+          "status": "published",
+          "level": "intermediate",
+          "equipment": "Corpo libero",
+          "duration": 20
+        },
+        {
+          "id": "TG_MET_004",
+          "fileKey": "TG_MET_004_v1",
+          "name": "Power Conditioning",
+          "focus": "Potenza e conditioning con movimenti esplosivi adattabili.",
+          "status": "published",
+          "level": "advanced",
+          "equipment": "Kettlebell o manubrio",
+          "duration": 23
+        }
+      ]
+    },
+    {
+      "slug": "cardio",
+      "codePrefix": "TG_CARDIO",
+      "icon": "❤️",
+      "name": "Cardio Series",
+      "description": "Protocolli a intervalli per modalità cardio differenti.",
+      "featured": false,
+      "routines": [
+        {
+          "id": "TG_CARDIO_001",
+          "fileKey": "TG_CARDIO_001_v1",
+          "name": "Walking Intervals",
+          "focus": "Alternanza tra camminata sostenuta e recupero facile.",
+          "status": "published",
+          "level": "beginner",
+          "equipment": "Tapis roulant o spazio per camminare",
+          "duration": 32
+        },
+        {
+          "id": "TG_CARDIO_002",
+          "fileKey": "TG_CARDIO_002_v1",
+          "name": "Bike Intervals",
+          "focus": "Intervalli progressivi in bicicletta.",
+          "status": "published",
+          "level": "intermediate",
+          "equipment": "Cyclette o bike",
+          "duration": 24
+        },
+        {
+          "id": "TG_CARDIO_003",
+          "fileKey": "TG_CARDIO_003_v1",
+          "name": "Rowing Intervals",
+          "focus": "Blocchi al vogatore con tecnica stabile e recupero attivo.",
+          "status": "published",
+          "level": "intermediate",
+          "equipment": "Vogatore",
+          "duration": 22
+        },
+        {
+          "id": "TG_CARDIO_004",
+          "fileKey": "TG_CARDIO_004_v1",
+          "name": "Sprint Protocol",
+          "focus": "Sprint brevi con recupero ampio; adatta l'intensità al tuo livello.",
+          "status": "published",
+          "level": "advanced",
+          "equipment": "Tapis roulant, bike o spazio sicuro",
+          "duration": 19
+        }
+      ]
+    },
+    {
+      "slug": "running",
+      "codePrefix": "TG_RUN",
+      "icon": "🏃",
+      "name": "Running Series",
+      "description": "Corsa lenta, ritmo sostenuto, ripetute, sprint e progressivi con Coach Invisibile.",
+      "featured": true,
+      "routines": [
+        {
+          "id": "TG_RUN_001",
+          "fileKey": "TG_RUN_001_v1",
+          "name": "Prime Ripetute",
+          "focus": "Prime ripetute con recupero attivo e progressione graduale verso la zona di lavoro.",
+          "status": "published",
+          "level": "beginner",
+          "equipment": "Scarpe da corsa",
+          "duration": 45
+        },
+        {
+          "id": "TG_RUN_002",
+          "fileKey": "TG_RUN_002_v1",
+          "name": "Sprint",
+          "focus": "Sprint brevi con recupero attivo ampio e guida vocale completa.",
+          "status": "published",
+          "level": "advanced",
+          "equipment": "Scarpe da corsa",
+          "duration": 40
+        },
+        {
+          "id": "TG_RUN_003",
+          "fileKey": "TG_RUN_003_v1",
+          "name": "Progressivo",
+          "focus": "Corsa progressiva con due blocchi intensi e rientro graduale.",
+          "status": "published",
+          "level": "intermediate",
+          "equipment": "Scarpe da corsa",
+          "duration": 45
+        },
+        {
+          "id": "TG_RUN_004",
+          "fileKey": "TG_RUN_004_v1",
+          "name": "Piramide",
+          "focus": "Piramide di sprint da 30 a 60 secondi e ritorno, con recuperi attivi inversi.",
+          "status": "published",
+          "level": "intermediate",
+          "equipment": "Scarpe da corsa",
+          "duration": 30
+        },
+        {
+          "id": "TG_RUN_005",
+          "fileKey": "TG_RUN_005_v1",
+          "name": "Tempo Run",
+          "focus": "Tempo run continua per mantenere un ritmo sostenuto e stabile.",
+          "status": "published",
+          "level": "intermediate",
+          "equipment": "Scarpe da corsa",
+          "duration": 45
+        }
+      ]
+    },
+    {
+      "slug": "mobility",
+      "codePrefix": "TG_MOB",
+      "icon": "🧘",
+      "name": "Mobility Series",
+      "description": "Mobilità, recupero e reset articolare.",
+      "selectionNote": {
+        "title": "Principio chiave",
+        "body": "La mobilità migliora quando il sistema nervoso si sente sicuro. L’obiettivo non è tirare fortissimo, ma respirare, controllare il movimento e ridurre le compensazioni.",
+        "avoid": [
+          "stretching aggressivo",
+          "molleggi",
+          "dolore forte",
+          "carichi pesanti negli esercizi di mobilità"
+        ],
+        "prefer": [
+          "respirazione lenta",
+          "controllo del bacino",
+          "movimento fluido",
+          "rilascio graduale"
+        ]
+      },
+      "featured": false,
+      "routines": [
+        {
+          "id": "TG_MOB_001",
+          "fileKey": "TG_MOB_001_v1",
+          "name": "Morning Mobility",
+          "focus": "Mobilità dolce per iniziare la giornata.",
+          "status": "published",
+          "level": "beginner",
+          "equipment": "Tappetino",
+          "duration": 15
+        },
+        {
+          "id": "TG_MOB_002",
+          "fileKey": "TG_MOB_002_v1",
+          "name": "Hip Mobility",
+          "focus": "Routine dedicata alla mobilità delle anche.",
+          "status": "published",
+          "level": "beginner",
+          "equipment": "Tappetino",
+          "duration": 10
+        },
+        {
+          "id": "TG_MOB_003",
+          "fileKey": "TG_MOB_003_v1",
+          "name": "Shoulder Reset",
+          "focus": "Reset per spalle e parte alta della schiena.",
+          "status": "published",
+          "level": "beginner",
+          "equipment": "Elastico opzionale",
+          "duration": 12
+        },
+        {
+          "id": "TG_MOB_004",
+          "fileKey": "TG_MOB_004_v1",
+          "name": "Recovery Day",
+          "focus": "Seduta leggera di mobilità e respirazione per il recupero.",
+          "status": "published",
+          "level": "beginner",
+          "equipment": "Tappetino",
+          "duration": 12
+        },
+        {
+          "id": "TG_MOB_005",
+          "fileKey": "TG_MOB_005_v1",
+          "name": "Unlock Posterior Chain",
+          "focus": "Mobilità controllata per femorali, schiena e anche, con respirazione e lavoro segmentale.",
+          "status": "published",
+          "level": "intermediate",
+          "equipment": "Tappetino, parete o panca, bastone o carico massimo 5 kg",
+          "duration": 10
+        }
+      ]
+    },
+    {
+      "slug": "kickboxing",
+      "codePrefix": "TG_KB",
+      "icon": "👊",
+      "name": "Kickboxing Series",
+      "description": "Tecnica e conditioning ispirati a boxe e kickboxing.",
+      "selectionNote": {
+        "title": "Tecnica, ritmo e controllo",
+        "body": "La kickboxing unisce lavoro cardiovascolare, coordinazione tra parte alta e bassa, rapidità e gestione delle distanze. Costruisci ogni combinazione con guardia, equilibrio e precisione prima di aumentare l’intensità."
+      },
+      "featured": false,
+      "routines": [
+        {
+          "id": "TG_KB_001",
+          "fileKey": "TG_KB_001_v1",
+          "name": "Boxing Basics",
+          "focus": "Fondamentali di boxe: guardia, diretti e movimento.",
+          "status": "published",
+          "level": "beginner",
+          "equipment": "Spazio libero",
+          "duration": 19
+        },
+        {
+          "id": "TG_KB_002",
+          "fileKey": "TG_KB_002_v1",
+          "name": "Kickboxing Conditioning",
+          "focus": "Combinazioni semplici e conditioning kickboxing.",
+          "status": "published",
+          "level": "intermediate",
+          "equipment": "Spazio libero o sacco",
+          "duration": 18
+        },
+        {
+          "id": "TG_KB_003",
+          "fileKey": "TG_KB_003_v1",
+          "name": "Heavy Bag HIIT",
+          "focus": "Intervalli HIIT al sacco con combinazioni brevi.",
+          "status": "published",
+          "level": "advanced",
+          "equipment": "Sacco e guantoni",
+          "duration": 18
+        },
+        {
+          "id": "TG_KB_004",
+          "fileKey": "TG_KB_004_v1",
+          "name": "Fight Conditioning",
+          "focus": "Round completi per resistenza specifica e recupero.",
+          "status": "published",
+          "level": "advanced",
+          "equipment": "Spazio libero o sacco",
+          "duration": 21
+        },
+        {
+          "id": "TG_KB_005",
+          "fileKey": "TG_KB_005_v1",
+          "name": "Heavy Bag HIIT 2",
+          "focus": "Combinazioni esplosive al sacco con blocchi tecnici e recuperi brevi.",
+          "status": "published",
+          "level": "intermediate",
+          "equipment": "Sacco e guantoni",
+          "duration": 28
+        }
+      ]
+    },
+    {
+      "slug": "home",
+      "codePrefix": "TG_HOME",
+      "icon": "🏠",
+      "name": "Home Series",
+      "description": "Routine pratiche pensate per allenarsi a casa.",
+      "selectionNote": {
+        "title": "Anche a casa puoi fare la differenza",
+        "body": "Non serve una palestra perfetta per muoversi bene: scegli lo spazio e gli attrezzi che hai, mantieni il controllo e costruisci continuità un allenamento alla volta."
+      },
+      "featured": false,
+      "routines": [
+        {
+          "id": "TG_HOME_001",
+          "fileKey": "TG_HOME_001_v1",
+          "name": "No Equipment",
+          "focus": "Allenamento completo a corpo libero, con pause regolari e volume esteso.",
+          "status": "published",
+          "level": "beginner",
+          "equipment": "Nessuna",
+          "duration": 34
+        },
+        {
+          "id": "TG_HOME_002",
+          "fileKey": "TG_HOME_002_v1",
+          "name": "One Dumbbell",
+          "focus": "Total body usando un solo manubrio, con pause regolari e volume esteso.",
+          "status": "published",
+          "level": "intermediate",
+          "equipment": "Un manubrio",
+          "duration": 33
+        },
+        {
+          "id": "TG_HOME_003",
+          "fileKey": "TG_HOME_003_v1",
+          "name": "Resistance Band",
+          "focus": "Routine total body con elastico, pause regolari e volume esteso.",
+          "status": "published",
+          "level": "beginner",
+          "equipment": "Elastico",
+          "duration": 34
+        },
+        {
+          "id": "TG_HOME_004",
+          "fileKey": "TG_HOME_004_v1",
+          "name": "Living Room Workout",
+          "focus": "Allenamento pratico e silenzioso per piccoli spazi.",
+          "status": "published",
+          "level": "beginner",
+          "equipment": "Sedia stabile opzionale",
+          "duration": 15
+        },
+        {
+          "id": "TG_HOME_005",
+          "fileKey": "TG_HOME_005_v1",
+          "name": "Home Easy Restart",
+          "focus": "Ripartenza dolce con camminata sul tapis roulant, gambe, glutei e core.",
+          "status": "published",
+          "level": "beginner",
+          "equipment": "Tapis roulant, sedia stabile e tappetino",
+          "duration": 34
+        },
+        {
+          "id": "TG_HOME_006",
+          "fileKey": "TG_HOME_006_v1",
+          "name": "Bike Easy Restart — Total Body",
+          "focus": "Ripartenza total body con cyclette, esercizi fondamentali e manubri leggeri.",
+          "status": "published",
+          "level": "beginner",
+          "equipment": "Cyclette, due manubri leggeri, sedia stabile e tappetino",
+          "duration": 35
+        },
+        {
+          "id": "TG_HOME_007",
+          "fileKey": "TG_HOME_007_v1",
+          "name": "Bike Easy Upper Body",
+          "focus": "Cyclette e due blocchi controllati per petto, spalle, braccia e stabilità del core.",
+          "status": "published",
+          "level": "beginner",
+          "equipment": "Cyclette, due manubri leggeri, sedia stabile e tappetino",
+          "duration": 32
+        },
+        {
+          "id": "TG_HOME_008",
+          "fileKey": "TG_HOME_008_v1",
+          "name": "Bike Easy Cardio & Tone",
+          "focus": "Blocchi brevi di cyclette alternati a esercizi semplici per gambe, glutei, petto, spalle, braccia e core.",
+          "status": "published",
+          "level": "beginner",
+          "equipment": "Cyclette, due manubri leggeri, sedia stabile e tappetino",
+          "duration": 30
+        }
+      ]
+    },
+    {
+      "slug": "express",
+      "codePrefix": "TG_EXP",
+      "icon": "⚡",
+      "name": "Express Series",
+      "description": "Allenamenti organizzati per tempo disponibile.",
+      "featured": false,
+      "routines": [
+        {
+          "id": "TG_EXP_005",
+          "fileKey": "TG_EXP_005_v1",
+          "name": "5 Minute Reset",
+          "focus": "Reset rapido di mobilità e attivazione.",
+          "status": "published",
+          "level": "beginner",
+          "equipment": "Nessuna",
+          "duration": 5
+        },
+        {
+          "id": "TG_EXP_010",
+          "fileKey": "TG_EXP_010_v1",
+          "name": "10 Minute Burn",
+          "focus": "Circuito metabolico rapido da circa 10 minuti.",
+          "status": "published",
+          "level": "intermediate",
+          "equipment": "Nessuna",
+          "duration": 10
+        },
+        {
+          "id": "TG_EXP_015",
+          "fileKey": "TG_EXP_015_v1",
+          "name": "15 Minute Challenge",
+          "focus": "Sfida total body compatta da circa 15 minuti.",
+          "status": "published",
+          "level": "intermediate",
+          "equipment": "Nessuna",
+          "duration": 15
+        },
+        {
+          "id": "TG_EXP_020",
+          "fileKey": "TG_EXP_020_v1",
+          "name": "20 Minute Workout",
+          "focus": "Allenamento completo da circa 20 minuti.",
+          "status": "published",
+          "level": "intermediate",
+          "equipment": "Manubrio opzionale",
+          "duration": 20
+        },
+        {
+          "id": "TG_EXP_025",
+          "fileKey": "TG_EXP_025_v1",
+          "name": "25 Minute Complete",
+          "focus": "Forza e conditioning in circa 25 minuti.",
+          "status": "published",
+          "level": "intermediate",
+          "equipment": "Manubri opzionali",
+          "duration": 25
+        },
+        {
+          "id": "TG_EXP_030",
+          "fileKey": "TG_EXP_030_v1",
+          "name": "30 Minute Beast",
+          "focus": "Circuito impegnativo total body da circa 30 minuti.",
+          "status": "published",
+          "level": "advanced",
+          "equipment": "Manubri o kettlebell",
+          "duration": 30
+        }
+      ]
+    },
+    {
+      "slug": "over_40",
+      "codePrefix": "TG40",
+      "icon": "🧔",
+      "name": "Over 40 Series",
+      "description": "Forza, mobilità e conditioning sostenibile con identità TheGymme.",
+      "featured": true,
+      "routines": [
+        {
+          "id": "TG40_001",
+          "fileKey": "TG40_001_v1",
+          "name": "Longevity Strength",
+          "focus": "Forza completa con esecuzione controllata e recuperi adeguati.",
+          "status": "published",
+          "level": "intermediate",
+          "equipment": "Manubri",
+          "duration": 22
+        },
+        {
+          "id": "TG40_002",
+          "fileKey": "TG40_002_v1",
+          "name": "Healthy Back",
+          "focus": "Mobilità e stabilità per una schiena forte; evita movimenti dolorosi.",
+          "status": "published",
+          "level": "beginner",
+          "equipment": "Tappetino ed elastico opzionale",
+          "duration": 15
+        },
+        {
+          "id": "TG40_003",
+          "fileKey": "TG40_003_v1",
+          "name": "Joint Friendly HIIT",
+          "focus": "HIIT a basso impatto senza salti.",
+          "status": "published",
+          "level": "intermediate",
+          "equipment": "Nessuna",
+          "duration": 22
+        },
+        {
+          "id": "TG40_004",
+          "fileKey": "TG40_004_v1",
+          "name": "Power After 40",
+          "focus": "Potenza controllata con opzioni a basso impatto.",
+          "status": "published",
+          "level": "intermediate",
+          "equipment": "Kettlebell o manubrio",
+          "duration": 20
+        },
+        {
+          "id": "TG40_005",
+          "fileKey": "TG40_005_v1",
+          "name": "Metabolic 40+",
+          "focus": "Circuito metabolico sostenibile con recuperi regolari.",
+          "status": "published",
+          "level": "intermediate",
+          "equipment": "Manubri opzionali",
+          "duration": 23
+        }
+      ]
+    }
+  ],
+  "legacyAliases": [
+    {
+      "id": "TG_LEGACY_GLUTE_002",
+      "fileKey": "TG_GLUTE_002_v1",
+      "name": "Glute Lift Pro v2",
+      "series": "glute",
+      "reason": "Compatibilità con link e routine già scaricate"
+    },
+    {
+      "id": "TG_LEGACY_JUMP_001",
+      "fileKey": "TG_JUMP_001_v1",
+      "name": "jump_rope_beginner_circuit_v1",
+      "series": "jump_rope",
+      "reason": "Compatibilità con link e routine già scaricate"
+    },
+    {
+      "id": "TG_LEGACY_JUMP_002",
+      "fileKey": "TG_JUMP_002_v1",
+      "name": "jump_rope_e_functional_beginner_circuit_v1",
+      "series": "jump_rope",
+      "reason": "Compatibilità con link e routine già scaricate"
+    }
+  ]
+}

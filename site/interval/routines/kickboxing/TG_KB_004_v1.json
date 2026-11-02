@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "id": "TG_KB_004",
+    "version": "1.0",
+    "fileKey": "TG_KB_004_v1",
+    "name": "Fight Conditioning",
+    "author": "TheGymme",
+    "series": "kickboxing",
+    "category": "kickboxing",
+    "level": "advanced",
+    "equipment": "Spazio libero o sacco",
+    "duration": 21,
+    "created": "2026-07-18",
+    "description": "Round completi per resistenza specifica e recupero.",
+    "notes": "Adatta intensità e movimenti al tuo livello. Interrompi in caso di dolore."
+  },
+  "items": [
+    {
+      "name": "Combinazione di pugni",
+      "duration": 60,
+      "rest": false,
+      "imageKey": "kickboxing-shadowboxing",
+      "coachCue": "Tieni i gomiti chiusi."
+    },
+    {
+      "name": "Combinazione di calci",
+      "duration": 60,
+      "rest": false,
+      "imageKey": "kickboxing-heavy-bag-kick"
+    },
+    {
+      "name": "Sprawl controllato",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "kickboxing-shadowboxing"
+    },
+    {
+      "name": "Rest",
+      "duration": 60,
+      "rest": true
+    }
+  ],
+  "rounds": 6,
+  "countdown": 10
+}

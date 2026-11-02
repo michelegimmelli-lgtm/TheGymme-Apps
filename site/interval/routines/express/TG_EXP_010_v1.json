@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "id": "TG_EXP_010",
+    "version": "1.0",
+    "fileKey": "TG_EXP_010_v1",
+    "name": "10 Minute Burn",
+    "author": "TheGymme",
+    "series": "express",
+    "category": "express",
+    "level": "intermediate",
+    "equipment": "Nessuna",
+    "duration": 10,
+    "created": "2026-07-18",
+    "description": "Circuito metabolico rapido da circa 10 minuti.",
+    "notes": "Adatta intensità e movimenti al tuo livello. Interrompi in caso di dolore."
+  },
+  "items": [
+    {
+      "name": "Squat",
+      "duration": 40,
+      "rest": false
+    },
+    {
+      "name": "Mountain Climber",
+      "duration": 30,
+      "rest": false
+    },
+    {
+      "name": "Push Up",
+      "duration": 30,
+      "rest": false
+    },
+    {
+      "name": "Alternating Lunge",
+      "duration": 40,
+      "rest": false
+    },
+    {
+      "name": "Rest",
+      "duration": 60,
+      "rest": true
+    }
+  ],
+  "rounds": 3,
+  "countdown": 5
+}

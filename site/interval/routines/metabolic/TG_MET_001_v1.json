@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "id": "TG_MET_001",
+    "version": "1.0",
+    "fileKey": "TG_MET_001_v1",
+    "name": "Full Body Burn",
+    "author": "TheGymme",
+    "series": "metabolic",
+    "category": "metabolic",
+    "level": "intermediate",
+    "equipment": "Corpo libero",
+    "duration": 18,
+    "created": "2026-07-18",
+    "description": "Circuito metabolico total body semplice e intenso.",
+    "notes": "Adatta intensità e movimenti al tuo livello. Interrompi in caso di dolore."
+  },
+  "items": [
+    {
+      "name": "Squat",
+      "duration": 40,
+      "rest": false
+    },
+    {
+      "name": "Push Up",
+      "duration": 30,
+      "rest": false
+    },
+    {
+      "name": "Mountain Climber",
+      "duration": 40,
+      "rest": false
+    },
+    {
+      "name": "Alternating Lunge",
+      "duration": 40,
+      "rest": false
+    },
+    {
+      "name": "Burpee controllato",
+      "duration": 30,
+      "rest": false
+    },
+    {
+      "name": "Rest",
+      "duration": 40,
+      "rest": true
+    }
+  ],
+  "rounds": 5,
+  "countdown": 8
+}

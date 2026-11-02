@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "id": "TG_HOME_004",
+    "version": "1.0",
+    "fileKey": "TG_HOME_004_v1",
+    "name": "Living Room Workout",
+    "author": "TheGymme",
+    "series": "home",
+    "category": "home",
+    "level": "beginner",
+    "equipment": "Sedia stabile opzionale",
+    "duration": 15,
+    "created": "2026-07-18",
+    "description": "Allenamento pratico e silenzioso per piccoli spazi.",
+    "notes": "Adatta intensità e movimenti al tuo livello. Interrompi in caso di dolore."
+  },
+  "items": [
+    {
+      "name": "Chair Squat",
+      "duration": 40,
+      "rest": false
+    },
+    {
+      "name": "Wall Push Up",
+      "duration": 40,
+      "rest": false
+    },
+    {
+      "name": "Step Back Lunge",
+      "duration": 40,
+      "rest": false
+    },
+    {
+      "name": "Standing Knee Drive",
+      "duration": 40,
+      "rest": false
+    },
+    {
+      "name": "Bird Dog",
+      "duration": 40,
+      "rest": false
+    },
+    {
+      "name": "Rest",
+      "duration": 30,
+      "rest": true
+    }
+  ],
+  "rounds": 4,
+  "countdown": 5
+}

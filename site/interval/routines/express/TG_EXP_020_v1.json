@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "id": "TG_EXP_020",
+    "version": "1.0",
+    "fileKey": "TG_EXP_020_v1",
+    "name": "20 Minute Workout",
+    "author": "TheGymme",
+    "series": "express",
+    "category": "express",
+    "level": "intermediate",
+    "equipment": "Manubrio opzionale",
+    "duration": 20,
+    "created": "2026-07-18",
+    "description": "Allenamento completo da circa 20 minuti.",
+    "notes": "Adatta intensità e movimenti al tuo livello. Interrompi in caso di dolore."
+  },
+  "items": [
+    {
+      "name": "Goblet Squat",
+      "duration": 48,
+      "rest": false
+    },
+    {
+      "name": "Bent Over Row",
+      "duration": 48,
+      "rest": false
+    },
+    {
+      "name": "Floor Press",
+      "duration": 48,
+      "rest": false
+    },
+    {
+      "name": "Romanian Deadlift",
+      "duration": 48,
+      "rest": false
+    },
+    {
+      "name": "Dead Bug",
+      "duration": 48,
+      "rest": false
+    },
+    {
+      "name": "Rest",
+      "duration": 60,
+      "rest": true
+    }
+  ],
+  "rounds": 4,
+  "countdown": 8
+}

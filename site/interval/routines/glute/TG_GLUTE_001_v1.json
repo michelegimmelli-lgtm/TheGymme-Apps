@@ -1,0 +1,59 @@
+{
+  "metadata": {
+    "id": "TG_GLUTE_001",
+    "version": "1.0",
+    "fileKey": "TG_GLUTE_001_v1",
+    "name": "Glute Lift Pro",
+    "author": "TheGymme",
+    "category": "glute",
+    "level": "intermediate",
+    "duration": 25,
+    "created": "2026-06-26",
+    "description": "Circuito glutei in stile Interval Trainer: 2 minuti di lavoro, 30 secondi di recupero, 10 round."
+  },
+  "items": [
+    {
+      "name": "Goblet Squat",
+      "duration": 20,
+      "rest": false,
+      "imageKey": "goblet-squat"
+    },
+    {
+      "name": "Romanian Deadlift",
+      "duration": 20,
+      "rest": false,
+      "imageKey": "romanian-deadlift"
+    },
+    {
+      "name": "Bulgarian Split Squat SX",
+      "duration": 20,
+      "rest": false,
+      "imageKey": "bulgarian-split-squat"
+    },
+    {
+      "name": "Bulgarian Split Squat DX",
+      "duration": 20,
+      "rest": false,
+      "imageKey": "bulgarian-split-squat"
+    },
+    {
+      "name": "Hip Thrust",
+      "duration": 20,
+      "rest": false,
+      "imageKey": "hip-thrust"
+    },
+    {
+      "name": "Frog Pump",
+      "duration": 20,
+      "rest": false,
+      "imageKey": "frog-pump"
+    },
+    {
+      "name": "Rest",
+      "duration": 30,
+      "rest": true
+    }
+  ],
+  "rounds": 10,
+  "countdown": 10
+}

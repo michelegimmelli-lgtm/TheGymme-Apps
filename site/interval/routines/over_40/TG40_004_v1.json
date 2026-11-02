@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "id": "TG40_004",
+    "version": "1.0",
+    "fileKey": "TG40_004_v1",
+    "name": "Power After 40",
+    "author": "TheGymme",
+    "series": "over_40",
+    "category": "over_40",
+    "level": "intermediate",
+    "equipment": "Kettlebell o manubrio",
+    "duration": 20,
+    "created": "2026-07-18",
+    "description": "Potenza controllata con opzioni a basso impatto.",
+    "notes": "Adatta intensità e movimenti al tuo livello. Interrompi in caso di dolore."
+  },
+  "items": [
+    {
+      "name": "Kettlebell Deadlift",
+      "duration": 40,
+      "rest": false
+    },
+    {
+      "name": "Rest",
+      "duration": 25,
+      "rest": true
+    },
+    {
+      "name": "Push Press controllato",
+      "duration": 35,
+      "rest": false
+    },
+    {
+      "name": "Rest",
+      "duration": 25,
+      "rest": true
+    },
+    {
+      "name": "Step Up SX",
+      "duration": 35,
+      "rest": false
+    },
+    {
+      "name": "Step Up DX",
+      "duration": 35,
+      "rest": false
+    },
+    {
+      "name": "Rest",
+      "duration": 30,
+      "rest": true
+    },
+    {
+      "name": "Fast Farmer March",
+      "duration": 40,
+      "rest": false
+    },
+    {
+      "name": "Rest",
+      "duration": 40,
+      "rest": true
+    }
+  ],
+  "rounds": 4,
+  "countdown": 8
+}

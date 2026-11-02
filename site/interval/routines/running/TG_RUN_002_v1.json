@@ -1,0 +1,457 @@
+{
+  "metadata": {
+    "id": "TG_RUN_002",
+    "version": "1.0",
+    "fileKey": "TG_RUN_002_v1",
+    "name": "Sprint",
+    "author": "TheGymme",
+    "defaultCoachProfile": "drill",
+    "series": "running",
+    "category": "running",
+    "level": "advanced",
+    "equipment": "Scarpe da corsa",
+    "duration": 40,
+    "created": "2026-07-27",
+    "description": "Sprint brevi con recupero attivo ampio e guida vocale completa.",
+    "notes": "Regola il ritmo sul tuo livello e sul terreno. Rallenta o interrompi in caso di dolore, capogiri o malessere."
+  },
+  "items": [
+    {
+      "name": "Corsa lenta - Riscaldamento",
+      "duration": 300,
+      "rest": false,
+      "coachCue": "Parti facile. Prepara gambe e respiro.",
+      "coachCues": [
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Tra 5 secondi aumenta il ritmo."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Corsa sostenuta - Setting",
+      "duration": 480,
+      "rest": false,
+      "coachCue": "Aumenta il ritmo senza forzare.",
+      "coachCues": [
+        {
+          "remaining": 240,
+          "text": "Mantieni. Preparati agli sprint."
+        },
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Tra 5 secondi scatta."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Sprint 1/10",
+      "duration": 30,
+      "rest": false,
+      "coachCue": "Sprint 1 di 10. Vai.",
+      "coachCues": [
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Ancora. Tra 5 secondi recupera."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Corsa lenta 1/10",
+      "duration": 90,
+      "rest": false,
+      "coachCue": "Recupera. Resta in movimento.",
+      "coachCues": [
+        {
+          "remaining": 45,
+          "text": "Respira."
+        },
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Tra 5 secondi scatta."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Sprint 2/10",
+      "duration": 30,
+      "rest": false,
+      "coachCue": "Sprint 2 di 10. Vai.",
+      "coachCues": [
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Ancora. Tra 5 secondi recupera."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Corsa lenta 2/10",
+      "duration": 90,
+      "rest": false,
+      "coachCue": "Recupera. Resta in movimento.",
+      "coachCues": [
+        {
+          "remaining": 45,
+          "text": "Respira."
+        },
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Tra 5 secondi scatta."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Sprint 3/10",
+      "duration": 30,
+      "rest": false,
+      "coachCue": "Sprint 3 di 10. Vai.",
+      "coachCues": [
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Ancora. Tra 5 secondi recupera."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Corsa lenta 3/10",
+      "duration": 90,
+      "rest": false,
+      "coachCue": "Recupera. Resta in movimento.",
+      "coachCues": [
+        {
+          "remaining": 45,
+          "text": "Respira."
+        },
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Tra 5 secondi scatta."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Sprint 4/10",
+      "duration": 30,
+      "rest": false,
+      "coachCue": "Sprint 4 di 10. Vai.",
+      "coachCues": [
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Ancora. Tra 5 secondi recupera."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Corsa lenta 4/10",
+      "duration": 90,
+      "rest": false,
+      "coachCue": "Recupera. Resta in movimento.",
+      "coachCues": [
+        {
+          "remaining": 45,
+          "text": "Respira."
+        },
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Tra 5 secondi scatta."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Sprint 5/10",
+      "duration": 30,
+      "rest": false,
+      "coachCue": "Sprint 5 di 10. Vai.",
+      "coachCues": [
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Ancora. Tra 5 secondi recupera."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Corsa lenta 5/10",
+      "duration": 90,
+      "rest": false,
+      "coachCue": "Recupera. Resta in movimento.",
+      "coachCues": [
+        {
+          "remaining": 45,
+          "text": "Respira."
+        },
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Tra 5 secondi scatta."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Sprint 6/10",
+      "duration": 30,
+      "rest": false,
+      "coachCue": "Sprint 6 di 10. Vai.",
+      "coachCues": [
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Ancora. Tra 5 secondi recupera."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Corsa lenta 6/10",
+      "duration": 90,
+      "rest": false,
+      "coachCue": "Recupera. Resta in movimento.",
+      "coachCues": [
+        {
+          "remaining": 45,
+          "text": "Respira."
+        },
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Tra 5 secondi scatta."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Sprint 7/10",
+      "duration": 30,
+      "rest": false,
+      "coachCue": "Sprint 7 di 10. Vai.",
+      "coachCues": [
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Ancora. Tra 5 secondi recupera."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Corsa lenta 7/10",
+      "duration": 90,
+      "rest": false,
+      "coachCue": "Recupera. Resta in movimento.",
+      "coachCues": [
+        {
+          "remaining": 45,
+          "text": "Respira."
+        },
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Tra 5 secondi scatta."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Sprint 8/10",
+      "duration": 30,
+      "rest": false,
+      "coachCue": "Sprint 8 di 10. Vai.",
+      "coachCues": [
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Ancora. Tra 5 secondi recupera."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Corsa lenta 8/10",
+      "duration": 90,
+      "rest": false,
+      "coachCue": "Recupera. Resta in movimento.",
+      "coachCues": [
+        {
+          "remaining": 45,
+          "text": "Respira."
+        },
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Tra 5 secondi scatta."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Sprint 9/10",
+      "duration": 30,
+      "rest": false,
+      "coachCue": "Sprint 9 di 10. Vai.",
+      "coachCues": [
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Ancora. Tra 5 secondi recupera."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Corsa lenta 9/10",
+      "duration": 90,
+      "rest": false,
+      "coachCue": "Recupera. Resta in movimento.",
+      "coachCues": [
+        {
+          "remaining": 45,
+          "text": "Respira."
+        },
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Tra 5 secondi scatta."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Sprint 10/10",
+      "duration": 30,
+      "rest": false,
+      "coachCue": "Sprint 10 di 10. Vai.",
+      "coachCues": [
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Ancora. Tra 5 secondi recupera."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Corsa lenta 10/10",
+      "duration": 90,
+      "rest": false,
+      "coachCue": "Recupera. Resta in movimento.",
+      "coachCues": [
+        {
+          "remaining": 45,
+          "text": "Respira."
+        },
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Tra 5 secondi inizia il defaticamento."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Corsa lenta - Defaticamento",
+      "duration": 420,
+      "rest": false,
+      "coachCue": "Rallenta. Recupera gradualmente.",
+      "coachCues": [
+        {
+          "remaining": 210,
+          "text": "Respira profondamente."
+        },
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi. Ottimo lavoro."
+        }
+      ],
+      "disableDefaultRushCue": true
+    }
+  ],
+  "rounds": 1,
+  "countdown": 10
+}

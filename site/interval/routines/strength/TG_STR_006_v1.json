@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "id": "TG_STR_006",
+    "version": "1.0",
+    "fileKey": "TG_STR_006_v1",
+    "name": "Kettlebell Specialized",
+    "author": "TheGymme",
+    "defaultCoachProfile": "thegymme",
+    "series": "strength",
+    "category": "strength",
+    "level": "intermediate",
+    "equipment": "Un kettlebell",
+    "duration": 6,
+    "created": "2026-10-17",
+    "description": "Circuito specializzato con kettlebell: swing, affondi, clean & jerk e squat in formato 20 secondi di lavoro e 10 di recupero.",
+    "notes": "Mantieni la tecnica pulita e scegli un carico controllabile. Negli esercizi unilaterali cambia lato dopo 10 secondi."
+  },
+  "items": [
+    {
+      "name": "Kettlebell Swing",
+      "duration": 20,
+      "rest": false,
+      "imageKey": "kettlebell-swing",
+      "coachCue": "Spingi con le anche. Le braccia guidano il kettlebell senza sollevarlo.",
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Recupero",
+      "duration": 10,
+      "rest": true
+    },
+    {
+      "name": "Affondi con kettlebell alternati",
+      "duration": 20,
+      "rest": false,
+      "imageKey": "kettlebell-overhead-lunge",
+      "coachCue": "Mantieni il busto stabile. Parti dal primo lato.",
+      "coachCues": [
+        {
+          "remaining": 10,
+          "text": "Cambia lato."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Recupero",
+      "duration": 10,
+      "rest": true
+    },
+    {
+      "name": "Kettlebell Clean & Jerk alternato",
+      "duration": 20,
+      "rest": false,
+      "imageKey": "kettlebell-clean-and-jerk",
+      "coachCue": "Porta il kettlebell in rack e distendilo sopra la testa. Parti dal primo lato.",
+      "coachCues": [
+        {
+          "remaining": 10,
+          "text": "Cambia lato."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Recupero",
+      "duration": 10,
+      "rest": true
+    },
+    {
+      "name": "Goblet Squat",
+      "duration": 20,
+      "rest": false,
+      "imageKey": "goblet-squat",
+      "coachCue": "Kettlebell vicino al petto. Scendi con controllo e risali spingendo il pavimento.",
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Recupero",
+      "duration": 10,
+      "rest": true
+    }
+  ],
+  "rounds": 3,
+  "countdown": 5
+}

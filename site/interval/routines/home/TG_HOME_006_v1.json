@@ -1,0 +1,182 @@
+{
+  "metadata": {
+    "id": "TG_HOME_006",
+    "version": "1.0",
+    "fileKey": "TG_HOME_006_v1",
+    "name": "Bike Easy Restart — Total Body",
+    "author": "TheGymme",
+    "series": "home",
+    "category": "home",
+    "level": "beginner",
+    "equipment": "Cyclette, due manubri leggeri, sedia stabile e tappetino",
+    "duration": 35,
+    "created": "2026-10-09",
+    "description": "Ripartenza total body con cyclette, esercizi fondamentali e manubri leggeri.",
+    "notes": "Usa manubri che consentano un movimento controllato per tutto l’intervallo. Mantieni sulla cyclette un ritmo che permetta di parlare e interrompi in caso di dolore, capogiri o affanno insolito.",
+    "defaultCoachProfile": "minimal"
+  },
+  "items": [
+    {
+      "name": "Cyclette facile",
+      "duration": 300,
+      "rest": false,
+      "imageKey": "stationary-bike",
+      "roundStart": true,
+      "roundNumber": 1,
+      "coachCue": "Pedala tranquillo con resistenza leggera. Devi riuscire a parlare senza affanno."
+    },
+    {
+      "name": "Scendi e prepara sedia, tappetino e manubri",
+      "duration": 30,
+      "rest": true
+    },
+    {
+      "name": "Squat a sedia",
+      "duration": 45,
+      "rest": false,
+      "imageKey": "chair-squat",
+      "coachCue": "Sfiora la sedia, mantieni i piedi ben appoggiati e risali senza slancio."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Piegamenti con appoggio sulle ginocchia",
+      "duration": 40,
+      "rest": false,
+      "imageKey": "knee-push-up",
+      "coachCue": "Mantieni una linea continua dalle ginocchia alle spalle e porta il petto fra le mani."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Glute bridge",
+      "duration": 45,
+      "rest": false,
+      "imageKey": "glute-bridge",
+      "coachCue": "Spingi dai talloni e stringi i glutei senza inarcare la zona lombare.",
+      "description": "Sdraiati con le ginocchia piegate e i piedi ben appoggiati. Spingi dai talloni, solleva il bacino e contrai i glutei senza inarcare la zona lombare."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Spinte sopra la testa da seduto — lento avanti",
+      "duration": 40,
+      "rest": false,
+      "imageKey": "seated-dumbbell-press",
+      "coachCue": "Piedi a terra, addome attivo e manubri verso l’alto senza incurvare la schiena."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Bird dog alternato",
+      "duration": 50,
+      "rest": false,
+      "imageKey": "bird-dog",
+      "coachCue": "Allunga braccio e gamba opposti mantenendo il bacino fermo."
+    },
+    {
+      "name": "Torna sulla cyclette",
+      "duration": 30,
+      "rest": true
+    },
+    {
+      "name": "Cyclette a passo moderato",
+      "duration": 360,
+      "rest": false,
+      "imageKey": "stationary-bike",
+      "coachCue": "Aumenta leggermente ritmo o resistenza, ma resta sempre in controllo."
+    },
+    {
+      "name": "Scendi e torna agli esercizi",
+      "duration": 30,
+      "rest": true
+    },
+    {
+      "name": "Squat a sedia",
+      "duration": 45,
+      "rest": false,
+      "imageKey": "chair-squat"
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Alzate laterali con manubri",
+      "duration": 40,
+      "rest": false,
+      "imageKey": "dumbbell-lateral-raise",
+      "coachCue": "Gomiti morbidi, spalle basse e manubri non oltre l’altezza delle spalle."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Curl per bicipiti con manubri",
+      "duration": 40,
+      "rest": false,
+      "imageKey": "dumbbell-biceps-curl",
+      "coachCue": "Tieni i gomiti vicini al busto e controlla sia la salita sia la discesa."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Dead bug alternato",
+      "duration": 50,
+      "rest": false,
+      "imageKey": "dead-bug",
+      "coachCue": "Mantieni la zona lombare stabile mentre allontani braccio e gamba opposti."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Glute bridge",
+      "duration": 45,
+      "rest": false,
+      "imageKey": "glute-bridge",
+      "description": "Sdraiati con le ginocchia piegate e i piedi ben appoggiati. Spingi dai talloni, solleva il bacino e contrai i glutei senza inarcare la zona lombare."
+    },
+    {
+      "name": "Torna sulla cyclette",
+      "duration": 30,
+      "rest": true
+    },
+    {
+      "name": "Cyclette continua",
+      "duration": 420,
+      "rest": false,
+      "imageKey": "stationary-bike",
+      "coachCue": "Trova una cadenza regolare e sostenibile, senza irrigidire spalle e mani."
+    },
+    {
+      "name": "Cyclette lenta e respira",
+      "duration": 300,
+      "rest": false,
+      "imageKey": "stationary-bike",
+      "coachCue": "Riduci gradualmente ritmo e resistenza e lascia tornare il respiro tranquillo."
+    }
+  ],
+  "rounds": 1,
+  "countdown": 5
+}

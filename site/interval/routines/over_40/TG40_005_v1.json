@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "id": "TG40_005",
+    "version": "1.0",
+    "fileKey": "TG40_005_v1",
+    "name": "Metabolic 40+",
+    "author": "TheGymme",
+    "series": "over_40",
+    "category": "over_40",
+    "level": "intermediate",
+    "equipment": "Manubri opzionali",
+    "duration": 23,
+    "created": "2026-07-18",
+    "description": "Circuito metabolico sostenibile con recuperi regolari.",
+    "notes": "Adatta intensità e movimenti al tuo livello. Interrompi in caso di dolore."
+  },
+  "items": [
+    {
+      "name": "Goblet Squat",
+      "duration": 40,
+      "rest": false
+    },
+    {
+      "name": "Standing Press",
+      "duration": 35,
+      "rest": false
+    },
+    {
+      "name": "Rest",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Supported Row",
+      "duration": 40,
+      "rest": false
+    },
+    {
+      "name": "Step Back Lunge",
+      "duration": 40,
+      "rest": false
+    },
+    {
+      "name": "Rest",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Fast March",
+      "duration": 45,
+      "rest": false
+    },
+    {
+      "name": "Rest",
+      "duration": 40,
+      "rest": true
+    }
+  ],
+  "rounds": 5,
+  "countdown": 8
+}

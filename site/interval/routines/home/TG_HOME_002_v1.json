@@ -1,0 +1,84 @@
+{
+  "metadata": {
+    "id": "TG_HOME_002",
+    "version": "1.0",
+    "fileKey": "TG_HOME_002_v1",
+    "name": "One Dumbbell",
+    "author": "TheGymme",
+    "series": "home",
+    "category": "home",
+    "level": "intermediate",
+    "equipment": "Un manubrio",
+    "duration": 33,
+    "created": "2026-07-18",
+    "description": "Total body usando un solo manubrio, con pause regolari e volume esteso.",
+    "notes": "Adatta intensità e movimenti al tuo livello. Interrompi in caso di dolore."
+  },
+  "items": [
+    {
+      "name": "Goblet squat",
+      "duration": 40,
+      "rest": false,
+      "imageKey": "goblet-squat"
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Rematore con un manubrio SX",
+      "duration": 35,
+      "rest": false
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Rematore con un manubrio DX",
+      "duration": 35,
+      "rest": false
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Spinta sopra la testa con un manubrio SX",
+      "duration": 30,
+      "rest": false
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Spinta sopra la testa con un manubrio DX",
+      "duration": 30,
+      "rest": false
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Stacco rumeno con un manubrio",
+      "duration": 40,
+      "rest": false,
+      "imageKey": "romanian-deadlift"
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    }
+  ],
+  "rounds": 6,
+  "countdown": 8
+}
+

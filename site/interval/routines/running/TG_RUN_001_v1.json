@@ -1,0 +1,385 @@
+{
+  "metadata": {
+    "id": "TG_RUN_001",
+    "version": "1.0",
+    "fileKey": "TG_RUN_001_v1",
+    "name": "Prime Ripetute",
+    "author": "TheGymme",
+    "defaultCoachProfile": "thegymme",
+    "series": "running",
+    "category": "running",
+    "level": "beginner",
+    "equipment": "Scarpe da corsa",
+    "duration": 45,
+    "created": "2026-07-27",
+    "description": "Prime ripetute con recupero attivo e progressione graduale verso la zona di lavoro.",
+    "notes": "Regola il ritmo sul tuo livello e sul terreno. Rallenta o interrompi in caso di dolore, capogiri o malessere."
+  },
+  "items": [
+    {
+      "name": "Corsa lenta - Riscaldamento",
+      "duration": 300,
+      "rest": false,
+      "coachCue": "Parti facile. Trova un ritmo comodo.",
+      "coachCues": [
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Tra 5 secondi aumenta il ritmo."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Corsa sostenuta - Setting",
+      "duration": 600,
+      "rest": false,
+      "coachCue": "Aumenta gradualmente il ritmo.",
+      "coachCues": [
+        {
+          "remaining": 420,
+          "text": "Mantieni. Corsa controllata."
+        },
+        {
+          "remaining": 240,
+          "text": "Respira. Spalle rilassate."
+        },
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Tra 5 secondi iniziano le ripetute."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Corsa intensa 1/8",
+      "duration": 60,
+      "rest": false,
+      "coachCue": "Ripetuta 1 di 8. Aumenta il ritmo.",
+      "coachCues": [
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Ancora. Tra 5 secondi recupera."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Corsa lenta 1/8",
+      "duration": 120,
+      "rest": false,
+      "coachCue": "Recupera. Continua a correre piano.",
+      "coachCues": [
+        {
+          "remaining": 60,
+          "text": "Respira. Recupera il controllo."
+        },
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Tra 5 secondi aumenta il ritmo."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Corsa intensa 2/8",
+      "duration": 60,
+      "rest": false,
+      "coachCue": "Ripetuta 2 di 8. Aumenta il ritmo.",
+      "coachCues": [
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Ancora. Tra 5 secondi recupera."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Corsa lenta 2/8",
+      "duration": 120,
+      "rest": false,
+      "coachCue": "Recupera. Continua a correre piano.",
+      "coachCues": [
+        {
+          "remaining": 60,
+          "text": "Respira. Recupera il controllo."
+        },
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Tra 5 secondi aumenta il ritmo."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Corsa intensa 3/8",
+      "duration": 60,
+      "rest": false,
+      "coachCue": "Ripetuta 3 di 8. Aumenta il ritmo.",
+      "coachCues": [
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Ancora. Tra 5 secondi recupera."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Corsa lenta 3/8",
+      "duration": 120,
+      "rest": false,
+      "coachCue": "Recupera. Continua a correre piano.",
+      "coachCues": [
+        {
+          "remaining": 60,
+          "text": "Respira. Recupera il controllo."
+        },
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Tra 5 secondi aumenta il ritmo."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Corsa intensa 4/8",
+      "duration": 60,
+      "rest": false,
+      "coachCue": "Ripetuta 4 di 8. Aumenta il ritmo.",
+      "coachCues": [
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Ancora. Tra 5 secondi recupera."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Corsa lenta 4/8",
+      "duration": 120,
+      "rest": false,
+      "coachCue": "Recupera. Continua a correre piano.",
+      "coachCues": [
+        {
+          "remaining": 60,
+          "text": "Respira. Recupera il controllo."
+        },
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Tra 5 secondi aumenta il ritmo."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Corsa intensa 5/8",
+      "duration": 60,
+      "rest": false,
+      "coachCue": "Ripetuta 5 di 8. Aumenta il ritmo.",
+      "coachCues": [
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Ancora. Tra 5 secondi recupera."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Corsa lenta 5/8",
+      "duration": 120,
+      "rest": false,
+      "coachCue": "Recupera. Continua a correre piano.",
+      "coachCues": [
+        {
+          "remaining": 60,
+          "text": "Respira. Recupera il controllo."
+        },
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Tra 5 secondi aumenta il ritmo."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Corsa intensa 6/8",
+      "duration": 60,
+      "rest": false,
+      "coachCue": "Ripetuta 6 di 8. Aumenta il ritmo.",
+      "coachCues": [
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Ancora. Tra 5 secondi recupera."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Corsa lenta 6/8",
+      "duration": 120,
+      "rest": false,
+      "coachCue": "Recupera. Continua a correre piano.",
+      "coachCues": [
+        {
+          "remaining": 60,
+          "text": "Respira. Recupera il controllo."
+        },
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Tra 5 secondi aumenta il ritmo."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Corsa intensa 7/8",
+      "duration": 60,
+      "rest": false,
+      "coachCue": "Ripetuta 7 di 8. Aumenta il ritmo.",
+      "coachCues": [
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Ancora. Tra 5 secondi recupera."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Corsa lenta 7/8",
+      "duration": 120,
+      "rest": false,
+      "coachCue": "Recupera. Continua a correre piano.",
+      "coachCues": [
+        {
+          "remaining": 60,
+          "text": "Respira. Recupera il controllo."
+        },
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Tra 5 secondi aumenta il ritmo."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Corsa intensa 8/8",
+      "duration": 60,
+      "rest": false,
+      "coachCue": "Ripetuta 8 di 8. Aumenta il ritmo.",
+      "coachCues": [
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Ancora. Tra 5 secondi recupera."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Corsa lenta 8/8",
+      "duration": 120,
+      "rest": false,
+      "coachCue": "Recupera. Continua a correre piano.",
+      "coachCues": [
+        {
+          "remaining": 60,
+          "text": "Respira. Recupera il controllo."
+        },
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Tra 5 secondi inizia il defaticamento."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Corsa lenta - Defaticamento",
+      "duration": 360,
+      "rest": false,
+      "coachCue": "Rallenta. Lascia scendere il battito.",
+      "coachCues": [
+        {
+          "remaining": 180,
+          "text": "Respira profondamente."
+        },
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi. Ottimo lavoro."
+        }
+      ],
+      "disableDefaultRushCue": true
+    }
+  ],
+  "rounds": 1,
+  "countdown": 10
+}

@@ -1,0 +1,136 @@
+{
+  "metadata": {
+    "id": "TG_RUN_003",
+    "version": "1.0",
+    "fileKey": "TG_RUN_003_v1",
+    "name": "Progressivo",
+    "author": "TheGymme",
+    "defaultCoachProfile": "thegymme",
+    "series": "running",
+    "category": "running",
+    "level": "intermediate",
+    "equipment": "Scarpe da corsa",
+    "duration": 45,
+    "created": "2026-07-27",
+    "description": "Corsa progressiva con due blocchi intensi e rientro graduale.",
+    "notes": "Regola il ritmo sul tuo livello e sul terreno. Rallenta o interrompi in caso di dolore, capogiri o malessere."
+  },
+  "items": [
+    {
+      "name": "Corsa lenta - Riscaldamento",
+      "duration": 300,
+      "rest": false,
+      "coachCue": "Parti facile.",
+      "coachCues": [
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Tra 5 secondi aumenta il ritmo."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Corsa sostenuta",
+      "duration": 600,
+      "rest": false,
+      "coachCue": "Aumenta il ritmo. Controlla il respiro.",
+      "coachCues": [
+        {
+          "remaining": 300,
+          "text": "Mantieni."
+        },
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Tra 5 secondi passa alla corsa intensa."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Corsa intensa",
+      "duration": 480,
+      "rest": false,
+      "coachCue": "Aumenta ancora. Ritmo intenso ma gestibile.",
+      "coachCues": [
+        {
+          "remaining": 240,
+          "text": "Respira. Mantieni la tecnica."
+        },
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Tra 5 secondi rallenta."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Corsa sostenuta",
+      "duration": 300,
+      "rest": false,
+      "coachCue": "Rallenta leggermente. Non fermarti.",
+      "coachCues": [
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Tra 5 secondi aumenta di nuovo."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Corsa intensa",
+      "duration": 300,
+      "rest": false,
+      "coachCue": "Ultimo blocco intenso. Vai.",
+      "coachCues": [
+        {
+          "remaining": 60,
+          "text": "Ancora un minuto."
+        },
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi."
+        },
+        {
+          "remaining": 5,
+          "text": "Tra 5 secondi rallenta per il defaticamento."
+        }
+      ],
+      "disableDefaultRushCue": true
+    },
+    {
+      "name": "Corsa lenta - Defaticamento",
+      "duration": 720,
+      "rest": false,
+      "coachCue": "Rallenta. Lascia scendere il battito.",
+      "coachCues": [
+        {
+          "remaining": 360,
+          "text": "Respira profondamente."
+        },
+        {
+          "remaining": 10,
+          "text": "Ultimi 10 secondi. Allenamento completato."
+        }
+      ],
+      "disableDefaultRushCue": true
+    }
+  ],
+  "rounds": 1,
+  "countdown": 10
+}

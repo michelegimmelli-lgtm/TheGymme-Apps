@@ -1,0 +1,272 @@
+{
+  "metadata": {
+    "id": "TG40_006",
+    "version": "1.0",
+    "fileKey": "TG40_006_v1",
+    "name": "Unlock Posterior Chain",
+    "author": "TheGymme",
+    "defaultCoachProfile": "thegymme",
+    "series": "over_40",
+    "category": "over_40",
+    "level": "beginner",
+    "equipment": "Tappetino, parete o panca, bastone o carico massimo di 5 kg",
+    "duration": 16,
+    "created": "2026-07-28",
+    "description": "Routine Over 40 di mobilità guidata per ridurre la rigidità di femorali, anche e colonna, migliorando controllo e tolleranza al movimento.",
+    "notes": "Non è una gara di stretching. Mantieni la tensione intorno a 6-7 su 10, senza molleggi e senza dolore forte. Respira lentamente. Interrompi o riduci il movimento in caso di dolore."
+  },
+  "items": [
+    {
+      "name": "Respirazione in quadrupedia",
+      "duration": 60,
+      "rest": false,
+      "coachCue": "Trova una posizione comoda in quadrupedia. Inspira lentamente dal naso.",
+      "coachCues": [
+        {
+          "remaining": 38,
+          "text": "Espira senza irrigidire la schiena."
+        },
+        {
+          "remaining": 18,
+          "text": "Lascia diminuire gradualmente la tensione. Non forzare il movimento."
+        }
+      ]
+    },
+    {
+      "name": "Cat-Camel lento - Blocco 1",
+      "duration": 60,
+      "rest": false,
+      "coachCue": "Alterna lentamente flessione ed estensione della colonna.",
+      "coachCues": [
+        {
+          "remaining": 38,
+          "text": "Muoviti vertebra per vertebra."
+        },
+        {
+          "remaining": 18,
+          "text": "Non cercare subito il massimo movimento."
+        }
+      ]
+    },
+    {
+      "name": "Pausa",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Cat-Camel lento - Blocco 2",
+      "duration": 60,
+      "rest": false,
+      "coachCue": "Riprendi il Cat-Camel. Lascia che il gesto diventi più fluido.",
+      "coachCues": [
+        {
+          "remaining": 35,
+          "text": "Mantieni il movimento lento e controllato."
+        },
+        {
+          "remaining": 18,
+          "text": "Non forzare il tratto cervicale."
+        }
+      ]
+    },
+    {
+      "name": "Transizione - Preparati per il 90/90",
+      "duration": 20,
+      "rest": true,
+      "coachCue": "Passa con calma al novanta-novanta."
+    },
+    {
+      "name": "90/90 Hip Rotation - Blocco 1",
+      "duration": 90,
+      "rest": false,
+      "coachCue": "Ruota lentamente le ginocchia da un lato all'altro.",
+      "coachCues": [
+        {
+          "remaining": 62,
+          "text": "Mantieni il busto il più stabile possibile."
+        },
+        {
+          "remaining": 34,
+          "text": "Cerca il movimento nelle anche, non nella zona lombare."
+        },
+        {
+          "remaining": 16,
+          "text": "Non forzare le ginocchia verso il pavimento."
+        }
+      ]
+    },
+    {
+      "name": "Pausa",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "90/90 Hip Rotation - Blocco 2",
+      "duration": 90,
+      "rest": false,
+      "coachCue": "Riprendi il novanta-novanta e cerca maggiore fluidità.",
+      "coachCues": [
+        {
+          "remaining": 58,
+          "text": "Aumenta il movimento soltanto se rimane controllabile."
+        },
+        {
+          "remaining": 28,
+          "text": "Non aumentare aggressivamente il movimento."
+        }
+      ]
+    },
+    {
+      "name": "Transizione - Preparati per il Couch Stretch",
+      "duration": 20,
+      "rest": true,
+      "coachCue": "Preparati per il Couch Stretch."
+    },
+    {
+      "name": "Couch Stretch - Lato destro",
+      "duration": 60,
+      "rest": false,
+      "coachCue": "Sistema il ginocchio destro vicino alla parete o alla panca.",
+      "coachCues": [
+        {
+          "remaining": 38,
+          "text": "Contrai leggermente il gluteo destro e mantieni il bacino stabile."
+        },
+        {
+          "remaining": 18,
+          "text": "Non inarcare eccessivamente la zona lombare."
+        }
+      ]
+    },
+    {
+      "name": "Cambio lato",
+      "duration": 15,
+      "rest": true,
+      "coachCue": "Esci lentamente dalla posizione e cambia lato con calma."
+    },
+    {
+      "name": "Couch Stretch - Lato sinistro",
+      "duration": 60,
+      "rest": false,
+      "coachCue": "Sistema il ginocchio sinistro vicino alla parete o alla panca.",
+      "coachCues": [
+        {
+          "remaining": 38,
+          "text": "Contrai leggermente il gluteo sinistro e mantieni il bacino stabile."
+        },
+        {
+          "remaining": 18,
+          "text": "La tensione deve essere presente, ma sempre gestibile."
+        }
+      ]
+    },
+    {
+      "name": "Transizione - Prepara il carico",
+      "duration": 30,
+      "rest": true,
+      "coachCue": "Prepara il bastone o un carico massimo di cinque chili."
+    },
+    {
+      "name": "Jefferson Curl leggerissimo - Blocco 1",
+      "duration": 60,
+      "rest": false,
+      "coachCue": "Parti dal collo e scendi lentamente.",
+      "coachCues": [
+        {
+          "remaining": 42,
+          "text": "Continua con la parte dorsale e poi con la zona lombare."
+        },
+        {
+          "remaining": 25,
+          "text": "Mantieni le ginocchia morbide."
+        },
+        {
+          "remaining": 12,
+          "text": "Risali con lo stesso controllo."
+        }
+      ]
+    },
+    {
+      "name": "Pausa",
+      "duration": 30,
+      "rest": true
+    },
+    {
+      "name": "Jefferson Curl leggerissimo - Blocco 2",
+      "duration": 60,
+      "rest": false,
+      "coachCue": "Mantieni lo stesso carico. Non aumentarlo.",
+      "coachCues": [
+        {
+          "remaining": 38,
+          "text": "Scendi lentamente, controllando ogni tratto della colonna."
+        },
+        {
+          "remaining": 18,
+          "text": "Non cercare di raggiungere il pavimento."
+        }
+      ]
+    },
+    {
+      "name": "Transizione - Preparati per lo squat",
+      "duration": 20,
+      "rest": true,
+      "coachCue": "Lascia il carico e preparati per lo squat."
+    },
+    {
+      "name": "Deep Squat Hold - Blocco 1",
+      "duration": 60,
+      "rest": false,
+      "coachCue": "Scendi soltanto fino alla profondità che riesci a controllare.",
+      "coachCues": [
+        {
+          "remaining": 38,
+          "text": "Mantieni i piedi completamente appoggiati."
+        },
+        {
+          "remaining": 18,
+          "text": "Usa un supporto o un rialzo sotto i talloni, se necessario."
+        }
+      ]
+    },
+    {
+      "name": "Pausa",
+      "duration": 30,
+      "rest": true
+    },
+    {
+      "name": "Deep Squat Hold - Blocco 2",
+      "duration": 60,
+      "rest": false,
+      "coachCue": "Riprendi la posizione senza trasformarla in una lotta.",
+      "coachCues": [
+        {
+          "remaining": 38,
+          "text": "Rilassa progressivamente anche, adduttori e caviglie."
+        },
+        {
+          "remaining": 18,
+          "text": "Lascia che la posizione diventi gradualmente più comoda."
+        }
+      ]
+    },
+    {
+      "name": "Respirazione lenta finale",
+      "duration": 60,
+      "rest": false,
+      "coachCue": "Torna in una posizione comoda. Inspira lentamente dal naso.",
+      "coachCues": [
+        {
+          "remaining": 38,
+          "text": "Espira un po' più a lungo e lascia andare la tensione residua."
+        },
+        {
+          "remaining": 18,
+          "text": "Percepisci la differenza tra l'inizio e la fine della routine."
+        }
+      ]
+    }
+  ],
+  "rounds": 1,
+  "countdown": 5
+}

@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "id": "TG_CARDIO_002",
+    "version": "1.0",
+    "fileKey": "TG_CARDIO_002_v1",
+    "name": "Bike Intervals",
+    "author": "TheGymme",
+    "series": "cardio",
+    "category": "cardio",
+    "level": "intermediate",
+    "equipment": "Cyclette o bike",
+    "duration": 24,
+    "created": "2026-07-18",
+    "description": "Intervalli progressivi in bicicletta.",
+    "notes": "Adatta intensità e movimenti al tuo livello. Interrompi in caso di dolore."
+  },
+  "items": [
+    {
+      "name": "Pedalata moderata",
+      "duration": 90,
+      "rest": false
+    },
+    {
+      "name": "Spinta sostenuta",
+      "duration": 45,
+      "rest": false
+    },
+    {
+      "name": "Pedalata facile",
+      "duration": 45,
+      "rest": false
+    }
+  ],
+  "rounds": 8,
+  "countdown": 5
+}

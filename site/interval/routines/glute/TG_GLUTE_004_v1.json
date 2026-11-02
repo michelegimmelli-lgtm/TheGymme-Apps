@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "id": "TG_GLUTE_004",
+    "version": "1.0",
+    "fileKey": "TG_GLUTE_004_v1",
+    "name": "Glute & Core",
+    "author": "TheGymme",
+    "series": "glute",
+    "category": "glute",
+    "level": "intermediate",
+    "equipment": "Corpo libero o miniband",
+    "duration": 16,
+    "created": "2026-07-18",
+    "description": "Circuito combinato glutei e addome.",
+    "notes": "Adatta intensità e movimenti al tuo livello. Interrompi in caso di dolore."
+  },
+  "items": [
+    {
+      "name": "Glute Bridge",
+      "duration": 40,
+      "rest": false,
+      "imageKey": "glute-bridge",
+      "description": "Sdraiati con le ginocchia piegate e i piedi ben appoggiati. Spingi dai talloni, solleva il bacino e contrai i glutei senza inarcare la zona lombare."
+    },
+    {
+      "name": "Dead Bug",
+      "duration": 40,
+      "rest": false,
+      "imageKey": "dead-bug"
+    },
+    {
+      "name": "Kick Back SX",
+      "duration": 35,
+      "rest": false,
+      "imageKey": "kick-back"
+    },
+    {
+      "name": "Kick Back DX",
+      "duration": 35,
+      "rest": false,
+      "imageKey": "kick-back"
+    },
+    {
+      "name": "Side Plank SX",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "side-plank"
+    },
+    {
+      "name": "Side Plank DX",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "side-plank"
+    },
+    {
+      "name": "Rest",
+      "duration": 30,
+      "rest": true
+    }
+  ],
+  "rounds": 4,
+  "countdown": 5
+}

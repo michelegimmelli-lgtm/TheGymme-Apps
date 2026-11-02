@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "id": "TG_KB_002",
+    "version": "1.0",
+    "fileKey": "TG_KB_002_v1",
+    "name": "Kickboxing Conditioning",
+    "author": "TheGymme",
+    "series": "kickboxing",
+    "category": "kickboxing",
+    "level": "intermediate",
+    "equipment": "Spazio libero o sacco",
+    "duration": 18,
+    "created": "2026-07-18",
+    "description": "Combinazioni semplici e conditioning kickboxing.",
+    "notes": "Adatta intensità e movimenti al tuo livello. Interrompi in caso di dolore."
+  },
+  "items": [
+    {
+      "name": "Jab, Cross",
+      "duration": 40,
+      "rest": false,
+      "imageKey": "kickboxing-shadowboxing",
+      "coachCue": "Tieni i gomiti chiusi."
+    },
+    {
+      "name": "Calcio frontale alternato",
+      "duration": 40,
+      "rest": false,
+      "imageKey": "kickboxing-heavy-bag-kick"
+    },
+    {
+      "name": "Rest",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Jab, Cross, Gancio",
+      "duration": 40,
+      "rest": false,
+      "imageKey": "kickboxing-shadowboxing"
+    },
+    {
+      "name": "Calcio circolare alternato",
+      "duration": 40,
+      "rest": false,
+      "imageKey": "kickboxing-heavy-bag-kick"
+    },
+    {
+      "name": "Rest",
+      "duration": 30,
+      "rest": true
+    }
+  ],
+  "rounds": 5,
+  "countdown": 8
+}

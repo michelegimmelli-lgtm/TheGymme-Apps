@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "id": "TG_STR_003",
+    "version": "1.0",
+    "fileKey": "TG_STR_003_v1",
+    "name": "Push Day",
+    "author": "TheGymme",
+    "series": "strength",
+    "category": "strength",
+    "level": "intermediate",
+    "equipment": "Manubri e corpo libero",
+    "duration": 20,
+    "created": "2026-07-18",
+    "description": "Seduta dedicata ai movimenti di spinta.",
+    "notes": "Adatta intensità e movimenti al tuo livello. Interrompi in caso di dolore."
+  },
+  "items": [
+    {
+      "name": "Push Up",
+      "duration": 40,
+      "rest": false,
+      "imageKey": "push-up"
+    },
+    {
+      "name": "Rest",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Floor Press",
+      "duration": 45,
+      "rest": false,
+      "imageKey": "dumbbell-floor-press"
+    },
+    {
+      "name": "Rest",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Shoulder Press",
+      "duration": 40,
+      "rest": false,
+      "imageKey": "seated-dumbbell-press"
+    },
+    {
+      "name": "Rest",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Lateral Raise",
+      "duration": 35,
+      "rest": false,
+      "imageKey": "dumbbell-lateral-raise"
+    },
+    {
+      "name": "Rest",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Triceps Extension",
+      "duration": 35,
+      "rest": false,
+      "imageKey": "dumbbell-triceps-extension"
+    },
+    {
+      "name": "Rest",
+      "duration": 30,
+      "rest": true
+    }
+  ],
+  "rounds": 4,
+  "countdown": 8
+}

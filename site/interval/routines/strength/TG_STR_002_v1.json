@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "id": "TG_STR_002",
+    "version": "1.0",
+    "fileKey": "TG_STR_002_v1",
+    "name": "Lower Body",
+    "author": "TheGymme",
+    "series": "strength",
+    "category": "strength",
+    "level": "intermediate",
+    "equipment": "Manubri o kettlebell",
+    "duration": 20,
+    "created": "2026-07-18",
+    "description": "Forza completa per gambe e catena posteriore.",
+    "notes": "Adatta intensità e movimenti al tuo livello. Interrompi in caso di dolore."
+  },
+  "items": [
+    {
+      "name": "Goblet Squat",
+      "duration": 45,
+      "rest": false,
+      "imageKey": "goblet-squat"
+    },
+    {
+      "name": "Rest",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Romanian Deadlift",
+      "duration": 45,
+      "rest": false,
+      "imageKey": "romanian-deadlift"
+    },
+    {
+      "name": "Rest",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Reverse Lunge SX",
+      "duration": 40,
+      "rest": false,
+      "imageKey": "reverse-lunge"
+    },
+    {
+      "name": "Reverse Lunge DX",
+      "duration": 40,
+      "rest": false,
+      "imageKey": "reverse-lunge"
+    },
+    {
+      "name": "Rest",
+      "duration": 25,
+      "rest": true
+    },
+    {
+      "name": "Calf Raise",
+      "duration": 40,
+      "rest": false,
+      "imageKey": "standing-calf-raise"
+    },
+    {
+      "name": "Rest",
+      "duration": 30,
+      "rest": true
+    }
+  ],
+  "rounds": 4,
+  "countdown": 8
+}

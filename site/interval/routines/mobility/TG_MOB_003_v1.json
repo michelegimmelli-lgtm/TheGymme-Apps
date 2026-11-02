@@ -1,0 +1,114 @@
+{
+  "metadata": {
+    "id": "TG_MOB_003",
+    "version": "1.0",
+    "fileKey": "TG_MOB_003_v1",
+    "name": "Shoulder Reset",
+    "author": "TheGymme",
+    "series": "mobility",
+    "category": "mobility",
+    "level": "beginner",
+    "equipment": "Parete o stipite",
+    "duration": 12,
+    "created": "2026-07-18",
+    "description": "Reset per spalle e parte alta della schiena.",
+    "notes": "Adatta intensità e movimenti al tuo livello. Interrompi in caso di dolore."
+  },
+  "items": [
+    {
+      "name": "Shoulder Circle avanti",
+      "duration": 20,
+      "rest": false,
+      "imageKey": "shoulder-circle",
+      "description": "Esegui circonduzioni controllate di entrambe le braccia in avanti, mantenendo il busto stabile e le spalle lontane dalle orecchie."
+    },
+    {
+      "name": "Shoulder Circle indietro",
+      "duration": 20,
+      "rest": false,
+      "imageKey": "shoulder-circle",
+      "description": "Esegui circonduzioni controllate di entrambe le braccia all’indietro, senza inarcare la schiena o forzare il movimento."
+    },
+    {
+      "name": "Shoulder Circle braccio destro",
+      "duration": 10,
+      "rest": false,
+      "imageKey": "shoulder-circle",
+      "description": "Esegui circonduzioni ampie e controllate con il solo braccio destro, mantenendo fermo il busto."
+    },
+    {
+      "name": "Shoulder Circle braccio sinistro",
+      "duration": 10,
+      "rest": false,
+      "imageKey": "shoulder-circle",
+      "description": "Esegui circonduzioni ampie e controllate con il solo braccio sinistro, mantenendo fermo il busto."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Wall Slide",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "wall-slide",
+      "description": "Appoggia schiena e braccia alla parete e fai scorrere lentamente le mani verso l’alto. Mantieni costole e zona lombare controllate senza sollevare le spalle."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Door Pectoral Stretch",
+      "duration": 30,
+      "rest": false,
+      "description": "Appoggia un avambraccio allo stipite con il gomito circa all’altezza della spalla e ruota lentamente il busto dalla parte opposta. Cambia lato a metà tempo e non forzare.",
+      "imageKey": "door-pectoral-stretch"
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Thread the Needle SX",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "thread-the-needle",
+      "description": "In quadrupedia, fai scivolare il braccio sinistro sotto il destro con il palmo rivolto in alto. Lascia ruotare il torace mantenendo il bacino stabile."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Thread the Needle DX",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "thread-the-needle",
+      "description": "In quadrupedia, fai scivolare il braccio destro sotto il sinistro con il palmo rivolto in alto. Lascia ruotare il torace mantenendo il bacino stabile."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Child Pose con reach",
+      "duration": 60,
+      "rest": false,
+      "imageKey": "child-pose-reach",
+      "description": "Porta il bacino verso i talloni e cammina con le mani verso un lato per allungare il fianco opposto. Cambia direzione a metà tempo e respira lentamente."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    }
+  ],
+  "rounds": 2,
+  "countdown": 3
+}

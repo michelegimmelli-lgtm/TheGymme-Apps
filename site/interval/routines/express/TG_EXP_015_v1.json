@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "id": "TG_EXP_015",
+    "version": "1.0",
+    "fileKey": "TG_EXP_015_v1",
+    "name": "15 Minute Challenge",
+    "author": "TheGymme",
+    "series": "express",
+    "category": "express",
+    "level": "intermediate",
+    "equipment": "Nessuna",
+    "duration": 15,
+    "created": "2026-07-18",
+    "description": "Sfida total body compatta da circa 15 minuti.",
+    "notes": "Adatta intensità e movimenti al tuo livello. Interrompi in caso di dolore."
+  },
+  "items": [
+    {
+      "name": "Squat to Knee Drive",
+      "duration": 40,
+      "rest": false
+    },
+    {
+      "name": "Push Up",
+      "duration": 35,
+      "rest": false
+    },
+    {
+      "name": "Skater Step",
+      "duration": 40,
+      "rest": false
+    },
+    {
+      "name": "Glute Bridge",
+      "duration": 40,
+      "rest": false
+    },
+    {
+      "name": "Plank",
+      "duration": 35,
+      "rest": false
+    },
+    {
+      "name": "Rest",
+      "duration": 35,
+      "rest": true
+    }
+  ],
+  "rounds": 4,
+  "countdown": 5
+}

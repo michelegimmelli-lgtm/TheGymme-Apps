@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "id": "TG_EXP_030",
+    "version": "1.0",
+    "fileKey": "TG_EXP_030_v1",
+    "name": "30 Minute Beast",
+    "author": "TheGymme",
+    "series": "express",
+    "category": "express",
+    "level": "advanced",
+    "equipment": "Manubri o kettlebell",
+    "duration": 30,
+    "created": "2026-07-18",
+    "description": "Circuito impegnativo total body da circa 30 minuti.",
+    "notes": "Adatta intensità e movimenti al tuo livello. Interrompi in caso di dolore."
+  },
+  "items": [
+    {
+      "name": "Goblet Squat",
+      "duration": 45,
+      "rest": false
+    },
+    {
+      "name": "Push Press",
+      "duration": 40,
+      "rest": false
+    },
+    {
+      "name": "Kettlebell Swing",
+      "duration": 40,
+      "rest": false
+    },
+    {
+      "name": "Renegade Row o Row",
+      "duration": 40,
+      "rest": false
+    },
+    {
+      "name": "Reverse Lunge",
+      "duration": 45,
+      "rest": false
+    },
+    {
+      "name": "Burpee controllato",
+      "duration": 35,
+      "rest": false
+    },
+    {
+      "name": "Rest",
+      "duration": 55,
+      "rest": true
+    }
+  ],
+  "rounds": 6,
+  "countdown": 10
+}
