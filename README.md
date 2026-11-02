@@ -18,11 +18,11 @@ La pagina principale e la pagina-ponte Interval scaricano gli APK direttamente d
 2. La pipeline privata compila, firma e verifica l'APK e crea la Release tecnica.
 3. Dalla repository privata si avvia **Actions → Promote verified APK to public**, indicando il tag esatto.
 4. Il workflow verifica APK, checksum e rapporti, quindi crea o aggiorna la Release pubblica.
-5. La pubblicazione o modifica della Release avvia automaticamente il workflow Pages.
-6. Il deploy seleziona le tre Release correnti, copia le APK nell'artefatto del sito e genera `site/downloads/releases.json`.
+5. Dopo upload e verifica completa, il workflow privato invia l'evento `repository_dispatch: apk-promoted` alla repository pubblica.
+6. Un solo workflow Pages viene avviato su `main`, seleziona le tre Release correnti, copia le APK nell'artefatto del sito e genera `site/downloads/releases.json`.
 7. Homepage e pagina-ponte Interval usano il nuovo manifest e i download diretti dallo stesso dominio.
 
-Non serve modificare manualmente la homepage per ogni nuova APK: il nuovo deploy Pages viene eseguito automaticamente. La Release pubblica deve essere normale, non bozza o prerelease, e rispettare le convenzioni documentate. La scelta della variante da promuovere resta esplicita: una build privata non viene resa pubblica automaticamente.
+Non serve modificare manualmente la homepage per ogni nuova APK: il deploy Pages viene richiesto automaticamente soltanto dopo che la promozione ha verificato tutti gli asset. La Release pubblica deve essere normale, non bozza o prerelease, e rispettare le convenzioni documentate. La scelta della variante da promuovere resta esplicita: una build privata non viene resa pubblica automaticamente.
 
 Durante il download la pagina mostra l'avanzamento. Il badge **NEW** è memorizzato per app e tag nel browser e scompare soltanto dopo che l'APK è stata ricevuta completamente; un errore o un'interruzione non la marca come scaricata. Il completamento del trasferimento non equivale all'installazione Android.
 
@@ -37,6 +37,6 @@ Il vecchio formato `<app>-standalone-apk-...` resta valido soltanto per le Relea
 
 ## Deploy del sito
 
-Ogni push su `main`, pubblicazione o modifica di una Release esegue `.github/workflows/pages.yml`. Il workflow prepara le APK dirette e il manifest, quindi pubblica l'intero artefatto su GitHub Pages.
+Ogni push su `main`, evento `repository_dispatch: apk-promoted` o avvio manuale esegue `.github/workflows/pages.yml`. Gli eventi intermedi `release` non avviano più Pages. Il workflow prepara le APK dirette e il manifest, quindi pubblica l'intero artefatto su GitHub Pages.
 
 Per architettura, procedura completa, regole sui tag, nomi degli APK e checklist di verifica consultare [docs/DISTRIBUTION_FLOW.md](docs/DISTRIBUTION_FLOW.md).
