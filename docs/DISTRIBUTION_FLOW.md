@@ -1,6 +1,6 @@
 # Flusso di distribuzione
 
-**Aggiornamento:** 22 ottobre 2026
+**Aggiornamento:** 2 novembre 2026
 
 ## Ruolo della repository
 
@@ -26,14 +26,14 @@ Il trasferimento della Release verificata usa il workflow privato **Promote veri
 
 ## GitHub Pages
 
-Il workflow `.github/workflows/pages.yml` viene eseguito a ogni push su `main` e pubblica la cartella `site`.
+Il workflow `.github/workflows/pages.yml` viene eseguito a ogni push su `main`, quando riceve `repository_dispatch: apk-promoted` oppure tramite avvio manuale. Gli eventi intermedi di pubblicazione o modifica delle Release non avviano più Pages.
 
 URL operativi:
 
 - homepage: <https://michelegimmelli-lgtm.github.io/TheGymme-Apps/>;
 - pagina-ponte Interval: <https://michelegimmelli-lgtm.github.io/TheGymme-Apps/interval-share/>.
 
-Le modifiche a HTML, CSS o JavaScript richiedono un nuovo deploy Pages. La pubblicazione di una nuova Release APK compatibile non richiede modifiche né un nuovo deploy della homepage.
+Le modifiche a HTML, CSS o JavaScript richiedono un nuovo deploy Pages. Dopo la promozione di una nuova Release APK compatibile, il workflow privato richiede automaticamente un unico deploy della homepage, soltanto dopo aver verificato tutti gli asset pubblici.
 
 ### Struttura della homepage pubblica
 
@@ -81,9 +81,13 @@ Per pubblicare una Release:
 7. Il workflow rifiuta bozze, prerelease, tag non riconosciuti, Release senza i rapporti richiesti o con più di una APK.
 8. Il workflow verifica `SHA256SUMS.txt` e crea o aggiorna la Release omonima in questa repository pubblica.
 9. Il workflow verifica che la Release pubblica sia normale e contenga una sola APK.
-10. Aprire la homepage pubblica e controllare versione e download.
+10. Solo dopo la verifica invia `repository_dispatch: apk-promoted` alla repository pubblica.
+11. Il workflow Pages viene eseguito su `main`, genera il manifest e pubblica le APK dirette.
+12. Aprire la homepage pubblica e controllare versione e download.
 
 La promozione della Release pubblica rende disponibile l'APK agli utenti. La semplice build privata o il solo tag pubblico non bastano. La scelta della variante resta intenzionale: nessuna build viene resa pubblica senza l'avvio del workflow di promozione.
+
+Le ripromozioni di tag storici possono mostrare run `release` falliti o annullati perché quei tag conservano una versione precedente del workflow Pages. Sono eventi legacy non bloccanti: il run valido è quello `repository_dispatch` eseguito su `main`. I nuovi tag creati dopo l'aggiornamento non ereditano il vecchio trigger.
 
 ## Convenzioni dei tag
 
@@ -101,8 +105,8 @@ Il vecchio formato `<app>-standalone-apk-...` resta valido per le Release storic
 ### Prossime Standalone-LK previste
 
 ```text
-calculator-standalone-lk-apk-v2.3.1-1004
-interval-standalone-lk-apk-v4.1.2-1009
+calculator-standalone-lk-apk-v2.3.1-1005
+interval-standalone-lk-apk-v4.1.2-1010
 ramping-standalone-lk-apk-v1.9.1-1003
 ```
 
