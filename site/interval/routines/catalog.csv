@@ -12,6 +12,7 @@ Lower Body;strength;intermediate;2026-07-18;20;Forza completa per gambe e catena
 Push Day;strength;intermediate;2026-07-18;20;Seduta dedicata ai movimenti di spinta.;https://the-gymme-software-the-gymme-interv.vercel.app/load?routine=TG_STR_003_v1
 Pull Day;strength;intermediate;2026-07-18;18;Seduta dedicata ai movimenti di tirata.;https://the-gymme-software-the-gymme-interv.vercel.app/load?routine=TG_STR_004_v1
 Full Body Strength;strength;advanced;2026-07-18;23;Circuito di forza total body sui principali schemi motori.;https://the-gymme-software-the-gymme-interv.vercel.app/load?routine=TG_STR_005_v1
+Kettlebell Specialized;strength;intermediate;2026-10-17;6;"Circuito specializzato con kettlebell: swing, affondi, clean & jerk e squat in formato 20/10.";https://the-gymme-software-the-gymme-interv.vercel.app/load?routine=TG_STR_006_v1
 Full Body Burn;metabolic;intermediate;2026-07-18;18;Circuito metabolico total body semplice e intenso.;https://the-gymme-software-the-gymme-interv.vercel.app/load?routine=TG_MET_001_v1
 EMOM Challenge;metabolic;intermediate;2026-07-18;20;Sfida in stile EMOM: lavora nel tempo indicato e usa il recupero residuo.;https://the-gymme-software-the-gymme-interv.vercel.app/load?routine=TG_MET_002_v1
 AMRAP 20;metabolic;intermediate;2026-07-18;20;Blocco continuo di 20 minuti ispirato al formato AMRAP.;https://the-gymme-software-the-gymme-interv.vercel.app/load?routine=TG_MET_003_v1
@@ -30,6 +31,8 @@ Kickboxing Conditioning;kickboxing;intermediate;2026-07-18;18;Combinazioni sempl
 Heavy Bag HIIT;kickboxing;advanced;2026-07-18;18;Intervalli HIIT al sacco con combinazioni brevi.;https://the-gymme-software-the-gymme-interv.vercel.app/load?routine=TG_KB_003_v1
 Fight Conditioning;kickboxing;advanced;2026-07-18;21;Round completi per resistenza specifica e recupero.;https://the-gymme-software-the-gymme-interv.vercel.app/load?routine=TG_KB_004_v1
 Heavy Bag HIIT 2;kickboxing;intermediate;2026-07-23;28;"Allenamento HIIT al sacco pesante con combinazioni esplosive e tecniche diversificate, pensato per migliorare resistenza, coordinazione e potenza dei colpi.";https://the-gymme-software-the-gymme-interv.vercel.app/load?routine=TG_KB_005_v1
+Punch & Kick Flow;kickboxing;intermediate;2026-11-03;18;"Combinazioni progressive di pugni, ginocchiate e calci, con blocchi di potenza controllata.";https://the-gymme-software-the-gymme-interv.vercel.app/load?routine=TG_KB_007_v1
+Kickboxing Combo Challenge;kickboxing;advanced;2026-11-03;21;"Circuito tecnico-condizionale con combinazioni complete di pugni, ginocchiate e calci.";https://the-gymme-software-the-gymme-interv.vercel.app/load?routine=TG_KB_008_v1
 No Equipment;home;beginner;2026-07-18;34;"Allenamento completo a corpo libero, con pause regolari e volume esteso.";https://the-gymme-software-the-gymme-interv.vercel.app/load?routine=TG_HOME_001_v1
 One Dumbbell;home;intermediate;2026-07-18;33;"Total body usando un solo manubrio, con pause regolari e volume esteso.";https://the-gymme-software-the-gymme-interv.vercel.app/load?routine=TG_HOME_002_v1
 Resistance Band;home;beginner;2026-07-18;34;"Routine total body con elastico, pause regolari e volume esteso.";https://the-gymme-software-the-gymme-interv.vercel.app/load?routine=TG_HOME_003_v1
@@ -60,4 +63,3 @@ Side Swing Master;jump_rope;beginner;2026-06-26;22;Routine legacy mantenuta per 
 Jump Rope and Functional;jump_rope;beginner;2026-06-26;38;Routine legacy mantenuta per compatibilità con i link esistenti.;https://the-gymme-software-the-gymme-interv.vercel.app/load?routine=TG_JUMP_002_v1
 Unlock Posterior Chain;mobility;intermediate;2026-10-07;11;"Mobilità controllata per femorali, schiena e anche, con respirazione e lavoro segmentale.";https://the-gymme-software-the-gymme-interv.vercel.app/load?routine=TG_MOB_005_v1
 Unlock Posterior Chain 2.0;mobility;intermediate;2026-10-17;9;"Mobilità controllata per femorali, schiena e anche, con respirazione e lavoro segmentale.";https://the-gymme-software-the-gymme-interv.vercel.app/load?routine=TG_MOBILITY_001_v1
-Kettlebell Specialized;strength;intermediate;2026-10-17;6;"Circuito kettlebell 20/10 per potenza, forza resistente e controllo total body.";https://the-gymme-software-the-gymme-interv.vercel.app/load?routine=TG_STR_006_v1

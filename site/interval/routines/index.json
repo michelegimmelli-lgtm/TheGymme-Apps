@@ -448,6 +448,34 @@
     "created": "2026-07-23"
   },
   {
+    "id": "TG_KB_007",
+    "version": "1.0",
+    "fileKey": "TG_KB_007_v1",
+    "name": "Punch & Kick Flow",
+    "series": "kickboxing",
+    "category": "kickboxing",
+    "level": "intermediate",
+    "equipment": "Spazio libero o sacco",
+    "path": "/routines/kickboxing/TG_KB_007_v1.json",
+    "description": "Combinazioni progressive di pugni, ginocchiate e calci, con blocchi di potenza controllata.",
+    "duration": 18,
+    "created": "2026-11-03"
+  },
+  {
+    "id": "TG_KB_008",
+    "version": "1.0",
+    "fileKey": "TG_KB_008_v1",
+    "name": "Kickboxing Combo Challenge",
+    "series": "kickboxing",
+    "category": "kickboxing",
+    "level": "advanced",
+    "equipment": "Spazio libero o sacco",
+    "path": "/routines/kickboxing/TG_KB_008_v1.json",
+    "description": "Circuito tecnico-condizionale con combinazioni complete di pugni, ginocchiate e calci.",
+    "duration": 21,
+    "created": "2026-11-03"
+  },
+  {
     "id": "TG_HOME_001",
     "version": "1.0",
     "fileKey": "TG_HOME_001_v1",

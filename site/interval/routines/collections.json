@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "title": "TheGymme Official Collections",
-  "updated": "2026-10-17",
+  "updated": "2026-11-03",
   "statuses": {
     "published": "Routine completa, presente nel catalogo e pronta per l'importazione."
   },
@@ -501,6 +501,36 @@
           "level": "intermediate",
           "equipment": "Sacco e guantoni",
           "duration": 28
+        },
+        {
+          "id": "TG_KB_006",
+          "fileKey": "TG_KB_006_v1",
+          "name": "Boxing Basics 2",
+          "focus": "Tre giri tecnici progressivi con combinazioni e spostamenti.",
+          "status": "published",
+          "level": "beginner",
+          "equipment": "Spazio libero",
+          "duration": 12
+        },
+        {
+          "id": "TG_KB_007",
+          "fileKey": "TG_KB_007_v1",
+          "name": "Punch & Kick Flow",
+          "focus": "Combinazioni progressive di pugni, ginocchiate e calci, con blocchi di potenza controllata.",
+          "status": "published",
+          "level": "intermediate",
+          "equipment": "Spazio libero o sacco",
+          "duration": 18
+        },
+        {
+          "id": "TG_KB_008",
+          "fileKey": "TG_KB_008_v1",
+          "name": "Kickboxing Combo Challenge",
+          "focus": "Circuito tecnico-condizionale con combinazioni complete di pugni, ginocchiate e calci.",
+          "status": "published",
+          "level": "advanced",
+          "equipment": "Spazio libero o sacco",
+          "duration": 21
         }
       ]
     },

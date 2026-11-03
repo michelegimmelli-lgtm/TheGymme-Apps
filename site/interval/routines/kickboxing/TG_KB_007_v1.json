@@ -1,0 +1,253 @@
+{
+  "metadata": {
+    "id": "TG_KB_007",
+    "version": "1.0",
+    "fileKey": "TG_KB_007_v1",
+    "name": "Punch & Kick Flow",
+    "author": "TheGymme",
+    "series": "kickboxing",
+    "category": "kickboxing",
+    "level": "intermediate",
+    "equipment": "Spazio libero o sacco",
+    "duration": 18,
+    "created": "2026-11-03",
+    "description": "Combinazioni progressive di pugni, ginocchiate e calci, con blocchi di potenza controllata.",
+    "notes": "Esegui 10–15 minuti di riscaldamento prima di iniziare. Adatta intensità e movimenti al tuo livello; interrompi in caso di dolore."
+  },
+  "items": [
+    {
+      "name": "Jab, Cross, Gancio anteriore, Ginocchiata posteriore",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "kickboxing-shadowboxing",
+      "roundStart": true,
+      "roundNumber": 1,
+      "coachCue": "Tieni i gomiti chiusi. Completa la combinazione e rientra subito in guardia."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Jab, Cross, Gancio anteriore, Calcio circolare posteriore",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "kickboxing-heavy-bag-kick"
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Colpi potenti",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "kickboxing-heavy-bag-punch",
+      "coachCue": "Cerca potenza senza perdere guardia e precisione."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Calci potenti",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "kickboxing-heavy-bag-kick",
+      "coachCue": "Calcia con controllo, ruota il piede di appoggio e torna stabile in guardia."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Cross, Gancio anteriore, Cross, Ginocchiata posteriore",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "kickboxing-shadowboxing"
+    },
+    {
+      "name": "Recupero round",
+      "duration": 60,
+      "rest": true
+    },
+    {
+      "name": "Jab, Cross, Gancio anteriore, Ginocchiata posteriore",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "kickboxing-shadowboxing",
+      "roundStart": true,
+      "roundNumber": 2
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Jab, Cross, Gancio anteriore, Calcio circolare posteriore",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "kickboxing-heavy-bag-kick"
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Colpi potenti",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "kickboxing-heavy-bag-punch",
+      "coachCue": "Cerca potenza senza perdere guardia e precisione."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Calci potenti",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "kickboxing-heavy-bag-kick",
+      "coachCue": "Calcia con controllo, ruota il piede di appoggio e torna stabile in guardia."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Cross, Gancio anteriore, Cross, Ginocchiata posteriore",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "kickboxing-shadowboxing"
+    },
+    {
+      "name": "Recupero round",
+      "duration": 60,
+      "rest": true
+    },
+    {
+      "name": "Jab, Cross, Gancio anteriore, Ginocchiata posteriore",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "kickboxing-shadowboxing",
+      "roundStart": true,
+      "roundNumber": 3
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Jab, Cross, Gancio anteriore, Calcio circolare posteriore",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "kickboxing-heavy-bag-kick"
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Colpi potenti",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "kickboxing-heavy-bag-punch",
+      "coachCue": "Cerca potenza senza perdere guardia e precisione."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Calci potenti",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "kickboxing-heavy-bag-kick",
+      "coachCue": "Calcia con controllo, ruota il piede di appoggio e torna stabile in guardia."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Cross, Gancio anteriore, Cross, Ginocchiata posteriore",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "kickboxing-shadowboxing"
+    },
+    {
+      "name": "Recupero round",
+      "duration": 60,
+      "rest": true
+    },
+    {
+      "name": "Jab, Cross, Gancio anteriore, Ginocchiata posteriore",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "kickboxing-shadowboxing",
+      "roundStart": true,
+      "roundNumber": 4
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Jab, Cross, Gancio anteriore, Calcio circolare posteriore",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "kickboxing-heavy-bag-kick"
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Colpi potenti",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "kickboxing-heavy-bag-punch",
+      "coachCue": "Cerca potenza senza perdere guardia e precisione."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Calci potenti",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "kickboxing-heavy-bag-kick",
+      "coachCue": "Calcia con controllo, ruota il piede di appoggio e torna stabile in guardia."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Cross, Gancio anteriore, Cross, Ginocchiata posteriore",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "kickboxing-shadowboxing"
+    }
+  ],
+  "rounds": 1,
+  "countdown": 10
+}

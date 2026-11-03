@@ -1,0 +1,289 @@
+{
+  "metadata": {
+    "id": "TG_KB_008",
+    "version": "1.0",
+    "fileKey": "TG_KB_008_v1",
+    "name": "Kickboxing Combo Challenge",
+    "author": "TheGymme",
+    "series": "kickboxing",
+    "category": "kickboxing",
+    "level": "advanced",
+    "equipment": "Spazio libero o sacco",
+    "duration": 21,
+    "created": "2026-11-03",
+    "description": "Circuito tecnico-condizionale con combinazioni complete di pugni, ginocchiate e calci.",
+    "notes": "Esegui 10–15 minuti di riscaldamento prima di iniziare. Adatta intensità e movimenti al tuo livello; interrompi in caso di dolore."
+  },
+  "items": [
+    {
+      "name": "Jab, Cross, Calcio circolare posteriore",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "kickboxing-heavy-bag-kick",
+      "roundStart": true,
+      "roundNumber": 1,
+      "coachCue": "Tieni i gomiti chiusi. Cerca equilibrio e precisione; accelera solo con una combinazione pulita."
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Jab, Cross, Gancio anteriore, Ginocchiata posteriore",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "kickboxing-shadowboxing"
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Jab, Calcio frontale anteriore, Cross, Calcio circolare posteriore",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "kickboxing-heavy-bag-kick"
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Cross, Gancio anteriore, Cross, Ginocchiata posteriore",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "kickboxing-shadowboxing"
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Jab, Cross, Gancio anteriore, Gancio posteriore, Calcio circolare posteriore",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "kickboxing-heavy-bag-kick"
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Jab, Cross, Montante anteriore, Calcio circolare posteriore",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "kickboxing-heavy-bag-kick"
+    },
+    {
+      "name": "Recupero round",
+      "duration": 45,
+      "rest": true
+    },
+    {
+      "name": "Jab, Cross, Calcio circolare posteriore",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "kickboxing-heavy-bag-kick",
+      "roundStart": true,
+      "roundNumber": 2
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Jab, Cross, Gancio anteriore, Ginocchiata posteriore",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "kickboxing-shadowboxing"
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Jab, Calcio frontale anteriore, Cross, Calcio circolare posteriore",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "kickboxing-heavy-bag-kick"
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Cross, Gancio anteriore, Cross, Ginocchiata posteriore",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "kickboxing-shadowboxing"
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Jab, Cross, Gancio anteriore, Gancio posteriore, Calcio circolare posteriore",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "kickboxing-heavy-bag-kick"
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Jab, Cross, Montante anteriore, Calcio circolare posteriore",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "kickboxing-heavy-bag-kick"
+    },
+    {
+      "name": "Recupero round",
+      "duration": 45,
+      "rest": true
+    },
+    {
+      "name": "Jab, Cross, Calcio circolare posteriore",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "kickboxing-heavy-bag-kick",
+      "roundStart": true,
+      "roundNumber": 3
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Jab, Cross, Gancio anteriore, Ginocchiata posteriore",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "kickboxing-shadowboxing"
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Jab, Calcio frontale anteriore, Cross, Calcio circolare posteriore",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "kickboxing-heavy-bag-kick"
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Cross, Gancio anteriore, Cross, Ginocchiata posteriore",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "kickboxing-shadowboxing"
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Jab, Cross, Gancio anteriore, Gancio posteriore, Calcio circolare posteriore",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "kickboxing-heavy-bag-kick"
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Jab, Cross, Montante anteriore, Calcio circolare posteriore",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "kickboxing-heavy-bag-kick"
+    },
+    {
+      "name": "Recupero round",
+      "duration": 45,
+      "rest": true
+    },
+    {
+      "name": "Jab, Cross, Calcio circolare posteriore",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "kickboxing-heavy-bag-kick",
+      "roundStart": true,
+      "roundNumber": 4
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Jab, Cross, Gancio anteriore, Ginocchiata posteriore",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "kickboxing-shadowboxing"
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Jab, Calcio frontale anteriore, Cross, Calcio circolare posteriore",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "kickboxing-heavy-bag-kick"
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Cross, Gancio anteriore, Cross, Ginocchiata posteriore",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "kickboxing-shadowboxing"
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Jab, Cross, Gancio anteriore, Gancio posteriore, Calcio circolare posteriore",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "kickboxing-heavy-bag-kick"
+    },
+    {
+      "name": "Recupero",
+      "duration": 20,
+      "rest": true
+    },
+    {
+      "name": "Jab, Cross, Montante anteriore, Calcio circolare posteriore",
+      "duration": 30,
+      "rest": false,
+      "imageKey": "kickboxing-heavy-bag-kick"
+    }
+  ],
+  "rounds": 1,
+  "countdown": 10
+}
