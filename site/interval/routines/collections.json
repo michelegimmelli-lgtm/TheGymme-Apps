@@ -470,7 +470,7 @@
           "status": "published",
           "level": "intermediate",
           "equipment": "Spazio libero o sacco",
-          "duration": 18
+          "duration": 20
         },
         {
           "id": "TG_KB_003",
@@ -490,7 +490,7 @@
           "status": "published",
           "level": "advanced",
           "equipment": "Spazio libero o sacco",
-          "duration": 21
+          "duration": 18
         },
         {
           "id": "TG_KB_005",

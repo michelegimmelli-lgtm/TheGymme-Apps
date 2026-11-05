@@ -402,7 +402,7 @@
     "equipment": "Spazio libero o sacco",
     "path": "/routines/kickboxing/TG_KB_002_v1.json",
     "description": "Combinazioni semplici e conditioning kickboxing.",
-    "duration": 18,
+    "duration": 20,
     "created": "2026-07-18"
   },
   {
@@ -430,7 +430,7 @@
     "equipment": "Spazio libero o sacco",
     "path": "/routines/kickboxing/TG_KB_004_v1.json",
     "description": "Round completi per resistenza specifica e recupero.",
-    "duration": 21,
+    "duration": 18,
     "created": "2026-07-18"
   },
   {

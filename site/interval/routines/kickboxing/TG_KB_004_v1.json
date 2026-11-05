@@ -9,7 +9,7 @@
     "category": "kickboxing",
     "level": "advanced",
     "equipment": "Spazio libero o sacco",
-    "duration": 21,
+    "duration": 18,
     "created": "2026-07-18",
     "description": "Round completi per resistenza specifica e recupero.",
     "notes": "Adatta intensità e movimenti al tuo livello. Interrompi in caso di dolore."
@@ -29,14 +29,14 @@
       "imageKey": "kickboxing-heavy-bag-kick"
     },
     {
-      "name": "Sprawl controllato",
+      "name": "Combinazione di pugni e calci",
       "duration": 30,
       "rest": false,
-      "imageKey": "kickboxing-shadowboxing"
+      "imageKey": "kickboxing-heavy-bag-kick"
     },
     {
       "name": "Rest",
-      "duration": 60,
+      "duration": 30,
       "rest": true
     }
   ],

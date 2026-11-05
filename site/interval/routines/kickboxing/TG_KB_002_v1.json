@@ -9,7 +9,7 @@
     "category": "kickboxing",
     "level": "intermediate",
     "equipment": "Spazio libero o sacco",
-    "duration": 18,
+    "duration": 20,
     "created": "2026-07-18",
     "description": "Combinazioni semplici e conditioning kickboxing.",
     "notes": "Adatta intensità e movimenti al tuo livello. Interrompi in caso di dolore."
@@ -17,31 +17,41 @@
   "items": [
     {
       "name": "Jab, Cross",
-      "duration": 40,
+      "duration": 30,
       "rest": false,
       "imageKey": "kickboxing-shadowboxing",
       "coachCue": "Tieni i gomiti chiusi."
     },
     {
+      "name": "Rest",
+      "duration": 30,
+      "rest": true
+    },
+    {
       "name": "Calcio frontale alternato",
-      "duration": 40,
+      "duration": 30,
       "rest": false,
       "imageKey": "kickboxing-heavy-bag-kick"
     },
     {
       "name": "Rest",
-      "duration": 20,
+      "duration": 30,
       "rest": true
     },
     {
       "name": "Jab, Cross, Gancio",
-      "duration": 40,
+      "duration": 30,
       "rest": false,
       "imageKey": "kickboxing-shadowboxing"
     },
     {
+      "name": "Rest",
+      "duration": 30,
+      "rest": true
+    },
+    {
       "name": "Calcio circolare alternato",
-      "duration": 40,
+      "duration": 30,
       "rest": false,
       "imageKey": "kickboxing-heavy-bag-kick"
     },
