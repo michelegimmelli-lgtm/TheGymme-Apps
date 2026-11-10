@@ -1,6 +1,6 @@
 # Flusso di distribuzione
 
-**Aggiornamento:** 2 novembre 2026
+**Aggiornamento:** 10 novembre 2026
 
 ## Ruolo della repository
 
@@ -55,16 +55,42 @@ La hero esprime il posizionamento del progetto con la frase **“Strumenti creat
 
 ## Come la homepage seleziona gli APK
 
-`site/index.html` interroga le Release pubbliche tramite l'API GitHub. Per ciascuna app seleziona la Release più recente che:
+Durante il deploy Pages, `.github/workflows/pages.yml` interroga le Release pubbliche tramite l'API GitHub. Per ciascuna app seleziona la Release più recente che:
 
 - non sia una bozza;
 - non sia una prerelease;
 - abbia un tag che inizi con `calculator-`, `ramping-` oppure `interval-`;
 - contenga un asset `.apk` con il nome dell'app nel filename.
 
-Il pulsante viene collegato direttamente al `browser_download_url` dell'asset. Se non esiste una Release compatibile, la card mostra **Non ancora disponibile**.
+Il workflow copia le tre APK in `site/downloads/` con nomi stabili e genera `site/downloads/releases.json`. La homepage legge questo manifest con cache disattivata e scarica il file diretto mostrando l'avanzamento. Se non esiste una Release compatibile, la card mostra **Non ancora disponibile**.
 
 Poiché il prefisso è volutamente ampio, nella repository pubblica deve essere pubblicata soltanto la variante scelta per la distribuzione generale. In caso contrario, la homepage potrebbe agganciare la variante pubblicata più di recente anche se non è quella desiderata.
+
+## Evidenze dei download
+
+La homepage usa la proprietà GA4 **TheGymme Apps Public Hub**, stream web omonimo e Measurement ID `G-ZNZ9KWS69F`.
+
+Il tag Google non viene caricato per impostazione predefinita. Alla prima visita la pagina chiede un consenso facoltativo; se viene negato, il download continua senza limitazioni e nessun evento Analytics viene inviato. La scelta resta nel browser e può essere modificata dal footer tramite **Gestisci statistiche**.
+
+Con consenso attivo vengono registrati:
+
+- la visualizzazione della pagina;
+- l'evento personalizzato `apk_download_completed`, inviato soltanto dopo che lo stream HTTP dell'APK è stato letto interamente e il browser ha avviato il salvataggio locale;
+- i parametri `app_name`, `release_tag`, `file_name` e `download_size_bytes`.
+
+Non vengono inviati dati di allenamento, misurazioni corporee, e-mail, license key o altri dati interni alle app. La misurazione avanzata, Google Signals e la personalizzazione pubblicitaria sono disattivati. L'informativa è pubblicata in `site/privacy.html`.
+
+### Lettura delle evidenze
+
+In Google Analytics:
+
+1. aprire la proprietà **TheGymme Apps Public Hub**;
+2. usare **Reports → Realtime** per il controllo immediato;
+3. verificare l'evento `apk_download_completed`;
+4. usare i report Eventi per il totale nel periodo selezionato;
+5. per analisi stabili per app o versione, registrare `app_name` e `release_tag` come dimensioni personalizzate con ambito evento.
+
+Il conteggio rappresenta un **download completato nel browser**, non l'installazione o il primo avvio su Android. Consenso negato, ad blocker, browser restrittivi o errori di rete possono causare sottostima: è un'evidenza operativa rispettosa della privacy, non un dato contabile.
 
 ## Procedura con promozione controllata
 
@@ -144,6 +170,8 @@ Dopo ogni pubblicazione pubblica:
 - [ ] firma, package, versione e `versionCode` coincidono con la Release privata;
 - [ ] la homepage mostra la nuova versione;
 - [ ] il download restituisce l'APK corretta;
+- [ ] con consenso attivo, Realtime riceve `apk_download_completed` con app e tag corretti;
+- [ ] con consenso negato, il download funziona e Google Analytics non viene caricato;
 - [ ] l'installazione o l'aggiornamento conserva i dati previsti;
 - [ ] per Interval, il deep link e la pagina-ponte funzionano.
 
@@ -155,6 +183,7 @@ Operativo:
 - homepage generale Calculator, Ramping e Interval;
 - pagina-ponte e deep link Interval;
 - rilevamento dinamico delle Release pubbliche;
+- consenso analytics e conteggio dei download APK completati;
 - pipeline privata per Controlled legacy, Standalone-LK, No-LK temporanea e No-LK lifetime.
 
 Operativo con intervento esplicito:
