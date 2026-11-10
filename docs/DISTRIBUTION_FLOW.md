@@ -88,7 +88,7 @@ In Google Analytics:
 2. usare **Reports → Realtime** per il controllo immediato;
 3. verificare l'evento `apk_download_completed`;
 4. usare i report Eventi per il totale nel periodo selezionato;
-5. per analisi stabili per app o versione, registrare `app_name` e `release_tag` come dimensioni personalizzate con ambito evento.
+5. per analisi stabili per prodotto o versione, usare le dimensioni personalizzate con ambito evento già registrate: **App** (`app_name`) e **Release tag** (`release_tag`).
 
 Il conteggio rappresenta un **download completato nel browser**, non l'installazione o il primo avvio su Android. Consenso negato, ad blocker, browser restrittivi o errori di rete possono causare sottostima: è un'evidenza operativa rispettosa della privacy, non un dato contabile.
 
