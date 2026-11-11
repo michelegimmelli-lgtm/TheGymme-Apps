@@ -68,6 +68,24 @@ Poiché il prefisso è volutamente ampio, nella repository pubblica deve essere 
 
 ## Evidenze dei download
 
+Le evidenze sono separate in due livelli.
+
+### Contatore tecnico aggregato
+
+Ogni download ricevuto interamente dal browser invia al Worker Cloudflare un incremento contenente soltanto app, tag della Release, filename e byte ricevuti. Il database D1 conserva totali aggregati per giorno, app e versione; il codice applicativo non vi scrive cookie, IP, user-agent, identificatori del dispositivo o profili individuali. Il conteggio non dipende dal consenso Analytics e un errore del Worker non blocca il download. L'osservabilità del Worker è disattivata; resta il trattamento tecnico di rete effettuato da Cloudflare per erogare e proteggere il servizio.
+
+Il codice è in `counter-worker/`. L'endpoint amministrativo `GET /v1/totals` è protetto dal secret `ADMIN_TOKEN` e restituisce al massimo 1.000 righe aggregate.
+
+Configurazione una tantum:
+
+1. creare in Cloudflare D1 il database `thegymme-download-counter`;
+2. configurare i secret GitHub `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`, `CLOUDFLARE_D1_DATABASE_ID` e `DOWNLOAD_COUNTER_ADMIN_TOKEN`;
+3. eseguire **Deploy privacy-safe download counter**;
+4. salvare l'URL del Worker nella variabile GitHub Actions `DOWNLOAD_COUNTER_ENDPOINT`;
+5. rieseguire **Deploy TheGymme Apps Pages** e verificare `POST /v1/download-completed`.
+
+### Google Analytics facoltativo
+
 La homepage usa la proprietà GA4 **TheGymme Apps Public Hub**, stream web omonimo e Measurement ID `G-ZNZ9KWS69F`.
 
 Il tag Google non viene caricato per impostazione predefinita. Alla prima visita la pagina chiede un consenso facoltativo; se viene negato, il download continua senza limitazioni e nessun evento Analytics viene inviato. La scelta resta nel browser e può essere modificata dal footer tramite **Gestisci statistiche**.
@@ -90,7 +108,7 @@ In Google Analytics:
 4. usare i report Eventi per il totale nel periodo selezionato;
 5. per analisi stabili per prodotto o versione, usare le dimensioni personalizzate con ambito evento già registrate: **App** (`app_name`) e **Release tag** (`release_tag`).
 
-Il conteggio rappresenta un **download completato nel browser**, non l'installazione o il primo avvio su Android. Consenso negato, ad blocker, browser restrittivi o errori di rete possono causare sottostima: è un'evidenza operativa rispettosa della privacy, non un dato contabile.
+Entrambi i livelli rappresentano un **download completato nel browser**, non l'installazione o il primo avvio su Android. Il contatore tecnico fornisce la copertura generale; GA4 aggiunge le sole analisi degli utenti consenzienti. Ad blocker, browser restrittivi o errori di rete possono comunque causare sottostima: sono evidenze operative rispettose della privacy, non dati contabili.
 
 ## Procedura con promozione controllata
 
@@ -172,6 +190,7 @@ Dopo ogni pubblicazione pubblica:
 - [ ] il download restituisce l'APK corretta;
 - [ ] con consenso attivo, Realtime riceve `apk_download_completed` con app e tag corretti;
 - [ ] con consenso negato, il download funziona e Google Analytics non viene caricato;
+- [ ] con o senza consenso, il totale aggregato D1 aumenta dopo un download completo;
 - [ ] l'installazione o l'aggiornamento conserva i dati previsti;
 - [ ] per Interval, il deep link e la pagina-ponte funzionano.
 

@@ -20,17 +20,20 @@
     <h1>Privacy e statistiche</h1>
     <p>Questa informativa descrive il trattamento limitato ai dati tecnici della pagina pubblica di distribuzione delle app TheGymme. Le app mantengono separati i dati inseriti dall’utente.</p>
     <div class="card">
-      <h2>Statistiche facoltative</h2>
-      <p>Google Analytics viene caricato soltanto dopo il consenso espresso nel banner. Registriamo la visualizzazione della pagina e, quando un APK è stato ricevuto interamente dal browser, l’evento <strong>apk_download_completed</strong> con nome dell’app, tag della release, filename e dimensione del file.</p>
+      <h2>Conteggio tecnico aggregato</h2>
+      <p>Quando il browser ha ricevuto interamente un APK e ne avvia il salvataggio, incrementiamo un contatore tecnico per giorno, app e versione. Il codice del contatore non usa cookie e non scrive nel database indirizzo IP, user-agent, identificatori del dispositivo o profili individuali. Riceve soltanto nome dell’app, tag della release, filename e dimensione del file.</p>
+      <p>Questo conteggio non richiede una scelta preventiva sul sito: non usa strumenti di tracciamento sul dispositivo e produce esclusivamente statistiche aggregate necessarie a verificare la distribuzione delle app. Il download continua anche se il servizio di conteggio non è disponibile.</p>
+      <h2>Statistiche Google facoltative</h2>
+      <p>Google Analytics viene caricato soltanto dopo il consenso espresso nel banner. Registra la visualizzazione della pagina e l’evento <strong>apk_download_completed</strong> relativo ai download completati.</p>
       <p>Non inviamo a Google Analytics misurazioni corporee, allenamenti, e-mail, license key o altri dati inseriti nelle app. La misurazione avanzata e le funzioni pubblicitarie sono disattivate.</p>
       <h2>Cosa significa “download completato”</h2>
       <p>Significa che il browser ha ricevuto tutti i byte dell’APK e ha avviato il salvataggio sul dispositivo. Non prova che Android abbia installato o aperto l’app.</p>
       <h2>Scelta e revoca</h2>
       <p>La scelta viene salvata nel browser. Puoi cambiarla in qualsiasi momento dalla voce <strong>Gestisci statistiche</strong> nel footer della homepage. Il rifiuto non limita i download.</p>
       <h2>Servizi tecnici</h2>
-      <ul><li>GitHub Pages e GitHub Releases ospitano la pagina e i file pubblici.</li><li>Google Analytics elabora le sole statistiche consentite. Consulta anche <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">come Google usa i dati dei siti partner</a>.</li></ul>
+      <ul><li>GitHub Pages e GitHub Releases ospitano la pagina e i file pubblici.</li><li>Cloudflare ospita il contatore aggregato e può trattare i dati tecnici di rete necessari a erogare e proteggere il servizio, senza che tali dati confluiscano nel database delle statistiche TheGymme.</li><li>Google Analytics elabora le sole statistiche facoltative consentite. Consulta anche <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">come Google usa i dati dei siti partner</a>.</li></ul>
       <h2>Limiti delle evidenze</h2>
-      <p>Browser con blocchi anti-tracciamento, consenso negato o errori di rete possono produrre un conteggio inferiore ai download reali. Le statistiche servono per valutare l’uso del Public Hub e non sono una prova contabile.</p>
+      <p>Il conteggio attesta la ricezione completa dell’APK nel browser, non l’installazione o il primo avvio su Android. Errori di rete, blocchi tecnici o indisponibilità temporanee possono produrre differenze: le statistiche sono evidenze operative, non una prova contabile.</p>
     </div>
     <a class="back" href="./">← Torna alle app</a>
   </main>

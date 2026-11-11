@@ -1,0 +1,3 @@
+counter-worker/node_modules/
+counter-worker/.wrangler/
+counter-worker/wrangler.toml
