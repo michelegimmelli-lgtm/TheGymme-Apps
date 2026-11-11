@@ -1,0 +1,16 @@
+name = "thegymme-download-counter"
+main = "src/index.js"
+compatibility_date = "2026-11-01"
+workers_dev = true
+
+[observability]
+enabled = false
+
+[vars]
+ALLOWED_ORIGINS = "https://michelegimmelli-lgtm.github.io"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "thegymme-download-counter"
+database_id = "__D1_DATABASE_ID__"
+migrations_dir = "migrations"

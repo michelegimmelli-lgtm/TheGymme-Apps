@@ -30,9 +30,13 @@ jobs:
       - name: Prepare direct APK downloads
         env:
           GH_TOKEN: ${{ github.token }}
+          DOWNLOAD_COUNTER_ENDPOINT: ${{ vars.DOWNLOAD_COUNTER_ENDPOINT }}
         run: |
           set -euo pipefail
           mkdir -p site/downloads
+          counter_endpoint_json="$(jq -Rn --arg value "$DOWNLOAD_COUNTER_ENDPOINT" '$value')"
+          printf 'window.TheGymmeConfig=Object.freeze({downloadCounterEndpoint:%s});\n' \
+            "$counter_endpoint_json" > site/assets/runtime-config.js
           gh api "repos/${GITHUB_REPOSITORY}/releases?per_page=100" > "$RUNNER_TEMP/releases.json"
           printf '{}\n' > site/downloads/releases.json
 
