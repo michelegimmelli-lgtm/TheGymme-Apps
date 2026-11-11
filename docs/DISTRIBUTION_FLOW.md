@@ -1,6 +1,6 @@
 # Flusso di distribuzione
 
-**Aggiornamento:** 10 novembre 2026
+**Aggiornamento:** 11 novembre 2026
 
 ## Ruolo della repository
 
@@ -70,13 +70,15 @@ Poiché il prefisso è volutamente ampio, nella repository pubblica deve essere 
 
 Le evidenze sono separate in due livelli.
 
-### Contatore tecnico aggregato
+### Contatore tecnico aggregato — predisposto, non attivo
 
-Ogni download ricevuto interamente dal browser invia al Worker Cloudflare un incremento contenente soltanto app, tag della Release, filename e byte ricevuti. Il database D1 conserva totali aggregati per giorno, app e versione; il codice applicativo non vi scrive cookie, IP, user-agent, identificatori del dispositivo o profili individuali. Il conteggio non dipende dal consenso Analytics e un errore del Worker non blocca il download. L'osservabilità del Worker è disattivata; resta il trattamento tecnico di rete effettuato da Cloudflare per erogare e proteggere il servizio.
+**Stato al 11 novembre 2026: predisposto nel codice, ma non configurato né avviato.** La variabile GitHub `DOWNLOAD_COUNTER_ENDPOINT` è vuota: `site/assets/download-counter.js` resta intenzionalmente in modalità no-op e la pagina non invia richieste o dati a Cloudflare. Attualmente le sole evidenze disponibili sono quindi quelle GA4 degli utenti che accettano le statistiche.
+
+Se verrà attivato, ogni download ricevuto interamente dal browser invierà al Worker Cloudflare un incremento contenente soltanto app, tag della Release, filename e byte ricevuti. Il database D1 conserverà totali aggregati per giorno, app e versione; il codice applicativo non vi scriverà cookie, IP, user-agent, identificatori del dispositivo o profili individuali. Un eventuale errore del Worker non bloccherà il download. L'osservabilità del Worker è predisposta come disattivata; resterà il trattamento tecnico di rete effettuato da Cloudflare per erogare e proteggere il servizio.
 
 Il codice è in `counter-worker/`. L'endpoint amministrativo `GET /v1/totals` è protetto dal secret `ADMIN_TOKEN` e restituisce al massimo 1.000 righe aggregate.
 
-Configurazione una tantum:
+Configurazione necessaria per l'eventuale attivazione:
 
 1. creare in Cloudflare D1 il database `thegymme-download-counter`;
 2. configurare i secret GitHub `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`, `CLOUDFLARE_D1_DATABASE_ID` e `DOWNLOAD_COUNTER_ADMIN_TOKEN`;
@@ -108,7 +110,7 @@ In Google Analytics:
 4. usare i report Eventi per il totale nel periodo selezionato;
 5. per analisi stabili per prodotto o versione, usare le dimensioni personalizzate con ambito evento già registrate: **App** (`app_name`) e **Release tag** (`release_tag`).
 
-Entrambi i livelli rappresentano un **download completato nel browser**, non l'installazione o il primo avvio su Android. Il contatore tecnico fornisce la copertura generale; GA4 aggiunge le sole analisi degli utenti consenzienti. Ad blocker, browser restrittivi o errori di rete possono comunque causare sottostima: sono evidenze operative rispettose della privacy, non dati contabili.
+Nello stato attuale GA4 rappresenta un **download completato nel browser**, non l'installazione o il primo avvio su Android, e copre soltanto gli utenti consenzienti. Consenso negato, ad blocker, browser restrittivi o errori di rete possono causare sottostima. Se il contatore Cloudflare verrà attivato, aggiungerà la copertura aggregata generale senza sostituire GA4. In entrambi i casi si tratta di evidenze operative, non di dati contabili.
 
 ## Procedura con promozione controllata
 
@@ -190,7 +192,7 @@ Dopo ogni pubblicazione pubblica:
 - [ ] il download restituisce l'APK corretta;
 - [ ] con consenso attivo, Realtime riceve `apk_download_completed` con app e tag corretti;
 - [ ] con consenso negato, il download funziona e Google Analytics non viene caricato;
-- [ ] con o senza consenso, il totale aggregato D1 aumenta dopo un download completo;
+- [ ] se il contatore Cloudflare viene attivato, con o senza consenso il totale aggregato D1 aumenta dopo un download completo;
 - [ ] l'installazione o l'aggiornamento conserva i dati previsti;
 - [ ] per Interval, il deep link e la pagina-ponte funzionano.
 
@@ -202,7 +204,7 @@ Operativo:
 - homepage generale Calculator, Ramping e Interval;
 - pagina-ponte e deep link Interval;
 - rilevamento dinamico delle Release pubbliche;
-- consenso analytics e conteggio dei download APK completati;
+- consenso analytics e conteggio GA4 dei download APK completati dagli utenti consenzienti;
 - pipeline privata per Controlled legacy, Standalone-LK, No-LK temporanea e No-LK lifetime.
 
 Operativo con intervento esplicito:
@@ -211,6 +213,12 @@ Operativo con intervento esplicito:
 - avvio con un clic del workflow di promozione dalla repository privata;
 - trasferimento verificato di APK, checksum e rapporti tecnici;
 - verifica della pagina-ponte Interval con la variante pubblicata.
+
+Predisposto ma non attivo:
+
+- Worker Cloudflare e database D1 per il conteggio tecnico aggregato dei download;
+- workflow di deploy del Worker e runtime config della homepage;
+- attivazione rinviata fino alla valutazione dei dati GA4 e dell'effettivo tasso di consenso.
 
 Possibile sviluppo futuro:
 
